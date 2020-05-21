@@ -1,0 +1,363 @@
+<resources>
+
+  <string name="preferences">Ρυθμίσεις</string>
+  <string name="download_service">Υπηρεσία λήψης</string>
+
+  
+  <string name="options_menu_settings">Ρυθμίσεις</string>
+  <string name="options_menu_quit">Εγκαταλείπω</string>
+  <string name="options_menu_pause">Παύση</string>
+  <string name="options_menu_resume">ΒΙΟΓΡΑΦΙΚΟ</string>
+  <string name="options_menu_rate">Τιμή</string>
+  <string name="options_menu_about">Σχετικά με</string>
+  <string name="options_menu_help">Βοήθεια</string>
+  <string name="options_menu_donate">Προσφέρω</string>
+  <string name="options_menu_start_nzb_monitor">Ξεκινήστε την Παρακολούθηση Nzb</string>
+  <string name="options_menu_nzb_tutorial">Nzb Tutorial</string>
+  <string name="options_menu_usenet_servers">Usenet Servers</string>
+
+  <string name="verifying">Επαλήθευση</string>
+  <string name="verified">Όλα τα αρχεία είναι εντάξει!</string>
+  <string name="neededToRepair">απαραίτητα μπλοκ</string>
+  <string name="youNeed">Χρειάζεσαι</string>
+  <string name="thereAre">Υπάρχουν</string>
+  <string name="repairing">Επιδιόρθωση:</string>
+  <string name="dialog_quitConfirm">Η διακοπή θα ακυρώσει τυχόν λήψεις, θα συνεχίσει;</string>
+  <string name="yes">Ναί</string>
+  <string name="no">Οχι</string>
+  <string name="access_sdcard_error">Σφάλμα: δεν είναι δυνατή η πρόσβαση στο χώρο αποθήκευσης, η εφαρμογή είναι απενεργοποιημένη. Για να επιτρέψετε τη λήψη, μην επιλέγετε \ "Μαζική αποθήκευση USB" στην ειδοποίηση σύνδεσης USB.</string>
+  <string name="toast_download_finished">Η λήψη ολοκληρώθηκε</string>
+  <string name="status_finished">Πεπερασμένος</string>
+  <string name="trial_expired">Η δοκιμή έληξε, απενεργοποιώντας χαρακτηριστικά premium. Δωρεά για ενεργοποίηση χαρακτηριστικών υψηλής ποιότητας.</string>
+  <string name="context_title_load_nzb_file">Φόρτωση αρχείου NZB</string>
+  <string name="toast_no_nzb_files_found_in_">Δεν βρέθηκαν αρχεία NZB στο</string>
+  <string name="no_nzbs_found_">Δεν βρέθηκαν NZBs</string>
+  <string name="not_enough_space_to_download_need_">Δεν υπάρχει αρκετός χώρος για λήψη, ανάγκη</string>
+  <string name="mb_of_free_space">του ελεύθερου χώρου</string>
+
+  <string name="search_category_prompt">Επιλέξτε κατηγορία</string>
+
+  <string name="detailedTitleLabel">Τίτλος:</string>
+  <string name="detailedPostedLabel">Καταχωρήθηκε:</string>
+  <string name="detailedSizeLabel">Μέγεθος:</string>
+  <string name="detailedCategoryLabel">Κατηγορία:</string>
+  <string name="nzbMatrixURLLabel">URL:</string>
+  <string name="search">Ψάξιμο</string>
+  <string name="back">Πίσω</string>
+  <string name="download">Κατεβάστε</string>
+  <string name="downloading">Κατεβάστε…</string>
+  <string name="downloaded">Nzb κατεβάσει</string>
+  <string name="startDownloading">Ξεκινήστε τη λήψη;</string>
+  <string name="details">Λεπτομέριες</string>
+  <string name="noSearchString">Παρέχετε τον όρο αναζήτησης</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>Τα παντα</item>
+    <item>Ήχος: Όλοι</item>
+    <item>Ήχος: MP3</item>
+    <item>Ήχος: FLAC</item>
+    <item>τηλεόραση</item>
+    <item>Τηλεόραση: SD</item>
+    <item>Τηλεόραση: HD</item>
+    <item>Τηλεόραση: Αθλητισμός / Ent</item>
+    <item>Κινηματογράφος</item>
+    <item>Ταινίες: SD</item>
+    <item>Ταινίες: HD</item>
+    <item>Ηλεκτρονικά βιβλία</item>
+    <item>Βιβλία ήχου</item>
+    <item>Ιστορία σε εικόνες</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Κακή μορφή διεύθυνσης ιστότοπου</string>
+
+
+  <string name="eula_title">Άδεια χρήσης τελικού χρήστη</string>
+  <string name="eula_accept">Δέχομαι</string>
+  <string name="eula_refuse">Αρνούμαι</string>
+  <string name="OK">Εντάξει</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Αυτή η λειτουργία είναι μια δοκιμή και έληξε. Εξετάστε τη δωρεά για να στηρίξετε τη συνεχιζόμενη προσπάθεια ανάπτυξης.</string>
+  <string name="Donate">Προσφέρω</string>
+  <string name="Later">Αργότερα</string>
+
+  
+  <string name="pref_disable_acra">Αυτόματη αναφορά σφαλμάτων</string>
+  <string name="pref_acra_disabled">Τα σφάλματα δεν αποστέλλονται στον προγραμματιστή. Εξετάστε το ενδεχόμενο αυτό, ώστε τα σφάλματα να μπορούν να σταλούν στον προγραμματιστή και να επιλυθούν ελαττώματα</string>
+  <string name="pref_acra_enabled">Τα σφάλματα αποστέλλονται αυτόματα στον προγραμματιστή, οπότε οι δυσλειτουργίες μπορούν να διορθωθούν γρήγορα</string>
+
+  <string name="statusbar_paused">Παύση</string>
+
+  <string name="testConnectionFailureHelp">Ελέγξτε τη σύνδεση στο Internet και τις ρυθμίσεις του διακομιστή σας. Οι νέοι λογαριασμοί διακομιστή ενδέχεται να διαρκέσουν έως και 30 λεπτά για να ενεργοποιηθούν</string>
+
+  
+  <string name="app_name">Με Επισκευή</string>
+  <string name="for_details_">για λεπτομέρειες.</string>
+  <string name="repairing_">Επιδιόρθωση:</string>
+  <string name="scanning_">Ερευνα:</string>
+  <string name="loading_">Φόρτωση:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">Εξαίρεση από το μήνυμα αποστολής</string>
+  <string name="ok">Εντάξει</string>
+  <string name="file">αρχείο</string>
+  <string name="Rate">Go Rate!</string>
+  <string name="NO">Οχι</string>
+  <string name="Rate_Nzb_Leech">Βαθμολογήστε το Nzb Leech</string>
+  <string name="if_you_like_the_app_let_me_know">Αν σας αρέσει η εφαρμογή μου, βαθμολογήστε την. Τα σχόλια είναι χρήσιμα, αλλά προαιρετικά.</string>
+  <string name="AdditionalDetail">Πρόσθετες λεπτομέρειες:</string>
+  <string name="monitoringForNzbFiles">Παρακολούθηση αρχείων nzb ..</string>
+  <string name="title_activity_settings">Ρυθμίσεις</string>
+  <string name="file_status_downloading">Λήψη</string>
+  <string name="file_status_incomplete">Ατελής</string>
+  <string name="file_status_decoding">Αποκρυπτογράφηση</string>
+  <string name="tutorial_done">Εγινε</string>
+  <string name="file_status_queued">Στο μεσημέρι</string>
+  <string name="file_status_paused">Παύση</string>
+
+  <string name="nzb_tab_press_and_hold">Πατήστε παρατεταμένα για να φορτώσετε το nzb</string>
+
+  
+  <string name="server_providers_list_heading">Μερικοί από τους πιο γνωστούς και πιο δημοφιλείς παροχείς χρηστών:</string>
+  <string name="server_providers_list_ok">Εντάξει</string>
+
+  
+  <string name="buy_options_unlock_all_features">Ξεκλειδώστε όλα τα χαρακτηριστικά, αγοράζοντας ένα μικρό, μεσαίο ή μεγάλο στοιχείο δωρεάς. Ή και οι τρεις!</string>
+  <string name="buy_options_small_donation">Μικρή δωρεά</string>
+  <string name="buy_options_medium_donation">Μεσαία δωρεά</string>
+  <string name="buy_options_large_donation">Μεγάλη δωρεά</string>
+  <string name="buy_options_footer">Το Nzb Leech κυκλοφόρησε τον Δεκέμβριο του 2011 και εξακολουθώ να παρέχω ενημερώσεις. Θα ήθελα να εγκαταλείψω αυτό το εγχείρημα εδώ και πολύ καιρό, αν δεν ήταν για όλους τους δωρητές, σας ευχαριστώ!</string>
+
+  
+  <string name="first_time_screen_line1">Νέα στο Usenet;</string>
+  <string name="first_time_screen_start_here">Ξεκινήστε εδώ</string>
+  <string name="first_time_screen_line2">Ή προσθέστε το διακομιστή σας στο</string>
+  <string name="first_time_screen_settings">Ρυθμίσεις</string>
+  <string name="first_time_screen_line3">και ξεκινήστε τη λήψη!</string>
+  <string name="first_time_screen_line4">Χρειάζεστε ένα διακομιστή;</string>
+  <string name="first_time_screen_line5">Δες εδώ</string>
+
+  
+  <string name="search_config_type_site">Τύπος τοποθεσίας</string>
+  <string name="search_configure_name">Ονομα</string>
+  <string name="search_configure_name_hint">Εισαγάγετε όνομα για αυτόν τον ιστότοπο</string>
+  <string name="search_configure_api_address">Διεύθυνση API</string>
+  <string name="search_configure_api_key">Κλειδί API</string>
+  <string name="search_configure_api_key_hint">Πληκτρολογήστε το κλειδί API που σας δόθηκε</string>
+  <string name="search_configure_cancel">Ματαίωση</string>
+  <string name="search_configure_help">Βοήθεια</string>
+  <string name="search_configure_save">Αποθηκεύσετε</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Φόρτωση Nzb</string>
+  <string name="tv_nzb_tab_settings">Ρυθμίσεις</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Ξεκινήστε την Παρακολούθηση Nzb</string>
+  <string name="tv_nzb_tab_exit">Εξοδος</string>
+  <string name="tv_nzb_tab_load_instructions">Φορτώστε το nzb από την καρτέλα αναζήτησης ή αρχείου</string>
+
+  
+  <string name="server_1_enable_server">Ενεργοποιήστε τον διακομιστή 1</string>
+  <string name="server_priority_summary">Το Nzb Leech θα κατεβάσει πρώτα από τους Primary servers. Εάν ένα τμήμα λείπει στον κύριο διακομιστή, θα δοκιμάσει τον πρώτο διακομιστή αντιγράφων ασφαλείας. Αν δεν βρεθεί ακόμα θα δοκιμάσει το δεύτερο διακομιστή αντιγράφων ασφαλείας, στη συνέχεια το τρίτο, κλπ.</string>
+  <string name="server_2_enable_server">Ενεργοποιήστε το διακομιστή 2</string>
+  <string name="server_3_enable_server">Ενεργοποίηση διακομιστή 3</string>
+  <string name="server_4_enable_server">Ενεργοποίηση διακομιστή 4</string>
+  <string name="server_5_enable_server">Ενεργοποίηση διακομιστή 5</string>
+  <string name="server_6_enable_server">Ενεργοποίηση διακομιστή 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Κύριος διακομιστής</item>
+    <item>Πρώτος Backup Server</item>
+    <item>Δεύτερος Backup Server</item>
+    <item>Τρίτος διακομιστής αντιγράφων ασφαλείας</item>
+    <item>Τέταρτος διακομιστής αντιγράφων ασφαλείας</item>
+    <item>Πέμπτο διακομιστή αντιγράφων ασφαλείας</item>
+  </string-array>
+
+  <string name="server_connection_settings">Ρυθμίσεις σύνδεσης</string>
+  <string name="server_settings">Ρυθμίσεις διακομιστή</string>
+  <string name="server_1">Διακομιστής 1</string>
+  <string name="server_2">Διακομιστής 2</string>
+  <string name="server_3">Διακομιστής 3</string>
+  <string name="server_4">Διακομιστής 4</string>
+  <string name="server_5">Διακομιστής 5</string>
+  <string name="server_6">Διακομιστής 6</string>
+  <string name="server_priority">Προτεραιότητα διακομιστή</string>
+  <string name="server_address_hint">Server για σύνδεση</string>
+  <string name="server_address">Διεύθυνση διακομιστή</string>
+  <string name="server_port">Θύρα διακομιστή</string>
+  <string name="server_summary">Επικοινωνήστε με τον παροχέα σας. π.χ. Μη SSL: 119, 23 SSL: 443, 563, κλπ</string>
+  <string name="server_ssl_summary_off">Το SSL είναι απενεργοποιημένο</string>
+  <string name="server_ssl_summary_on">Το SSL είναι ενεργοποιημένο. Το SSL απαιτεί διαφορετική θύρα</string>
+  <string name="server_ssl">Ενεργοποιήστε το SSL</string>
+  <string name="server_connections">Αριθμός συνδέσεων</string>
+  <string name="server_connections_summary">Πόσες συνδέσεις πρέπει να χρησιμοποιήσετε. Περισσότεροι από 20 μπορούν να το κάνουν πιο αργό</string>
+  <string name="server_1_auth_summary">Αν πρέπει να καθορίσετε όνομα χρήστη / κωδικό πρόσβασης</string>
+  <string name="server_auth">Απαιτεί έλεγχο ταυτότητας</string>
+  <string name="server_username">Όνομα χρήστη</string>
+  <string name="server_username_summary">Όνομα χρήστη</string>
+  <string name="server_password_summary">Κωδικός πρόσβασης</string>
+  <string name="server_password">Κωδικός πρόσβασης</string>
+  <string name="server_test_connection">ΔΟΚΙΜΗ ΣΥΝΔΕΣΗΣ</string>
+  <string name="server_test_connection_summary">Δοκιμάστε τη συνδεσιμότητα του διακομιστή σας</string>
+
+  
+  <string name="nzb_leech_settings_title">Ρυθμίσεις Nzb Leech</string>
+  <string name="general_settings_title">Γενικές Ρυθμίσεις</string>
+  <string name="general_nzb_download_dir">NZB Λήψη καταλόγου</string>
+  <string name="general_nzb_download_dir_summary">Όπου αποθηκεύονται τα αρχεία που έχουν ληφθεί</string>
+  <string name="general_nzb_directory">Κατάλογος NZB</string>
+  <string name="general_nzb_directory_summary">Πού θα φτάσετε τα αρχεία NZB από το για να εμφανιστεί στο μενού επιλογής</string>
+  <string name="general_skip_par2">Παράβλεψη αρχείων par2</string>
+  <string name="general_skip_par2_summary_on">Δεν θα γίνει λήψη αρχείων par2</string>
+  <string name="general_skip_par2_summary_off">Θα κατεβάσετε αρχεία par2</string>
+  <string name="general_additional_title">Πρόσθετες ρυθμίσεις Nzb Leech</string>
+  <string name="additional_verify_repair_title">Επιβεβαιώστε / Επιδιορθώστε</string>
+  <string name="additional_verify_repair_summary_on">Επαληθεύστε και επιδιορθώστε τα αρχεία που έχουν ενεργοποιηθεί</string>
+  <string name="additional_verify_repair_summary_off">Δεν θα επαληθεύσει και θα επιδιορθώσει αρχεία</string>
+  <string name="additional_extract_automatically_title">Εξαγωγή αρχείων αυτόματα</string>
+  <string name="additional_extract_automatically_summary_on">Θα εξαγάγει αρχεία αρχείων rar αυτόματα μετά τη λήψη</string>
+  <string name="additional_extract_automatically_summary_off">Δεν θα εξαγάγει αρχεία αρχείων rar αυτόματα μετά τη λήψη</string>
+  <string name="additional_delete_archives_title">Διαγραφή αρχείων αρχείων</string>
+  <string name="additional_delete_archives_summary_on">Θα διαγράψει αρχεία αρχείου μετά την εξαγωγή</string>
+  <string name="additional_delete_archives_summary_off">Δεν θα διαγραφούν αρχεία αρχείου μετά την εξαγωγή</string>
+  <string name="additional_queue_nzbs_title">Ουρά Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Το επόμενο nzb θα μεταφορτωθεί αυτόματα από το φάκελο ουράς</string>
+  <string name="additional_queue_nzbs_summary_off">Κάντε λήψη του nzbs αυτόματα από το φάκελο ουράς</string>
+  <string name="additional_queue_folder_title">Φάκελος ουράς NZB</string>
+  <string name="additional_queue_nzbs_summary">Πού μπορείτε να κατεβάσετε το επόμενο αρχείο nzb. Το αρχείο Nzb θα διαγραφεί κατά την επιτυχή λήψη</string>
+
+  
+  <string name="nzb_monitor_title">Ρυθμίσεις οθόνης Nzb</string>
+  <string name="nzb_monitor_summary">Ρυθμίσεις μόνο για την οθόνη nzb. Αρχίστε την παρακολούθηση nzb από το κύριο μενού.</string>
+  <string name="nzb_monitor_enable_title">Παρακολουθήστε τον κατάλογο nzb</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Directory Scan</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Περίοδος ανίχνευσης καταλόγου Nzb (σε λεπτά)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Πόσο συχνά σάρωση του καταλόγου Nzb για νέα αρχεία nzb.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS Feed</string>
+  <string name="nzb_monitor_rss_enable">Παρακολούθηση ροής RSS για νέα αρχεία nzb</string>
+  <string name="nzb_monitor_rss_interval">Nzb Λεπτά διαλείμματος σάρωσης RSS</string>
+  <string name="nzb_monitor_rss_interval_summary">Πόσο συχνά (σε λεπτά) τροφοδοτείται η ροή RSS για νέα αρχεία nzb για λήψη.</string>
+  <string name="nzb_monitor_rss_url">URL ροής RSS</string>
+  <string name="nzb_monitor_rss_url_summary">πρέπει να χρησιμοποιεί https: // και όχι http: // στο Android 8 ή νεότερο</string>
+
+  
+  <string name="sd_card_settings_title">Εξωτερικές ρυθμίσεις κάρτας SD</string>
+  <string name="sd_card_top_level_enable">Μετακινήστε τις λήψεις στο φάκελο κορυφαίου επιπέδου</string>
+  <string name="sd_card_top_level_enable_summary">Τα αρχεία θα μεταφερθούν στην \'/ sd-card-path / nzb-leech \' μετά τη λήψη για καλύτερη εμπειρία (π.χ. μουσική / συσκευές αναπαραγωγής βίντεο βλέπουν τα νέα αρχεία). Δεν είναι δυνατή η μετάβαση από εσωτερική σε εξωτερική κάρτα SD (εξωτερική μόνο εξωτερική). Η κίνηση διαρκεί λίγο. Δεν μπορεί να λειτουργεί σε όλες τις συσκευές.</string>
+  <string name="sd_card_test_root_write">Ελέγξτε την εγγραφή στην εξωτερική κάρτα SD Root</string>
+  <string name="sd_card_detect_private_folder">Εντοπισμός περιορισμένης εξωτερικής διαδρομής κάρτας SD</string>
+  <string name="sd_card_detect_private_folder_summary">Έτσι μπορείτε να αντιγράψετε και να επικολλήσετε τις ρυθμίσεις</string>
+
+  
+  <string name="advanced_screen_title">Προηγμένες ρυθμίσεις</string>
+  <string name="advanced_screen_summary">ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ΜΟΝΟ ΠΡΟΩΘΗΜΕΝΟΙ ΧΡΗΣΤΕΣ. Προχωρήστε με προσοχή.</string>
+  <string name="advanced_article_cache">Άρθρο Cache</string>
+  <string name="advanced_article_cache_summary">Πόσο MB να διαθέσει για την αποθήκευση των προσωρινών αρχείων στην κύρια μνήμη μειώνοντας έτσι τις εργασίες δίσκου. Προτείνετε 60MB (αν έχετε αρκετή μνήμη)</string>
+  <string name="advanced_cache_dir">Cache Directory</string>
+  <string name="advanced_cache_dir_summary">Φάκελος όπου τα άρθρα αποθηκεύονται όταν γίνεται πλήρης η προσωρινή μνήμη του άρθρου</string>
+  <string name="advanced_data_skipping">Δεν υπάρχει παραβίαση δεδομένων</string>
+  <string name="advanced_data_skipping_summary">Αναζητήστε δυσλειτουργικά μπλοκ δεδομένων. Χρειάζεται περισσότερος χρόνος για την επαλήθευση / επισκευή αλλά ΜΠΟΡΕΙ να επιδιορθώσει περισσότερα αρχεία από αυτά χωρίς αυτήν τη ρύθμιση. Ωστόσο, ενεργοποιώντας αυτή τη ρύθμιση, η διαδικασία επαλήθευσης / επιδιόρθωσης μπορεί να κολλήσει με κακόβουλα επεξεργασμένα αρχεία par2</string>
+  <string name="advanced_smart_repair">Έξυπνη επισκευή</string>
+  <string name="advanced_smart_repair_summary_on">Θα υπολογίσει και θα κατεβάσει τον ελάχιστο αριθμό αρχείων par2 πριν επιχειρήσει το βήμα επιδιόρθωσης. Εάν τα αρχεία par2 που απαιτούνται για την επιδιόρθωση είναι μεγαλύτερα από αυτά που είναι διαθέσιμα τότε δεν αρχειοθετούνται αρχεία par2 και δεν επιχειρείται επισκευή.</string>
+  <string name="advanced_smart_repair_summary_off">Θα πραγματοποιήσει λήψη όλων των αρχείων par2 πριν από την προσπάθεια επιβεβαίωσης / επιδιόρθωσης.</string>
+  <string name="advanced_thread_priority">Κάντε λήψη της Προτεραιότητας του νήματος</string>
+  <string name="advanced_thread_priority_summary">Το μέγιστο μπορεί να προκαλέσει την καθυστέρηση του Android κατά τη λήψη</string>
+
+  <string name="settings_download_speed">Ταχύτητα μεταφόρτωσης</string>
+
+  
+  <string name="load_nzb_not_found">Δεν βρέθηκαν αρχεία NZB!</string>
+  <string name="connection_error_server_reply_code">Κωδικός απάντησης διακομιστή</string>
+  <string name="connections_server_reply">Απάντηση διακομιστή</string>
+  <string name="connection_error_details">Λεπτομέριες</string>
+  <string name="detect_sd_not_detected">Χμμ, δεν εντοπίστηκε κάρτα SD.</string>
+  <string name="detect_sd_card_path">Εξωτερική διαδρομή κάρτας SD</string>
+  <string name="detect_sd_limitation">Σημειώστε τους ακόλουθους περιορισμούς για αυτήν τη διαδρομή: Όλα τα αρχεία σε αυτόν τον κατάλογο διαγράφονται όταν απεγκατασταθεί η εφαρμογή. Και ο σαρωτής μέσων δεν βρίσκει κανένα αρχείο σε αυτόν τον κατάλογο, ώστε οι εφαρμογές μουσικής / βίντεο να μην βλέπουν τα μέσα σας.</string>
+  <string name="detect_sd_link_message">Για εξωτερική ρύθμιση κάρτας SD, δείτε</string>
+  <string name="detect_sd_test_failed">δεν μπόρεσε να γράψει στην κάρτα sd</string>
+  <string name="detect_sd_test_select_move">Παρακαλώ επιλέξτε την επιλογή μετακίνησης λήψεων παραπάνω</string>
+  <string name="detect_sd_test_success">Έχετε γράψει με επιτυχία στο</string>
+  <string name="article_cache_warning">ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Η εφαρμογή θα σβήσει εάν η συνολική μνήμη (εφαρμογή προσωρινής αποθήκευσης άρθρου) είναι μεγαλύτερη από</string>
+  <string name="article_cache_20mb">Η cache του άρθρου χρειάζεται τουλάχιστον 20MB</string>
+  <string name="sd_card_copy_path">Αντιγραφή στο πρόχειρο</string>
+  <string name="error">Λάθος</string>
+  <string name="success">Επιτυχία</string>
+  <string name="connection_test_success">Επιτυχής σύνδεση με</string>
+  <string name="sd_card_path_detected">Εντοπίστηκε πιθανή εξωτερική διαδρομή κάρτας SD</string>
+  <string name="read_write_error">Δεν είναι δυνατή η ανάγνωση ή η εγγραφή σε επιλεγμένο κατάλογο.</string>
+  <string name="sd_card_help_message">Για εξωτερική ρύθμιση κάρτας SD, δείτε</string>
+  <string name="invalid_value">Μη έγκυρη τιμή</string>
+  <string name="invalid_number">Μη έγκυρος αριθμός</string>
+  <string name="connecting">Συνδετικός</string>
+  <string name="press_back_to_cancel">Πατήστε ξανά για ακύρωση</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Δοκιμάστε να κάνετε λήψη του nzb χρησιμοποιώντας το Chrome. Ή αρχειοθετήστε το αρχείο nzb στο przemeknzb@gmail.com για να ερευνήσετε</string>
+  <string name="corrupt_nzb">Διαφθορά nzb</string>
+  <string name="nzb_nothing_to_download">δεν περιέχει τίποτα για λήψη</string>
+
+  
+  <string name="tutorial_dialog_heading">Ένα αρχείο video.avi χωρίζεται σε μια δέσμη αρχείων στο usenet:</string>
+  <string name="tutorial_dialog_ok">Εντάξει</string>
+  <string name="tutorial_01_title">Ξεκινήστε τη λήψη σε 3 βήματα</string>
+  <string name="tutorial01_step_1">1. Αποκτήστε έναν λογαριασμό εξυπηρετητή usenet</string>
+  <string name="tutorial01_step_2">2. Προσθέστε το διακομιστή στο Nzb Leech</string>
+  <string name="tutorial01_step_3">3. Αναζητήστε αρχεία και ξεκινήστε τη λήψη!</string>
+  <string name="tutorial01_footer">Συνεχίστε στην επόμενη σελίδα για να μάθετε πώς!</string>
+  <string name="tutorial02_heading">Usenet Servers</string>
+  <string name="tutorial02_line1">Το NZb Leech κατεβάζει αρχεία από εξυπηρετητή usenet που καθορίζετε</string>
+  <string name="tutorial02_line2">Οι εξυπηρετητές Usenet επιτρέπουν πολύ γρήγορες λήψεις και κοστίζουν από $ 10 έως $ 15 το μήνα</string>
+  <string name="tutorial02_line3">Έχουν δωρεάν δοκιμές</string>
+  <string name="tutorial02_list_servers_link">Κατάλογος εξυπηρετητών usenet</string>
+  <string name="tutorial03_heading">Usenet Servers</string>
+  <string name="tutorial03_line1">Μόλις εγγραφείτε σε λογαριασμό usenet, θα πάρετε</string>
+  <string name="tutorial03_line2">• διεύθυνση διακομιστή</string>
+  <string name="tutorial03_line3">• όνομα χρήστη</string>
+  <string name="tutorial03_line4">• Κωδικός πρόσβασης</string>
+  <string name="tutorial03_line5">• αριθμός θύρας</string>
+  <string name="tutorial03_line6">Καταχωρίστε αυτές τις τιμές σε</string>
+  <string name="tutorial03_settings_link">Ρυθμίσεις</string>
+  <string name="tutorial04_heading">Usenet Servers</string>
+  <string name="tutorial04_line1">Τώρα είστε έτοιμοι να κατεβάσετε! Αναζητήστε αρχεία από την καρτέλα Αναζήτηση</string>
+  <string name="tutorial04_line2">Αυτά είναι τα βασικά, αλλά συνεχίστε να διαβάζετε για να μάθετε χρήσιμες συμβουλές στην επόμενη σελίδα</string>
+  <string name="tutorial05_heading">Αρχεία</string>
+  <string name="tutorial05_line1">Τα αρχεία στο usenet είναι συμπιεσμένα και χωρίζονται σε πολλά μικρότερα αρχεία που ονομάζονται αρχεία με επέκταση .r00, r.01, r.02 ή .part01.rar, .part02.rar, κλπ.</string>
+  <string name="tutorial05_line2">Βλέπω</string>
+  <string name="tutorial05_line3">παράδειγμα</string>
+  <string name="tutorial05_line4">Αφού κάνετε λήψη των αρχείων, πρέπει να τα αποσυσκευάσετε.</string>
+  <string name="tutorial05_line5">Η αμειβόμενη έκδοση του Nzb Leech θα αποσυμπιέσει τα αρχεία αυτόματα.</string>
+  <string name="tutorial05_line6">Αυτές τις μέρες, τα αρχεία μετονομάζονται επίσης (ώστε να μην μπορείτε να χρησιμοποιήσετε μια κανονική μηχανή αναζήτησης για να τα βρείτε). Περισσότερα για αυτό αργότερα.</string>
+  <string name="tutorial06_heading">Αρχεία</string>
+  <string name="tutorial06_line1">Μερικές φορές ξεκινάτε τη λήψη και παρατηρήστε ότι η λήψη δεν έγινε ή ήταν ελλιπής.</string>
+  <string name="tutorial06_line2">Αυτό οφείλεται στο γεγονός ότι τα αρχεία που είναι αποθηκευμένα στο διακομιστή έχουν αφαιρεθεί ή χαθεί.</string>
+  <string name="tutorial06_line3">Nzb Leech δηλώνει πρόβλημα με τη λήψη ενός αρχείου, εμφανίζοντας το με κόκκινο χρώμα στην καρτέλα Nzb.</string>
+  <string name="tutorial07_heading">Μη ολοκληρωμένα αρχεία</string>
+  <string name="tutorial07_line1">Εάν κάποια τμήματα ενός αρχείου είναι ελλιπή, δεν θα μπορείτε να αποσυσκευάσετε ή να ανοίξετε το αρχείο, εκτός αν μπορείτε να το επιδιορθώσετε.</string>
+  <string name="tutorial07_line2">Ευτυχώς, τα περισσότερα αρχεία έρχονται επίσης με πρόσθετα αρχεία που τελειώνουν στο .par2 που μπορείτε να χρησιμοποιήσετε για να επιδιορθώσετε τα ελλιπή αρχεία.</string>
+  <string name="tutorial07_line3">Αυτό λειτουργεί εφ \'όσον δεν έχετε πάρα πολλά ελλιπή αρχεία. Μια αποκατάσταση που χρησιμοποιεί τα αρχεία par2 δεν είναι δυνατή αν υπερβολικά πολλά αρχεία είναι ελλιπή.</string>
+  <string name="tutorial07_line4">Η αμειβόμενη έκδοση του Nzb Leech πραγματοποιεί αυτόματη επαλήθευση και επισκευή αρχείων</string>
+  <string name="tutorial08_heading">Αρχεία Nzb</string>
+  <string name="tutorial08_line1">Το αρχείο Nzb είναι σαν ένα ευρετήριο που λέει στο Nzb Leech ποια αρχεία θα κατεβάσουν από έναν εξυπηρετητή usenet.</string>
+  <string name="tutorial08_line2">Ανοίγετε ένα αρχείο nzb στο Nzb Leech έτσι μπορείτε να βρείτε και να κατεβάσετε το περιεχόμενο από το διακομιστή usenet.</string>
+  <string name="tutorial08_line3">Μόλις κατεβάσετε όλα τα αρχεία το nzb δεν χρειάζεται και μπορεί να διαγραφεί.</string>
+  <string name="tutorial09_heading">Πού θα βρείτε αρχεία Nzb;</string>
+  <string name="tutorial09_line1">Οι μηχανές αναζήτησης Nzb θα αναζητήσουν ολόκληρο το usenet και θα επιστρέψουν ένα αρχείο nzb που ταιριάζει με την αναζήτησή σας. Ωστόσο, τα αρχεία συνήθως μετονομάζονται σε ανοησίες, έτσι δεν θα βρείτε αυτό που ψάχνετε. Θα συζητήσω καλύτερα ιστότοπους στην επόμενη σελίδα.</string>
+  <string name="tutorial09_line2">Ακόμα, αυτοί οι ιστότοποι είναι χρήσιμοι μερικές φορές και μερικοί ενσωματώνονται στο Nzb Leech και είναι προσβάσιμοι από την καρτέλα Αναζήτηση.</string>
+  <string name="tutorial09_line3">Συμβουλή: Αναζητήστε αρχεία nzb που περιέχουν αρχεία ανάκτησης par2 σε περίπτωση που λάβετε ελλιπή αρχεία και πρέπει να επισκευάσετε</string>
+  <string name="tutorial09_line4">Μηχανές αναζήτησης Nzb</string>
+  <string name="tutorial10_heading">Πού θα βρείτε αρχεία Nzb;</string>
+  <string name="tutorial10_line1">Το καλύτερο μέρος είναι οι κοινότητες που κατευθύνονται από την κοινότητα. Αυτοί οι ιστότοποι αναλύουν, κατεβάζουν και κατηγοριοποιούν τα αρχεία, ώστε η αναζήτηση να λειτουργεί πολύ καλύτερα.</string>
+  <string name="tutorial10_line2">Λόγω της επιπλέον εργασίας πολλοί από αυτούς τους χώρους απαιτούν πληρωμή, αλλά υπάρχουν και κάποιες δωρεάν τοποθεσίες.</string>
+  <string name="tutorial10_line3">Οι ελεύθερες τοποθεσίες έχουν συνήθως ένα όριο στον αριθμό των αναζητήσεων που μπορείτε να κάνετε ή στον αριθμό των αρχείων nzb που μπορείτε να κατεβάσετε.</string>
+  <string name="tutorial10_line4">Λίγες τοποθεσίες ευρετηρίου Nzb. Google για περισσότερα</string>
+  <string name="tutorial11_heading">Ευχαριστώ</string>
+  <string name="tutorial11_line1">Αυτό είναι.</string>
+  <string name="tutorial11_line2">Πολλά που πρέπει να μάθετε, αλλά από τη στιγμή που θα μάθετε τα βασικά στοιχεία, θα αναρωτηθείτε πώς ζούσατε ποτέ χωρίς τη χρήση του Usenet.</string>
+  <string name="tutorial11_line3">Μπορείτε πάντα να έχετε πρόσβαση σε αυτό το σεμινάριο από το μενού επιλογών.</string>
+  <string name="tutorial11_line4">Ευχαριστώ και ευτυχισμένη λήψη!</string>
+  <string name="tutorial_nav_previous">Προηγούμενος</string>
+  <string name="tutorial_nav_next">Επόμενο</string>
+
+</resources>

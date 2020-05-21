@@ -1,0 +1,362 @@
+<resources>
+
+  <string name="preferences">Ayarlar</string>
+  <string name="download_service">İndirme Hizmeti</string>
+
+  
+  <string name="options_menu_settings">Ayarlar</string>
+  <string name="options_menu_quit">çıkmak</string>
+  <string name="options_menu_pause">Duraklat</string>
+  <string name="options_menu_resume">Devam et</string>
+  <string name="options_menu_rate">oran</string>
+  <string name="options_menu_about">hakkında</string>
+  <string name="options_menu_help">yardım et</string>
+  <string name="options_menu_donate">bağışlamak</string>
+  <string name="options_menu_start_nzb_monitor">Nzb Monitörü Başlat</string>
+  <string name="options_menu_nzb_tutorial">Nzb Eğitimi</string>
+  <string name="options_menu_usenet_servers">Usenet Sunucuları</string>
+
+  <string name="verifying">Doğrulama</string>
+  <string name="verified">Tüm dosyalar tamam!</string>
+  <string name="neededToRepair">blok gerekli</string>
+  <string name="youNeed">İhtiyacın var</string>
+  <string name="thereAre">Var</string>
+  <string name="repairing">Onarım:</string>
+  <string name="dialog_quitConfirm">Çıkma, indirme işlemlerini iptal eder, devam eder mi?</string>
+  <string name="yes">Evet</string>
+  <string name="no">Yok hayır</string>
+  <string name="access_sdcard_error">Hata: depolama alanına erişilemiyor, uygulama devre dışı. İndirmeye izin vermek için, USB bağlantı bildiriminde \ "USB yığın depolama \" seçeneğini seçmeyin.</string>
+  <string name="toast_download_finished">İndirme bitti</string>
+  <string name="status_finished">bitirdi</string>
+  <string name="trial_expired">Deneme süresi doldu, premium özellikler devre dışı bırakıldı. Premium özellikleri etkinleştirmek için bağış yapın.</string>
+  <string name="context_title_load_nzb_file">NZB dosyasını yükle</string>
+  <string name="toast_no_nzb_files_found_in_">İçinde NZB dosyası bulunamadı</string>
+  <string name="no_nzbs_found_">NZB bulunamadı</string>
+  <string name="not_enough_space_to_download_need_">İndirmek için yeterli alan yok, gerek</string>
+  <string name="mb_of_free_space">boş alan</string>
+
+  <string name="search_category_prompt">Kategori Seçin</string>
+
+  <string name="detailedTitleLabel">Başlık:</string>
+  <string name="detailedPostedLabel">Gönderildi:</string>
+  <string name="detailedSizeLabel">Size:</string>
+  <string name="detailedCategoryLabel">Kategori:</string>
+  <string name="nzbMatrixURLLabel">URL:</string>
+  <string name="search">Arama</string>
+  <string name="back">Geri</string>
+  <string name="download">İndir</string>
+  <string name="downloading">İndir ...</string>
+  <string name="downloaded">Nzb indirildi</string>
+  <string name="startDownloading">İndirmeye başla?</string>
+  <string name="details">ayrıntılar</string>
+  <string name="noSearchString">Arama terimi sağlayın</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>her şey</item>
+    <item>Ses: Hepsi</item>
+    <item>Ses: mp3</item>
+    <item>Ses: FLAC</item>
+    <item>TV</item>
+    <item>TV: SD</item>
+    <item>TV: HD</item>
+    <item>TV: Sport/Ent</item>
+    <item>filmler</item>
+    <item>Filmler: SD</item>
+    <item>Filmler: HD</item>
+    <item>E-Kitaplar</item>
+    <item>Sesli Kitaplar</item>
+    <item>Karikatürler</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Kötü site adres formatı</string>
+
+
+  <string name="eula_title">Son kullanıcı Lisans Anlaşması</string>
+  <string name="eula_accept">Kabul ediyorum</string>
+  <string name="eula_refuse">Reddediyorum</string>
+  <string name="OK">tamam</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Bu özellik bir denemedir ve süresi dolmuştur. Devam eden kalkınma çabalarını desteklemek için bağış yapmayı düşünün.</string>
+  <string name="Donate">bağışlamak</string>
+  <string name="Later">Sonra</string>
+
+  
+  <string name="pref_disable_acra">Otomatik hata raporlama</string>
+  <string name="pref_acra_disabled">Hatalar geliştiriciye gönderilmez. Bunu etkinleştirmeyi düşünerek hatalar geliştiriciye gönderilebilir ve hatalar çözülebilir</string>
+  <string name="pref_acra_enabled">Hatalar geliştiriciye otomatik olarak gönderilir, böylece aksaklıklar hızla giderilebilir</string>
+
+  <string name="statusbar_paused">Durduruldu</string>
+
+  <string name="testConnectionFailureHelp">İnternet bağlantınızı ve sunucu ayarlarınızı kontrol edin. Yeni sunucu hesaplarının etkin hale gelmesi 30 dakika kadar sürebilir</string>
+
+  
+  <string name="app_name">Onarım ile</string>
+  <string name="for_details_">detaylar için.</string>
+  <string name="repairing_">Onarım:</string>
+  <string name="scanning_">Tarama:</string>
+  <string name="loading_">Yükleniyor:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">İstisna gönderme mesajı</string>
+  <string name="ok">tamam</string>
+  <string name="file">dosya</string>
+  <string name="Rate">Go Rate!</string>
+  <string name="NO">Yok hayır</string>
+  <string name="Rate_Nzb_Leech">Nzb Sülük Oranı</string>
+  <string name="if_you_like_the_app_let_me_know">Benim app isterseniz, lütfen oranı. Yorumlar faydalı, ancak isteğe bağlı.</string>
+  <string name="AdditionalDetail">Ek detay:</string>
+  <string name="monitoringForNzbFiles">Nzb dosyaları için izleme ..</string>
+  <string name="title_activity_settings">Ayarlar</string>
+  <string name="file_status_downloading">İndirilmesi</string>
+  <string name="file_status_incomplete">tamamlanmamış</string>
+  <string name="file_status_decoding">şifre çözme</string>
+  <string name="tutorial_done">tamam</string>
+  <string name="file_status_queued">Sıraya alındı</string>
+  <string name="file_status_paused">Durduruldu</string>
+
+  <string name="nzb_tab_press_and_hold">Nzb\'yi yüklemek için basılı tutun</string>
+
+  
+  <string name="server_providers_list_heading">En iyi bilinen ve en popüler usenet sağlayıcılarından bazıları:</string>
+  <string name="server_providers_list_ok">tamam</string>
+
+  
+  <string name="buy_options_unlock_all_features">Küçük, orta veya büyük bir bağış öğesi satın alarak tüm özelliklerin kilidini açın. Ya da üçü de!</string>
+  <string name="buy_options_small_donation">Küçük bağış</string>
+  <string name="buy_options_medium_donation">Orta bağış</string>
+  <string name="buy_options_large_donation">Büyük bağış</string>
+  <string name="buy_options_footer">Nzb Leech Aralık 2011\'de piyasaya sürüldü ve hala güncelleme yapıyorum. Tüm bağışçılar için olmasaydı, bu projeyi uzun zaman önce terk ederdim, teşekkür ederim!</string>
+
+  
+  <string name="first_time_screen_line1">Usenet\'te yeni misiniz?</string>
+  <string name="first_time_screen_start_here">Buradan başlayın</string>
+  <string name="first_time_screen_line2">Veya sunucunuzu</string>
+  <string name="first_time_screen_settings">Ayarlar</string>
+  <string name="first_time_screen_line3">ve indirmeye başla!</string>
+  <string name="first_time_screen_line4">Sunucuya mı ihtiyacınız var?</string>
+  <string name="first_time_screen_line5">Buraya bak</string>
+
+  
+  <string name="search_config_type_site">Site Türü</string>
+  <string name="search_configure_name">isim</string>
+  <string name="search_configure_name_hint">Bu sitenin adını girin</string>
+  <string name="search_configure_api_address">API Adresi</string>
+  <string name="search_configure_api_key">API Anahtarı</string>
+  <string name="search_configure_api_key_hint">Size verilen API Anahtarını girin</string>
+  <string name="search_configure_cancel">İptal etmek</string>
+  <string name="search_configure_help">yardım et</string>
+  <string name="search_configure_save">Kayıt etmek</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Nzb yükle</string>
+  <string name="tv_nzb_tab_settings">Ayarlar</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Nzb Monitörü Başlat</string>
+  <string name="tv_nzb_tab_exit">çıkış</string>
+  <string name="tv_nzb_tab_load_instructions">Arama veya dosya sekmesinden nzb yükleyin</string>
+
+  
+  <string name="server_1_enable_server">Sunucu 1\'i etkinleştir</string>
+  <string name="server_priority_summary">Nzb Leech önce Birincil sunuculardan indirilecek. Birincil sunucuda bir parça eksikse, ilk yedekleme sunucusunu dener. Hala bulunmazsa, ikinci yedekleme sunucusunu, ardından üçüncü, vb.</string>
+  <string name="server_2_enable_server">Sunucu 2\'yi etkinleştir</string>
+  <string name="server_3_enable_server">Sunucu 3\'ü etkinleştir</string>
+  <string name="server_4_enable_server">Sunucu 4\'ü etkinleştir</string>
+  <string name="server_5_enable_server">Sunucu 5\'i etkinleştir</string>
+  <string name="server_6_enable_server">Sunucu 6\'yı Etkinleştir</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Birincil Sunucu</item>
+    <item>İlk Yedekleme Sunucusu</item>
+    <item>İkinci Yedekleme Sunucusu</item>
+    <item>Üçüncü Yedekleme Sunucusu</item>
+    <item>Dördüncü Yedekleme Sunucusu</item>
+    <item>Beşinci Yedekleme Sunucusu</item>
+  </string-array>
+
+  <string name="server_connection_settings">Bağlantı ayarları</string>
+  <string name="server_settings">Sunucu ayarları</string>
+  <string name="server_1">Sunucu 1</string>
+  <string name="server_2">Sunucu 2</string>
+  <string name="server_3">Sunucu 3</string>
+  <string name="server_4">Sunucu 4</string>
+  <string name="server_5">Sunucu 5</string>
+  <string name="server_6">Sunucu 6</string>
+  <string name="server_priority">Sunucu Önceliği</string>
+  <string name="server_address_hint">Bağlanılacak sunucu</string>
+  <string name="server_address">Sunucu adresi</string>
+  <string name="server_port">Sunucu portu</string>
+  <string name="server_summary">Sağlayıcınıza danışın. Örneğin. SSL olmayan: 119, 23 SSL: 443, 563, vb</string>
+  <string name="server_ssl_summary_off">SSL devre dışı</string>
+  <string name="server_ssl_summary_on">SSL etkin. SSL farklı bağlantı noktası gerektirir</string>
+  <string name="server_ssl">SSL\'yi etkinleştir</string>
+  <string name="server_connections">Bağlantı Sayısı</string>
+  <string name="server_connections_summary">Kaç tane bağlantı kullanılacağı. 20\'den fazla yavaşlatır</string>
+  <string name="server_1_auth_summary">Kullanıcı adınızı / şifrenizi belirtmeniz gerekiyorsa</string>
+  <string name="server_auth">Kimlik Doğrulama Gerektirir</string>
+  <string name="server_username">Kullanıcı adı</string>
+  <string name="server_username_summary">Kullanıcı adı</string>
+  <string name="server_password_summary">Parola</string>
+  <string name="server_password">Parola</string>
+  <string name="server_test_connection">Test bağlantısı</string>
+  <string name="server_test_connection_summary">Sunucu bağlantınızı test edin</string>
+
+  
+  <string name="nzb_leech_settings_title">Nzb Sülük Ayarları</string>
+  <string name="general_settings_title">Genel Ayarlar</string>
+  <string name="general_nzb_download_dir">NZB İndirme Dizini</string>
+  <string name="general_nzb_download_dir_summary">İndirilen dosyaların kaydedildiği yer</string>
+  <string name="general_nzb_directory">NZB Dizini</string>
+  <string name="general_nzb_directory_summary">Seçim menüsünde NZB dosyalarının nereden gösterileceği</string>
+  <string name="general_skip_par2">Par2 dosyalarını atla</string>
+  <string name="general_skip_par2_summary_on">Par2 dosyalarını indirmeyecek</string>
+  <string name="general_skip_par2_summary_off">Par2 dosyalarını indirecek</string>
+  <string name="general_additional_title">Nzb Sülük Ek Ayarlar</string>
+  <string name="additional_verify_repair_title">Doğrula / Onar</string>
+  <string name="additional_verify_repair_summary_on">Etkinleştirilmiş dosyaları doğrulayın ve onarın</string>
+  <string name="additional_verify_repair_summary_off">Dosyaları doğrulamaz ve onarmaz</string>
+  <string name="additional_extract_automatically_title">Dosyaları Otomatik Olarak Çıkart</string>
+  <string name="additional_extract_automatically_summary_on">İndirdikten sonra otomatik olarak rar arşivlerini çıkaracak</string>
+  <string name="additional_extract_automatically_summary_off">İndirme işleminden sonra rar arşivlerini otomatik olarak çıkarmaz</string>
+  <string name="additional_delete_archives_title">Arşiv Dosyalarını Sil</string>
+  <string name="additional_delete_archives_summary_on">Çıkarttıktan sonra arşiv dosyalarını silecek</string>
+  <string name="additional_delete_archives_summary_off">Çıkardıktan sonra arşiv dosyalarını silmez</string>
+  <string name="additional_queue_nzbs_title">Sıra Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Sonraki nzb otomatik olarak kuyruk klasöründen indirilecektir</string>
+  <string name="additional_queue_nzbs_summary_off">Sıra klasöründen otomatik olarak nzbs indirin</string>
+  <string name="additional_queue_folder_title">NZB Sıra Klasörü</string>
+  <string name="additional_queue_nzbs_summary">Bir sonraki nzb dosyasını nereden indirebilirim? Nzb dosyası başarıyla indirildiğinde silinecek</string>
+
+  
+  <string name="nzb_monitor_title">Nzb Monitör Ayarları</string>
+  <string name="nzb_monitor_summary">Yalnızca nzb monitör ayarları. Ana menüden nzb monitor\'ü başlatın.</string>
+  <string name="nzb_monitor_enable_title">Nzb dizinini izle</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Dizin Taraması</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Nzb Dizin Tarama Aralığı (Dakikada)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Nzb Dizininin yeni nzb dosyaları için ne sıklıkla tarandığı.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS Yayını</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS Yayını</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS Yayını</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS Yayını</string>
+  <string name="nzb_monitor_rss_enable">Yeni nzb dosyaları için RSS beslemesini izleyin</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS Tarama Aralığı Dakikaları</string>
+  <string name="nzb_monitor_rss_interval_summary">Ne kadar sıklıkla (dakika olarak) RSS beslemesi, yeni nzb dosyalarının indirilmesi için taranır.</string>
+  <string name="nzb_monitor_rss_url">RSS Akışı URL\'si</string>
+  <string name="nzb_monitor_rss_url_summary">https: // kullanmalı ve Android 8 veya üstü sürümlerde http: // kullanmamalı</string>
+
+  
+  <string name="sd_card_settings_title">Harici SD Kart Ayarları</string>
+  <string name="sd_card_top_level_enable">İndirmeleri en üst seviyeye taşı</string>
+  <string name="sd_card_top_level_enable_summary">Daha iyi bir deneyim için dosyalar indirmeden sonra \'/ sd-card-path / nzb-leech\' dizinine taşınacaktır (örneğin, müzik / video oynatıcılar yeni dosyaları görür). Dahiliden harici sd kartına taşınamıyor (yalnızca hariciden hariciya). Hareket biraz zaman alıyor. Tüm cihazlarda çalışmayabilir.</string>
+  <string name="sd_card_test_root_write">Harici SD Kartın Köküne Test Yazma</string>
+  <string name="sd_card_detect_private_folder">Sınırlı Harici SD Kart Yolunu Algıla</string>
+  <string name="sd_card_detect_private_folder_summary">Böylece ayarlarında kopyalayıp yapıştırabilirsiniz</string>
+
+  
+  <string name="advanced_screen_title">Gelişmiş Ayarlar</string>
+  <string name="advanced_screen_summary">UYARI: SADECE GELİŞMİŞ KULLANICILAR. Dikkatli ol.</string>
+  <string name="advanced_article_cache">Makale Önbelleği</string>
+  <string name="advanced_article_cache_summary">Geçici dosyaların ana bellekte depolanması için ne kadar MB ayrılacağı, böylece disk işlemlerinin azaldığı belirtildi. 60 MB öneriyor (eğer yeterli hafızanız varsa)</string>
+  <string name="advanced_cache_dir">Önbellek Dizini</string>
+  <string name="advanced_cache_dir_summary">Makale Önbelleği dolduğunda makalelerin kaydedildiği klasör</string>
+  <string name="advanced_data_skipping">Veri Atlama Yok</string>
+  <string name="advanced_data_skipping_summary">Yanlış yerleştirilmiş veri blokları arayın. Doğrulamak / onarmak daha uzun sürer, ancak bu ayar olmadan daha fazla dosya tamir edebilir. Ancak bu ayarın etkinleştirilmesi, doğrulama / onarım işleminin kötü amaçlı hazırlanmış par2 dosyalarıyla askıda kalmasına neden olabilir</string>
+  <string name="advanced_smart_repair">Akıllı Onarım</string>
+  <string name="advanced_smart_repair_summary_on">Onarım adımına başlamadan önce minimum par2 dosya sayısını hesaplar ve indirir. Onarmak için gerekli olan par2 dosyaları mevcut olandan büyükse, hiçbir par2 dosyası indirilmez ve onarımı denenmez.</string>
+  <string name="advanced_smart_repair_summary_off">Doğrulama / onarım adımını denemeden önce TÜM par2 dosyalarını indirir.</string>
+  <string name="advanced_thread_priority">İplik Önceliğini İndir</string>
+  <string name="advanced_thread_priority_summary">Maksimum indirme işlemi, Android\'in indirme sırasında daha fazla gecikmesine neden olabilir</string>
+
+  <string name="settings_download_speed">İndirme hızı</string>
+
+  
+  <string name="load_nzb_not_found">NZB dosyası bulunamadı!</string>
+  <string name="connection_error_server_reply_code">Sunucu cevap kodu</string>
+  <string name="connections_server_reply">Sunucu cevap mesajı</string>
+  <string name="connection_error_details">ayrıntılar</string>
+  <string name="detect_sd_not_detected">Hmm, SD Kart algılanmadı.</string>
+  <string name="detect_sd_card_path">Harici sd kart yolu</string>
+  <string name="detect_sd_limitation">Bu yol için aşağıdaki sınırlamalara dikkat edin: Bu dizindeki tüm dosyalar, uygulama kaldırıldığında silindi. Ve medya tarayıcı bu dizinde herhangi bir dosya bulamıyor, böylece müzik / video uygulamaları medyanızı göremiyor.</string>
+  <string name="detect_sd_link_message">Harici SD Kart kurulumu için, bkz.</string>
+  <string name="detect_sd_test_failed">sd kartına yazılamadı</string>
+  <string name="detect_sd_test_select_move">Lütfen yukarıdaki indirme işlemlerini taşı seçeneğini seçin</string>
+  <string name="detect_sd_test_success">Başarıyla yazıldı</string>
+  <string name="article_cache_warning">UYARI: Toplam bellek (makale önbellek uygulaması) değerinden büyükse uygulama kilitlenir</string>
+  <string name="article_cache_20mb">Makale önbelleğinin en az 20 MB olması gerekir</string>
+  <string name="sd_card_copy_path">Panoya kopyala</string>
+  <string name="error">Hata</string>
+  <string name="success">başarı</string>
+  <string name="connection_test_success">Başarıyla bağlandı</string>
+  <string name="sd_card_path_detected">Olası harici SD kart yolu tespit edildi</string>
+  <string name="read_write_error">Seçilen dizine yazılamıyor veya yazılamıyor.</string>
+  <string name="sd_card_help_message">Harici SD Kart kurulumu için, bkz.</string>
+  <string name="invalid_value">geçersiz değer</string>
+  <string name="invalid_number">Geçersiz numara</string>
+  <string name="connecting">Bağlanıyor</string>
+  <string name="press_back_to_cancel">İptal etmek için geri basın</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Chrome kullanarak nzb indirmeyi deneyin. Veya araştırmak için przemeknzb@gmail.com adresine e-posta gönderin.</string>
+  <string name="corrupt_nzb">Bozuk nzb</string>
+  <string name="nzb_nothing_to_download">indirmek için hiçbir şey içermiyor</string>
+
+  
+  <string name="tutorial_dialog_heading">Bir video.avi dosyası, usenet\'teki bir grup dosyaya bölünür:</string>
+  <string name="tutorial_dialog_ok">tamam</string>
+  <string name="tutorial_01_title">3 adımda indirmeye başla</string>
+  <string name="tutorial01_step_1">1. Bir usenet sunucu hesabı alın</string>
+  <string name="tutorial01_step_2">2. Nzb Sülük\'e sunucu ekle</string>
+  <string name="tutorial01_step_3">3. Dosyaları arayın ve indirmeye başlayın!</string>
+  <string name="tutorial01_footer">Nasıl olduğunu öğrenmek için bir sonraki sayfaya devam edin!</string>
+  <string name="tutorial02_heading">Usenet Sunucuları</string>
+  <string name="tutorial02_line1">Nzb Leech, belirttiğiniz bir usenet sunucusundan dosya indirir.</string>
+  <string name="tutorial02_line2">Usenet sunucuları, çok hızlı indirmelere izin verir ve ayda 10-15 ABD Doları arasında bir ücret karşılığında</string>
+  <string name="tutorial02_line3">Ücretsiz denemeleri var</string>
+  <string name="tutorial02_list_servers_link">Usenet sunucularının listesi</string>
+  <string name="tutorial03_heading">Usenet Sunucuları</string>
+  <string name="tutorial03_line1">Bir usenet hesabına abone olduğunuzda,</string>
+  <string name="tutorial03_line2">• sunucu adresi</string>
+  <string name="tutorial03_line3">• Kullanıcı adı</string>
+  <string name="tutorial03_line4">• parola</string>
+  <string name="tutorial03_line5">• Port numarası</string>
+  <string name="tutorial03_line6">Bu değerleri şuraya girin:</string>
+  <string name="tutorial03_settings_link">Ayarlar</string>
+  <string name="tutorial04_heading">Usenet Sunucuları</string>
+  <string name="tutorial04_line1">Şimdi indirmeye hazırsınız! Arama sekmesinden dosya arayın</string>
+  <string name="tutorial04_line2">Bu temel bilgiler ancak sonraki sayfada faydalı ipuçlarını öğrenmek için okumaya devam edin</string>
+  <string name="tutorial05_heading">Dosyalar</string>
+  <string name="tutorial05_line1">Usenet\'teki dosyalar sıkıştırılır ve .r00, r.01, r.02 veya .part01.rar, .part02.rar, vs. uzantılı arşivler adı verilen daha küçük dosyalara bölünür.</string>
+  <string name="tutorial05_line2">Görmek</string>
+  <string name="tutorial05_line3">örnek</string>
+  <string name="tutorial05_line4">Arşivi indirdikten sonra açmanız gerekir.</string>
+  <string name="tutorial05_line5">Nzb Leech\'in ücretli sürümü dosyaları otomatik olarak açacaktır.</string>
+  <string name="tutorial05_line6">Bu günlerde, dosyalar da yeniden adlandırılmıştır (gizlenmiştir), böylece onları bulmak için normal bir arama motorunu kullanamazsınız. Bunun üzerine daha sonra.</string>
+  <string name="tutorial06_heading">Dosyalar</string>
+  <string name="tutorial06_line1">Bazen indirmeye başlar ve indirme işleminin başarısız olduğunu veya eksik olduğunu fark edersiniz.</string>
+  <string name="tutorial06_line2">Bunun nedeni, sunucuda depolanan dosyaların kaldırılmış veya kaybolmuş olmasıdır.</string>
+  <string name="tutorial06_line3">Nzb Sülük, bir dosyayı indirirken Nzb sekmesinde kırmızı görüntüleyerek bir sorun olduğunu gösterir.</string>
+  <string name="tutorial07_heading">Eksik Dosyalar</string>
+  <string name="tutorial07_line1">Bir dosyanın herhangi bir bölümü eksikse, dosyayı onaramazsanız, dosyayı açamaz ya da açamazsınız.</string>
+  <string name="tutorial07_line2">Neyse ki, çoğu dosya da eksik dosyaları onarmak için kullanabileceğiniz .par2 ile biten ek dosyalarla birlikte gelir.</string>
+  <string name="tutorial07_line3">Bu, çok fazla eksik dosya olmadığı sürece çalışır. Çok fazla dosya eksikse, par2 dosyalarını kullanarak kurtarma yapılamaz.</string>
+  <string name="tutorial07_line4">Nzb Leech\'in ücretli sürümü otomatik olarak dosyaları doğrular ve onarır</string>
+  <string name="tutorial08_heading">Nzb Dosyaları</string>
+  <string name="tutorial08_line1">Nzb dosyası, Nzb Sülük\'e hangi dosyaların bir usenet sunucusundan indirileceğini söyleyen bir dizin gibidir.</string>
+  <string name="tutorial08_line2">Nzb Leech\'te bir nzb dosyası açarak içeriği usenet sunucusundan bulabilir ve indirebilirsiniz.</string>
+  <string name="tutorial08_line3">Tüm dosyaları indirdikten sonra nzb gerekli değildir ve silinebilir.</string>
+  <string name="tutorial09_heading">Nzb Dosyaları nerede bulunur?</string>
+  <string name="tutorial09_line1">Nzb arama motorları tüm useneti arayacak ve aramanızla eşleşen bir nzb dosyası döndürecektir. Ancak, dosyalar genellikle saçmalık olarak yeniden adlandırılmıştır, bu nedenle aradığınızı bulamayacaksınız. Bir sonraki sayfada daha iyi siteler tartışacağım.</string>
+  <string name="tutorial09_line2">Yine de, bu siteler bazen yararlı olabilir ve bir kaçı Nzb Sülük\'e entegre edilmiştir ve Ara sekmesinden erişilebilir.</string>
+  <string name="tutorial09_line3">İpucu: Eksik dosyalar almanız ve onarmanız gerekiyorsa, par2 kurtarma dosyalarını içeren nzb dosyalarını arayın.</string>
+  <string name="tutorial09_line4">Nzb Arama Motorları</string>
+  <string name="tutorial10_heading">Nzb Dosyaları nerede bulunur?</string>
+  <string name="tutorial10_line1">En iyi yer topluluk odaklı nzb dizin siteleridir. Bu siteler dosyaları ayrıştırır, indirir ve sınıflandırır, böylece arama çok daha iyi çalışır.</string>
+  <string name="tutorial10_line2">Fazladan iş nedeniyle bu sitelerin çoğu ödeme gerektiriyor, ancak bazı ücretsiz siteler var.</string>
+  <string name="tutorial10_line3">Ücretsiz siteler genellikle yapabileceğiniz aramaların sayısını veya indirebileceğiniz nzb dosyalarının sayısını sınırlar.</string>
+  <string name="tutorial10_line4">Birkaç Nzb Dizin Siteleri. Daha fazlası için Google</string>
+  <string name="tutorial11_heading">Teşekkürler</string>
+  <string name="tutorial11_line1">Bu kadar.</string>
+  <string name="tutorial11_line2">Öğrenmesi gereken çok şey var, ancak bir kez temellerini öğrendiğinizde, usenet olmadan nasıl yaşadığınızı merak edeceksiniz.</string>
+  <string name="tutorial11_line3">Bu eğiticiye her zaman seçenekler menüsünden erişebilirsiniz.</string>
+  <string name="tutorial11_line4">Teşekkürler ve mutlu indirme!</string>
+  <string name="tutorial_nav_previous">Önceki</string>
+  <string name="tutorial_nav_next">Sonraki</string>
+</resources>

@@ -1,0 +1,363 @@
+<resources>
+
+  <string name="preferences">Налаштування</string>
+  <string name="download_service">Служба завантаження</string>
+
+  
+  <string name="options_menu_settings">Налаштування</string>
+  <string name="options_menu_quit">Вийти</string>
+  <string name="options_menu_pause">Пауза</string>
+  <string name="options_menu_resume">Резюме</string>
+  <string name="options_menu_rate">Оцінити</string>
+  <string name="options_menu_about">Про</string>
+  <string name="options_menu_help">Довідка</string>
+  <string name="options_menu_donate">Пожертвувати</string>
+  <string name="options_menu_start_nzb_monitor">Початок Nzb Монітор</string>
+  <string name="options_menu_nzb_tutorial">Підручник Nzb</string>
+  <string name="options_menu_usenet_servers">Сервери Usenet</string>
+
+  <string name="verifying">Перевірка</string>
+  <string name="verified">Всі файли OK!</string>
+  <string name="neededToRepair">потрібні блоки</string>
+  <string name="youNeed">Тобі потрібно</string>
+  <string name="thereAre">Існує</string>
+  <string name="repairing">Ремонт:</string>
+  <string name="dialog_quitConfirm">Вихід буде скасувати будь-які завантаження, продовжити?</string>
+  <string name="yes">Так</string>
+  <string name="no">Ні</string>
+  <string name="access_sdcard_error">Помилка: неможливо отримати доступ до місця зберігання, вимкнено програму. Щоб дозволити завантаження, в повідомленні про з\'єднання USB не виберіть "USB mass storage".</string>
+  <string name="toast_download_finished">Завантаження завершено</string>
+  <string name="status_finished">Готово</string>
+  <string name="trial_expired">Випробування закінчилося, вимкнувши функції преміум-класу. Пожертвуйте, щоб дозволити додаткові функції.</string>
+  <string name="context_title_load_nzb_file">Завантажте файл NZB</string>
+  <string name="toast_no_nzb_files_found_in_">Не знайдено файлів NZB</string>
+  <string name="no_nzbs_found_">Не знайдено жодних NZB</string>
+  <string name="not_enough_space_to_download_need_">Не вистачає місця для завантаження, потрібно</string>
+  <string name="mb_of_free_space">вільного простору</string>
+
+  <string name="search_category_prompt">Виберіть категорію</string>
+
+  <string name="detailedTitleLabel">Назва:</string>
+  <string name="detailedPostedLabel">Опубліковано:</string>
+  <string name="detailedSizeLabel">Розмір:</string>
+  <string name="detailedCategoryLabel">Категорія:</string>
+  <string name="nzbMatrixURLLabel">URL-адреса:</string>
+  <string name="search">Пошук</string>
+  <string name="back">Назад</string>
+  <string name="download">Завантажити</string>
+  <string name="downloading">Завантажити…</string>
+  <string name="downloaded">Nzb завантажено</string>
+  <string name="startDownloading">Почати завантаження?</string>
+  <string name="details">Деталі</string>
+  <string name="noSearchString">Надайте пошуковий термін</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>Все</item>
+    <item>Аудіо: все</item>
+    <item>Audio: MP3</item>
+    <item>Аудіо: FLAC</item>
+    <item>Телевізор</item>
+    <item>ТБ: SD</item>
+    <item>Телевізор: HD</item>
+    <item>ТБ: Спорт / Ен</item>
+    <item>Фільми</item>
+    <item>Фільми: SD</item>
+    <item>Фільми: HD</item>
+    <item>Електронні книги</item>
+    <item>Аудіо книги</item>
+    <item>Комікси</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Неправильний формат адреси сайту</string>
+
+
+  <string name="eula_title">Ліцензійна угода кінцевого користувача</string>
+  <string name="eula_accept">Я приймаю</string>
+  <string name="eula_refuse">Я відмовляюся</string>
+  <string name="OK">в порядку</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Ця функція є пробним і закінчилася. Подумайте про пожертвування для підтримки поточних зусиль з розвитку.</string>
+  <string name="Donate">Пожертвувати</string>
+  <string name="Later">Пізніше</string>
+
+  
+  <string name="pref_disable_acra">Автоматичне звітування про помилки</string>
+  <string name="pref_acra_disabled">Помилки не надсилаються розробнику. Розглянемо можливість включення цього, щоб помилки могли бути надіслані розробнику, і дефекти можуть бути вирішені</string>
+  <string name="pref_acra_enabled">Помилки, які автоматично надсилаються розробнику, дозволяють швидко виправляти помилки</string>
+
+  <string name="statusbar_paused">Призупинено</string>
+
+  <string name="testConnectionFailureHelp">Перевірте підключення до Інтернету та налаштування сервера. Для активації нових облікових записів сервера може знадобитися до 30 хвилин</string>
+
+  
+  <string name="app_name">За ремонтом</string>
+  <string name="for_details_">для деталей.</string>
+  <string name="repairing_">Ремонт:</string>
+  <string name="scanning_">Сканування:</string>
+  <string name="loading_">Завантаження:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">Виняток надсилання повідомлення</string>
+  <string name="ok">в порядку</string>
+  <string name="file">файл</string>
+  <string name="Rate">Перейти!</string>
+  <string name="NO">Ні</string>
+  <string name="Rate_Nzb_Leech">Оцінити Nzb Leech</string>
+  <string name="if_you_like_the_app_let_me_know">Якщо вам подобається моя програма, оцініть її. Коментарі корисні, але необов\'язкові.</string>
+  <string name="AdditionalDetail">Додаткова деталь:</string>
+  <string name="monitoringForNzbFiles">Контроль за nzb файлами.</string>
+  <string name="title_activity_settings">Налаштування</string>
+  <string name="file_status_downloading">Завантаження</string>
+  <string name="file_status_incomplete">Неповна</string>
+  <string name="file_status_decoding">Декодування</string>
+  <string name="tutorial_done">Виконано</string>
+  <string name="file_status_queued">У черзі</string>
+  <string name="file_status_paused">Призупинено</string>
+
+  <string name="nzb_tab_press_and_hold">Натисніть і утримуйте, щоб завантажити nzb</string>
+
+  
+  <string name="server_providers_list_heading">Деякі з найвідоміших і найпопулярніших провайдерів usenet:</string>
+  <string name="server_providers_list_ok">в порядку</string>
+
+  
+  <string name="buy_options_unlock_all_features">Розблокуйте всі функції, придбавши невеликий, середній або великий пункт пожертвування. Або всі три!</string>
+  <string name="buy_options_small_donation">Невелике пожертвування</string>
+  <string name="buy_options_medium_donation">Середнє пожертвування</string>
+  <string name="buy_options_large_donation">Великі пожертвування</string>
+  <string name="buy_options_footer">Nzb Leech був випущений в грудні 2011 року, і я все ще надаю оновлення. Я б давно відмовився від цього проекту, якби не всі донори, дякую!</string>
+
+  
+  <string name="first_time_screen_line1">Нове в usenet?</string>
+  <string name="first_time_screen_start_here">Починай тут</string>
+  <string name="first_time_screen_line2">Або додайте сервер</string>
+  <string name="first_time_screen_settings">Налаштування</string>
+  <string name="first_time_screen_line3">і почати завантаження!</string>
+  <string name="first_time_screen_line4">Потрібен сервер?</string>
+  <string name="first_time_screen_line5">Дивіться тут</string>
+
+  
+  <string name="search_config_type_site">Тип сайту</string>
+  <string name="search_configure_name">Ім\'я</string>
+  <string name="search_configure_name_hint">Введіть назву для цього сайту</string>
+  <string name="search_configure_api_address">Адреса API</string>
+  <string name="search_configure_api_key">Ключ API</string>
+  <string name="search_configure_api_key_hint">Введіть наданий вам ключ API</string>
+  <string name="search_configure_cancel">Скасувати</string>
+  <string name="search_configure_help">Довідка</string>
+  <string name="search_configure_save">Зберегти</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Завантажте Nzb</string>
+  <string name="tv_nzb_tab_settings">Налаштування</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Початок Nzb Монітор</string>
+  <string name="tv_nzb_tab_exit">Вхід</string>
+  <string name="tv_nzb_tab_load_instructions">Завантажте nzb з вкладки пошуку або файлу</string>
+
+  
+  <string name="server_1_enable_server">Увімкнути сервер 1</string>
+  <string name="server_priority_summary">Nzb Leech спочатку завантажиться з основних серверів. Якщо частина на первинному сервері відсутня, вона спробує виконати перший сервер резервного копіювання. Якщо ще не знайдено, спробуйте другий сервер резервного копіювання, потім третій і т.д.</string>
+  <string name="server_2_enable_server">Увімкнути сервер 2</string>
+  <string name="server_3_enable_server">Увімкнути сервер 3</string>
+  <string name="server_4_enable_server">Увімкнути сервер 4</string>
+  <string name="server_5_enable_server">Увімкнути сервер 5</string>
+  <string name="server_6_enable_server">Увімкнути сервер 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Основний сервер</item>
+    <item>Перший сервер резервного копіювання</item>
+    <item>Другий сервер резервного копіювання</item>
+    <item>Третій сервер резервного копіювання</item>
+    <item>Четвертий сервер резервного копіювання</item>
+    <item>П\'ятий сервер резервного копіювання</item>
+  </string-array>
+
+  <string name="server_connection_settings">Установки з\'єднання</string>
+  <string name="server_settings">Параметри сервера</string>
+  <string name="server_1">Сервер 1</string>
+  <string name="server_2">Сервер 2</string>
+  <string name="server_3">Сервер 3</string>
+  <string name="server_4">Сервер 4</string>
+  <string name="server_5">Сервер 5</string>
+  <string name="server_6">Сервер 6</string>
+  <string name="server_priority">Пріоритет сервера</string>
+  <string name="server_address_hint">Сервер для підключення</string>
+  <string name="server_address">Адреса сервера</string>
+  <string name="server_port">Порт сервера</string>
+  <string name="server_summary">Зверніться до свого постачальника. напр. Не SSL: 119, 23 SSL: 443, 563 тощо</string>
+  <string name="server_ssl_summary_off">SSL вимкнено</string>
+  <string name="server_ssl_summary_on">SSL увімкнено. SSL вимагає різних портів</string>
+  <string name="server_ssl">Увімкнути SSL</string>
+  <string name="server_connections">Кількість підключень</string>
+  <string name="server_connections_summary">Скільки підключень використовувати. Більш ніж 20 можуть зробити це повільніше</string>
+  <string name="server_1_auth_summary">Якщо потрібно вказати ім\'я користувача / пароль</string>
+  <string name="server_auth">Потрібна автентифікація</string>
+  <string name="server_username">Ім\'я користувача</string>
+  <string name="server_username_summary">Ім\'я користувача</string>
+  <string name="server_password_summary">Пароль</string>
+  <string name="server_password">Пароль</string>
+  <string name="server_test_connection">Перевірити з\'єднання</string>
+  <string name="server_test_connection_summary">Перевірте підключення сервера</string>
+
+  
+  <string name="nzb_leech_settings_title">Nzb Leech Налаштування</string>
+  <string name="general_settings_title">Загальні налаштування</string>
+  <string name="general_nzb_download_dir">Завантажити каталог</string>
+  <string name="general_nzb_download_dir_summary">Там, де зберігаються завантажені файли</string>
+  <string name="general_nzb_directory">Каталог NZB</string>
+  <string name="general_nzb_directory_summary">Де можна отримати файли NZB, щоб показувати їх у меню вибору</string>
+  <string name="general_skip_par2">Пропустити файли par2</string>
+  <string name="general_skip_par2_summary_on">Не буде завантажено файли par2</string>
+  <string name="general_skip_par2_summary_off">Завантажить файли par2</string>
+  <string name="general_additional_title">Nzb Leech Додаткові параметри</string>
+  <string name="additional_verify_repair_title">Перевірте або відновіть</string>
+  <string name="additional_verify_repair_summary_on">Підтвердження та відновлення файлів увімкнено</string>
+  <string name="additional_verify_repair_summary_off">Не перевірятимуть і не виправлятимуть файли</string>
+  <string name="additional_extract_automatically_title">Автоматичне вилучення файлів</string>
+  <string name="additional_extract_automatically_summary_on">Буде витягувати RAR архіви автоматично після завантаження</string>
+  <string name="additional_extract_automatically_summary_off">Не буде автоматично витягувати архіви після завантаження</string>
+  <string name="additional_delete_archives_title">Видалити архівні файли</string>
+  <string name="additional_delete_archives_summary_on">Після видалення буде видалено файли архіву</string>
+  <string name="additional_delete_archives_summary_off">Після видалення файли архіву не видаляються</string>
+  <string name="additional_queue_nzbs_title">Черга Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Далі nzb буде автоматично завантажено з папки черги</string>
+  <string name="additional_queue_nzbs_summary_off">Завантажте nzbs автоматично з папки черги</string>
+  <string name="additional_queue_folder_title">Папка черги NZB</string>
+  <string name="additional_queue_nzbs_summary">Де взяти наступний nzb файл для завантаження. Nzb файл буде видалено при успішному завантаженні</string>
+
+  
+  <string name="nzb_monitor_title">Налаштування монітора</string>
+  <string name="nzb_monitor_summary">Налаштування тільки для nzb-монітора. Запустіть nzb монітор з головного меню.</string>
+  <string name="nzb_monitor_enable_title">Монітор nzb каталог</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Каталог сканування</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Інтервал сканування каталогу Nzb (за хвилини)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Як часто Nzb каталог сканується для нових файлів nzb.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS канал</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS канал</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS канал</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS канал</string>
+  <string name="nzb_monitor_rss_enable">Монітор RSS-каналу для нових файлів nzb</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS Інтервал сканування</string>
+  <string name="nzb_monitor_rss_interval_summary">Як часто (у хвилинах) RSS-канал сканується для завантаження нових файлів nzb.</string>
+  <string name="nzb_monitor_rss_url">URL RSS-каналу</string>
+  <string name="nzb_monitor_rss_url_summary">необхідно використовувати https: //, а не http: // на Android 8 або вище</string>
+
+  
+  <string name="sd_card_settings_title">Параметри зовнішньої карти SD</string>
+  <string name="sd_card_top_level_enable">Перемістити завантаження до папки верхнього рівня</string>
+  <string name="sd_card_top_level_enable_summary">Файли будуть переміщені до / sd-card-path / nzb-leech після завантаження для кращого досвіду (наприклад, музичні та відеопрогравачі переглядають нові файли). Неможливо перейти з внутрішньої на зовнішню SD-карту (тільки зовнішня на зовнішню). Переміщення займає деякий час. Може не працювати на всіх пристроях.</string>
+  <string name="sd_card_test_root_write">Тест Запишіть на кореневу зовнішню карту SD</string>
+  <string name="sd_card_detect_private_folder">Визначення шляху обмеженої зовнішньої SD-карти</string>
+  <string name="sd_card_detect_private_folder_summary">Таким чином ви можете скопіювати та вставити в налаштуваннях</string>
+
+  
+  <string name="advanced_screen_title">Розширені налаштування</string>
+  <string name="advanced_screen_summary">ПОПЕРЕДЖЕННЯ: ТІЛЬКИ РОЗШИРЕНИХ КОРИСТУВАЧІВ. Продовжуйте уважно.</string>
+  <string name="advanced_article_cache">Кеш статті</string>
+  <string name="advanced_article_cache_summary">Скільки МБ виділити для зберігання тимчасових файлів в основній пам\'яті, тим самим зменшуючи дискові операції. Рекомендуйте 60 Мб (якщо у вас достатньо пам\'яті)</string>
+  <string name="advanced_cache_dir">Каталог кешу</string>
+  <string name="advanced_cache_dir_summary">Папка, в якій збережено статті, коли кеш статей заповнюється</string>
+  <string name="advanced_data_skipping">Дані не пропускаються</string>
+  <string name="advanced_data_skipping_summary">Пошук погано розташованих блоків даних. Триваліше перевірка / ремонт, але МОЖУ відремонтувати більше файлів, ніж без цієї настройки. Але якщо цей параметр увімкнено, процес перевірки / відновлення може зависати від шкідливих файлів par2</string>
+  <string name="advanced_smart_repair">Смарт-ремонт</string>
+  <string name="advanced_smart_repair_summary_on">Розрахувати і завантажити мінімальну кількість файлів par2 перед початком ремонту. Якщо файли par2, необхідні для ремонту, більше, ніж доступні, файли par2 не завантажуються і ремонт не виконується.</string>
+  <string name="advanced_smart_repair_summary_off">Перед завантаженням етапу перевірки / відновлення буде завантажено всі файли par2.</string>
+  <string name="advanced_thread_priority">Завантажити пріоритет теми</string>
+  <string name="advanced_thread_priority_summary">Максимум може призвести до затримки Android під час завантаження</string>
+
+  <string name="settings_download_speed">Швидкість завантаження</string>
+
+  
+  <string name="load_nzb_not_found">Не знайдено файлів NZB!</string>
+  <string name="connection_error_server_reply_code">Код відповіді сервера</string>
+  <string name="connections_server_reply">Відповідь сервера</string>
+  <string name="connection_error_details">Деталі</string>
+  <string name="detect_sd_not_detected">Хм, SD-карта не виявлена.</string>
+  <string name="detect_sd_card_path">Зовнішній шлях до SD-карти</string>
+  <string name="detect_sd_limitation">Зверніть увагу на наступні обмеження для цього шляху: Усі файли в цьому каталозі видаляються при видаленні програми. А сканер для мультимедіа не знаходить жодних файлів у цьому каталозі, тому програми для музики та відео не бачать ваших медіа.</string>
+  <string name="detect_sd_link_message">Для встановлення зовнішньої карти SD див</string>
+  <string name="detect_sd_test_failed">не вдалося записати на sd карту</string>
+  <string name="detect_sd_test_select_move">Виберіть варіант переміщення для завантаження вище</string>
+  <string name="detect_sd_test_success">Успішно написано</string>
+  <string name="article_cache_warning">ПОПЕРЕДЖЕННЯ: додаток зірветься, якщо загальна пам\'ять (додаток кешу статті) перевищує</string>
+  <string name="article_cache_20mb">Кеш статей потребує принаймні 20 МБ</string>
+  <string name="sd_card_copy_path">Копіювати в буфер обміну</string>
+  <string name="error">Помилка</string>
+  <string name="success">Успіх</string>
+  <string name="connection_test_success">Успішно під’єднано до</string>
+  <string name="sd_card_path_detected">Виявлено можливий зовнішній шлях SD-карти</string>
+  <string name="read_write_error">Неможливо прочитати або записати в обраний каталог.</string>
+  <string name="sd_card_help_message">Для встановлення зовнішньої карти SD див</string>
+  <string name="invalid_value">Недійсне значення</string>
+  <string name="invalid_number">Недійсний номер</string>
+  <string name="connecting">Підключення</string>
+  <string name="press_back_to_cancel">Натисніть назад, щоб скасувати</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Спробуйте завантажити nzb за допомогою Chrome. Або напишіть файл nzb на przemeknzb@gmail.com, щоб дослідити</string>
+  <string name="corrupt_nzb">Пошкоджений nzb</string>
+  <string name="nzb_nothing_to_download">не містить нічого для завантаження</string>
+
+  
+  <string name="tutorial_dialog_heading">Файл video.avi розділений на купу файлів у usenet:</string>
+  <string name="tutorial_dialog_ok">в порядку</string>
+  <string name="tutorial_01_title">Почніть завантаження в 3 етапи</string>
+  <string name="tutorial01_step_1">1. Отримайте обліковий запис сервера usenet</string>
+  <string name="tutorial01_step_2">2. Додайте сервер до Nzb Leech</string>
+  <string name="tutorial01_step_3">3. Пошук файлів і почати завантаження!</string>
+  <string name="tutorial01_footer">Перейдіть на наступну сторінку, щоб дізнатися, як!</string>
+  <string name="tutorial02_heading">Сервери Usenet</string>
+  <string name="tutorial02_line1">Nzb Leech завантажує файли з вказаного сервера usenet</string>
+  <string name="tutorial02_line2">Сервери Usenet дозволяють дуже швидко завантажувати і коштувати від $ 10 - $ 15 на місяць</string>
+  <string name="tutorial02_line3">Вони мають вільні випробування</string>
+  <string name="tutorial02_list_servers_link">Список серверів usenet</string>
+  <string name="tutorial03_heading">Сервери Usenet</string>
+  <string name="tutorial03_line1">Після підписки на обліковий запис usenet ви отримаєте</string>
+  <string name="tutorial03_line2">• адреса сервера</string>
+  <string name="tutorial03_line3">• ім\'я користувача</string>
+  <string name="tutorial03_line4">• пароль</string>
+  <string name="tutorial03_line5">• номер порту</string>
+  <string name="tutorial03_line6">Введіть ці значення в</string>
+  <string name="tutorial03_settings_link">Налаштування</string>
+  <string name="tutorial04_heading">Сервери Usenet</string>
+  <string name="tutorial04_line1">Тепер ви готові до завантаження! Шукайте файли на вкладці Пошук</string>
+  <string name="tutorial04_line2">Це основи, але продовжуйте читати, щоб дізнатися корисні поради на наступній сторінці</string>
+  <string name="tutorial05_heading">Файли</string>
+  <string name="tutorial05_line1">Файли в usenet стискаються і розділяються на багато менших файлів, які називаються архівами, які мають розширення .r00, r.01, r.02 або .part01.rar, .part02.rar і т.д.</string>
+  <string name="tutorial05_line2">Подивитися</string>
+  <string name="tutorial05_line3">наприклад</string>
+  <string name="tutorial05_line4">Після завантаження архівів потрібно розпакувати їх.</string>
+  <string name="tutorial05_line5">Платна версія Nzb Leech буде розпаковувати файли автоматично.</string>
+  <string name="tutorial05_line6">У ці дні файли також перейменовані (заплутані), так що ви можете використовувати звичайну пошукову систему, щоб їх знайти. Більше про це пізніше.</string>
+  <string name="tutorial06_heading">Файли</string>
+  <string name="tutorial06_line1">Іноді ви починаєте завантажувати та помічати, що завантаження не вдалося або не завершено.</string>
+  <string name="tutorial06_line2">Це відбувається тому, що файли, збережені на сервері, були видалені або втрачені.</string>
+  <string name="tutorial06_line3">Nzb Leech вказує на проблему завантаження файлу, відображаючи його червоним кольором на вкладці Nzb.</string>
+  <string name="tutorial07_heading">Неповні файли</string>
+  <string name="tutorial07_line1">Якщо будь-які частини файлу є неповними, ви не зможете розпакувати або відкрити файл, якщо ви не зможете його відновити.</string>
+  <string name="tutorial07_line2">На щастя, більшість файлів також постачаються з додатковими файлами, які закінчуються на .par2, які можна використовувати для відновлення неповних файлів.</string>
+  <string name="tutorial07_line3">Це працює до тих пір, поки ви не маєте занадто багато неповних файлів. Відновлення з використанням файлів par2 неможливе, якщо надто багато файлів є неповними.</string>
+  <string name="tutorial07_line4">Платна версія Nzb Leech автоматично перевіряє та ремонтує файли</string>
+  <string name="tutorial08_heading">Nzb Файли</string>
+  <string name="tutorial08_line1">Nzb-файл подібний до індексу, який повідомляє Nzb Leech, які файли потрібно завантажити з сервера usenet.</string>
+  <string name="tutorial08_line2">Ви відкриваєте файл nzb в Nzb Leech, щоб він міг знайти і завантажити вміст з сервера usenet.</string>
+  <string name="tutorial08_line3">Після завантаження всіх файлів nzb не потрібно і його можна видалити.</string>
+  <string name="tutorial09_heading">Де знайти Nzb Файли?</string>
+  <string name="tutorial09_line1">Пошукові системи Nzb шукатимуть весь usenet і повертають файл nzb, що відповідає вашому пошуку. Проте файли, як правило, перейменовані на нонсенс, тому ви не знайдете того, що шукаєте. Я буду обговорювати кращі сайти на наступній сторінці.</string>
+  <string name="tutorial09_line2">Тим не менш, ці сайти іноді корисні і деякі з них інтегровані в Nzb Leech і можуть бути доступні на вкладці Пошук.</string>
+  <string name="tutorial09_line3">Порада: знайдіть nzb-файли, які містять файли відновлення par2, у випадку, якщо ви отримаєте неповні файли та потребуєте відновлення</string>
+  <string name="tutorial09_line4">Nzb Пошукові машини</string>
+  <string name="tutorial10_heading">Де знайти Nzb Файли?</string>
+  <string name="tutorial10_line1">Найкраще місце - це сайти індексів, що керуються спільнотою. Ці сайти аналізують, завантажують і класифікують файли, так що пошук працює набагато краще.</string>
+  <string name="tutorial10_line2">Через додаткову роботу багато цих сайтів вимагають оплати, але є кілька безкоштовних сайтів.</string>
+  <string name="tutorial10_line3">Безкоштовні сайти зазвичай мають обмеження на кількість пошуків, які ви можете зробити, або кількість файлів nzb, які можна завантажити.</string>
+  <string name="tutorial10_line4">Деякі сайти індексу Nzb. Google для більш</string>
+  <string name="tutorial11_heading">Дякую</string>
+  <string name="tutorial11_line1">Ось це.</string>
+  <string name="tutorial11_line2">Багато вчитися, але як тільки ви дізнаєтеся основи, ви будете дивуватися, як ви коли-небудь жили без usenet.</string>
+  <string name="tutorial11_line3">Ви завжди можете отримати доступ до цього підручника з меню параметрів.</string>
+  <string name="tutorial11_line4">Спасибі та щасливе завантаження!</string>
+  <string name="tutorial_nav_previous">Попередній</string>
+  <string name="tutorial_nav_next">Далі</string>
+
+</resources>

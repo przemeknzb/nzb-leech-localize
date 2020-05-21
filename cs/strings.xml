@@ -1,0 +1,363 @@
+<resources>
+
+<string name="preferences">Nastavení</string>
+  <string name="download_service">Služba stahování</string>
+
+  
+  <string name="options_menu_settings">Nastavení</string>
+  <string name="options_menu_quit">Přestat</string>
+  <string name="options_menu_pause">Pauza</string>
+  <string name="options_menu_resume">Životopis</string>
+  <string name="options_menu_rate">Hodnotit</string>
+  <string name="options_menu_about">O</string>
+  <string name="options_menu_help">Pomoc</string>
+  <string name="options_menu_donate">Darovat</string>
+  <string name="options_menu_start_nzb_monitor">Spusťte aplikaci Nzb Monitor</string>
+  <string name="options_menu_nzb_tutorial">Výukový program Nzb</string>
+  <string name="options_menu_usenet_servers">Usenet servery</string>
+
+  <string name="verifying">Ověření</string>
+  <string name="verified">Všechny soubory OK!</string>
+  <string name="neededToRepair">bloků</string>
+  <string name="youNeed">Potřebuješ</string>
+  <string name="thereAre">Existují</string>
+  <string name="repairing">Oprava:</string>
+  <string name="dialog_quitConfirm">Ukončení zruší stahování, pokračovat?</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
+  <string name="access_sdcard_error">Chyba: nelze získat přístup k úložnému prostoru, aplikace je zakázána. Chcete-li povolit stahování, vyberte v oznámení o připojení USB možnost „USB mass storage“.</string>
+  <string name="toast_download_finished">Stahování bylo dokončeno</string>
+  <string name="status_finished">Dokončeno</string>
+  <string name="trial_expired">Platnost zkušební verze vypršela. Přispějte k povolení prémiových funkcí.</string>
+  <string name="context_title_load_nzb_file">Načíst soubor NZB</string>
+  <string name="toast_no_nzb_files_found_in_">Nebyly nalezeny žádné soubory NZB</string>
+  <string name="no_nzbs_found_">Nebyly nalezeny žádné NZB</string>
+  <string name="not_enough_space_to_download_need_">Nedostatek místa ke stažení, potřeba</string>
+  <string name="mb_of_free_space">volného místa</string>
+
+  <string name="search_category_prompt">Zvolte kategorii</string>
+
+  <string name="detailedTitleLabel">Titul:</string>
+  <string name="detailedPostedLabel">Vyslán:</string>
+  <string name="detailedSizeLabel">Velikost:</string>
+  <string name="detailedCategoryLabel">Kategorie:</string>
+  <string name="nzbMatrixURLLabel">Adresa URL:</string>
+  <string name="search">Vyhledávání</string>
+  <string name="back">Zadní</string>
+  <string name="download">Stažení</string>
+  <string name="downloading">Stažení…</string>
+  <string name="downloaded">Nzb stáhl</string>
+  <string name="startDownloading">Začněte stahovat?</string>
+  <string name="details">Podrobnosti</string>
+  <string name="noSearchString">Zadejte hledaný výraz</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>Všechno</item>
+    <item>Audio: Vše</item>
+    <item>Audio: MP3</item>
+    <item>Audio: FLAC</item>
+    <item>televize</item>
+    <item>TV: SD</item>
+    <item>TV: HD</item>
+    <item>TV: Sport/Ent</item>
+    <item>Filmy</item>
+    <item>Filmy: SD</item>
+    <item>Filmy: HD</item>
+    <item>Elektronické knihy</item>
+    <item>Zvukové knihy</item>
+    <item>Komiks</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Chybný formát adresy webu</string>
+
+
+  <string name="eula_title">Licenční smlouva s koncovým uživatelem</string>
+  <string name="eula_accept">Přijímám</string>
+  <string name="eula_refuse">Odmítám</string>
+  <string name="OK">OK</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Tato funkce je zkušební a vypršela. Zvažte darování na podporu probíhajícího vývoje.</string>
+  <string name="Donate">Darovat</string>
+  <string name="Later">Později</string>
+
+  
+  <string name="pref_disable_acra">Automatické hlášení chyb</string>
+  <string name="pref_acra_disabled">Chyby nejsou odesílány vývojáři. Zvažte, zda je to možné, takže chyby mohou být zaslány vývojáři a chyby mohou být vyřešeny</string>
+  <string name="pref_acra_enabled">Chyby automaticky odeslané vývojáři, takže závady lze rychle opravit</string>
+
+  <string name="statusbar_paused">Pozastaveno</string>
+
+  <string name="testConnectionFailureHelp">Zkontrolujte připojení k internetu a nastavení serveru. Aktivace nových účtů na serveru může trvat až 30 minut</string>
+
+  
+  <string name="app_name">Opravte</string>
+  <string name="for_details_">pro detaily.</string>
+  <string name="repairing_">Oprava:</string>
+  <string name="scanning_">Snímání:</string>
+  <string name="loading_">Načítání:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">Výjimka odesílání zprávy</string>
+  <string name="ok">OK</string>
+  <string name="file">soubor</string>
+  <string name="Rate">Go Rate!</string>
+  <string name="NO">Ne</string>
+  <string name="Rate_Nzb_Leech">Rychlost Nzb Leech</string>
+  <string name="if_you_like_the_app_let_me_know">Pokud se vám líbí moje aplikace, prosím, hodnotit. Komentáře jsou užitečné, ale volitelné.</string>
+  <string name="AdditionalDetail">Další podrobnosti:</string>
+  <string name="monitoringForNzbFiles">Monitorování souborů nzb ..</string>
+  <string name="title_activity_settings">Nastavení</string>
+  <string name="file_status_downloading">Stahování</string>
+  <string name="file_status_incomplete">Neúplný</string>
+  <string name="file_status_decoding">Dekódování</string>
+  <string name="tutorial_done">Hotovo</string>
+  <string name="file_status_queued">Ve frontě</string>
+  <string name="file_status_paused">Pozastaveno</string>
+
+  <string name="nzb_tab_press_and_hold">Stiskněte a podržte pro načtení nzb</string>
+
+  
+  <string name="server_providers_list_heading">Někteří z nejznámějších a nejpopulárnějších poskytovatelů usenet:</string>
+  <string name="server_providers_list_ok">OK</string>
+
+  
+  <string name="buy_options_unlock_all_features">Odemkněte všechny funkce zakoupením malé, střední nebo velké položky daru. Nebo všechny tři!</string>
+  <string name="buy_options_small_donation">Malý dar</string>
+  <string name="buy_options_medium_donation">Střední dar</string>
+  <string name="buy_options_large_donation">Velký dar</string>
+  <string name="buy_options_footer">Nzb Leech byl propuštěn v prosinci 2011 a já stále poskytuji aktualizace. Kdyby to nebylo pro všechny dárce, byl bych tento projekt dávno opustil, děkuji!</string>
+
+  
+  <string name="first_time_screen_line1">Novinka u nás?</string>
+  <string name="first_time_screen_start_here">Začněte zde</string>
+  <string name="first_time_screen_line2">Nebo přidejte svůj server</string>
+  <string name="first_time_screen_settings">Nastavení</string>
+  <string name="first_time_screen_line3">a začít stahovat!</string>
+  <string name="first_time_screen_line4">Potřebujete server?</string>
+  <string name="first_time_screen_line5">Viz zde</string>
+
+  
+  <string name="search_config_type_site">Typ stránky</string>
+  <string name="search_configure_name">název</string>
+  <string name="search_configure_name_hint">Zadejte název tohoto webu</string>
+  <string name="search_configure_api_address">Adresa rozhraní API</string>
+  <string name="search_configure_api_key">Klíč API</string>
+  <string name="search_configure_api_key_hint">Zadejte klíč API, který jste dostali</string>
+  <string name="search_configure_cancel">zrušení</string>
+  <string name="search_configure_help">Pomoc</string>
+  <string name="search_configure_save">Uložit</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Načíst Nzb</string>
+  <string name="tv_nzb_tab_settings">Nastavení</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Spusťte aplikaci Nzb Monitor</string>
+  <string name="tv_nzb_tab_exit">Výstup</string>
+  <string name="tv_nzb_tab_load_instructions">Načíst nzb z karty hledání nebo souboru</string>
+
+  
+  <string name="server_1_enable_server">Povolit server 1</string>
+  <string name="server_priority_summary">Nzb Leech si nejdříve stáhne z primárních serverů. Pokud na primárním serveru chybí součást, zkusí provést první záložní server. Pokud ještě nebyl nalezen, zkuste druhý záložní server, pak třetí, atd.</string>
+  <string name="server_2_enable_server">Povolit server 2</string>
+  <string name="server_3_enable_server">Povolit server 3</string>
+  <string name="server_4_enable_server">Povolit server 4</string>
+  <string name="server_5_enable_server">Povolit server 5</string>
+  <string name="server_6_enable_server">Povolit server 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Primární server</item>
+    <item>První záložní server</item>
+    <item>Druhý záložní server</item>
+    <item>Třetí záložní server</item>
+    <item>Čtvrtý záložní server</item>
+    <item>Pátý záložní server</item>
+  </string-array>
+
+  <string name="server_connection_settings">Nastavení připojení</string>
+  <string name="server_settings">Nastavení serveru</string>
+  <string name="server_1">Server 1</string>
+  <string name="server_2">Server 2</string>
+  <string name="server_3">Server 3</string>
+  <string name="server_4">Server 4</string>
+  <string name="server_5">Server 5</string>
+  <string name="server_6">Server 6</string>
+  <string name="server_priority">Priorita serveru</string>
+  <string name="server_address_hint">Připojení k serveru</string>
+  <string name="server_address">Adresa serveru</string>
+  <string name="server_port">Port serveru</string>
+  <string name="server_summary">Informujte se u svého poskytovatele. např. Non-SSL: 119, 23 SSL: 443, 563, atd</string>
+  <string name="server_ssl_summary_off">SSL je zakázáno</string>
+  <string name="server_ssl_summary_on">SSL je povoleno. SSL vyžaduje jiný port</string>
+  <string name="server_ssl">Povolit protokol SSL</string>
+  <string name="server_connections">Počet připojení</string>
+  <string name="server_connections_summary">Kolik připojení použít. Více než 20 může být pomalejší</string>
+  <string name="server_1_auth_summary">Pokud potřebujete zadat uživatelské jméno / heslo</string>
+  <string name="server_auth">Vyžaduje ověření</string>
+  <string name="server_username">Uživatelské jméno</string>
+  <string name="server_username_summary">Uživatelské jméno</string>
+  <string name="server_password_summary">Heslo</string>
+  <string name="server_password">Heslo</string>
+  <string name="server_test_connection">Testovací připojení</string>
+  <string name="server_test_connection_summary">Otestujte připojení serveru</string>
+
+  
+  <string name="nzb_leech_settings_title">Nastavení Nzb Leech</string>
+  <string name="general_settings_title">Obecné nastavení</string>
+  <string name="general_nzb_download_dir">NZB Stáhnout adresář</string>
+  <string name="general_nzb_download_dir_summary">Kde jsou stažené soubory uloženy</string>
+  <string name="general_nzb_directory">Adresář NZB</string>
+  <string name="general_nzb_directory_summary">Kde získat NZB soubory z do show ve výběrovém menu</string>
+  <string name="general_skip_par2">Přeskočit soubory par2</string>
+  <string name="general_skip_par2_summary_on">Nebudou stahovat soubory par2</string>
+  <string name="general_skip_par2_summary_off">Stažení souborů par2</string>
+  <string name="general_additional_title">Nzb Leech Další nastavení</string>
+  <string name="additional_verify_repair_title">Par Ověření / Oprava</string>
+  <string name="additional_verify_repair_summary_on">Ověřené a opravené soubory povoleny</string>
+  <string name="additional_verify_repair_summary_off">Nebudou ověřovat a opravovat soubory</string>
+  <string name="additional_extract_automatically_title">Automaticky extrahovat soubory</string>
+  <string name="additional_extract_automatically_summary_on">Extrahuje rar archivy automaticky po stažení</string>
+  <string name="additional_extract_automatically_summary_off">Nebude automaticky extrahovat rar archivy po stažení</string>
+  <string name="additional_delete_archives_title">Smazat archivační soubory</string>
+  <string name="additional_delete_archives_summary_on">Po extrakci odstraní archivní soubory</string>
+  <string name="additional_delete_archives_summary_off">Po extrakci nevymaže archivní soubory</string>
+  <string name="additional_queue_nzbs_title">Fronta Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Další nzb bude automaticky stažen ze složky fronty</string>
+  <string name="additional_queue_nzbs_summary_off">Automaticky stahovat nzbs ze složky fronty</string>
+  <string name="additional_queue_folder_title">Složka fronty NZB</string>
+  <string name="additional_queue_nzbs_summary">Kde získat další soubor nzb ke stažení. Soubor Nzb bude po úspěšném stažení smazán</string>
+
+  
+  <string name="nzb_monitor_title">Nzb Nastavení monitoru</string>
+  <string name="nzb_monitor_summary">Pouze nastavení pro nzb monitor. Spusťte nzb monitor z hlavního menu.</string>
+  <string name="nzb_monitor_enable_title">Sledujte nzb adresář</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Adresářové skenování</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Interval skenování adresáře Nzb (v minutách)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Jak často je Nzb adresář prohledáván na nové soubory nzb.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS Feed</string>
+  <string name="nzb_monitor_rss_enable">Monitor RSS pro nové soubory nzb</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS Intervaly vyhledávání</string>
+  <string name="nzb_monitor_rss_interval_summary">Jak často (v minutách) je RSS zdroj prohledáván na nové soubory nzb ke stažení.</string>
+  <string name="nzb_monitor_rss_url">Adresa URL kanálu RSS</string>
+  <string name="nzb_monitor_rss_url_summary">musí používat protokol https: // a nikoli protokol http: // v systému Android 8 nebo vyšší</string>
+
+  
+  <string name="sd_card_settings_title">Externí nastavení SD karty</string>
+  <string name="sd_card_top_level_enable">Přesunout stahování do složky nejvyšší úrovně</string>
+  <string name="sd_card_top_level_enable_summary">Soubory se po stažení stáhnou do adresáře \'/ sd-card-path / nzb-leech \'(např. Hudební / video přehrávače vidí nové soubory). Nelze přejít z interní na externí SD kartu (pouze externí na externí). Přesunutí chvíli trvá. Nemusí fungovat na všech zařízeních.</string>
+  <string name="sd_card_test_root_write">Testujte zapisování na externí externí kartu SD</string>
+  <string name="sd_card_detect_private_folder">Detekce cesty s omezenou externí kartou SD</string>
+  <string name="sd_card_detect_private_folder_summary">Můžete tak kopírovat a vkládat do nastavení</string>
+
+  
+  <string name="advanced_screen_title">Pokročilé nastavení</string>
+  <string name="advanced_screen_summary">VAROVÁNÍ: POUZE POKROČILÉ UŽIVATELE. Postupujte opatrně.</string>
+  <string name="advanced_article_cache">Článek Mezipaměť</string>
+  <string name="advanced_article_cache_summary">Kolik MB přidělit k ukládání dočasných souborů v hlavní paměti, čímž se sníží operace disku. Doporučit 60 MB (pokud máte dostatek paměti)</string>
+  <string name="advanced_cache_dir">Cache Directory</string>
+  <string name="advanced_cache_dir_summary">Složka, ve které se články ukládají, když se zaplní článek Cache</string>
+  <string name="advanced_data_skipping">Bez přeskakování dat</string>
+  <string name="advanced_data_skipping_summary">Vyhledejte špatně umístěné datové bloky. Ověření / opravu trvá déle, ale může být opraveno více souborů než bez tohoto nastavení. Povolení tohoto nastavení však ověřuje, zda proces opravy / opravy může viset se zlomyslně vytvořenými soubory par2</string>
+  <string name="advanced_smart_repair">Smart Repair</string>
+  <string name="advanced_smart_repair_summary_on">Bude počítat a stahovat minimální počet souborů par2 před pokusem o opravu. Pokud jsou soubory par2 potřebné k opravě větší než dostupné soubory, nebudou staženy žádné soubory par2 a neprovede se pokus o opravu.</string>
+  <string name="advanced_smart_repair_summary_off">Před zahájením pokusu o ověření / opravu stáhnou všechny soubory par2.</string>
+  <string name="advanced_thread_priority">Stáhnout prioritu vlákna</string>
+  <string name="advanced_thread_priority_summary">Maximum může způsobit, že Android při stahování stahuje více</string>
+
+  <string name="settings_download_speed">Rychlost stahování</string>
+
+  
+  <string name="load_nzb_not_found">Nebyly nalezeny žádné soubory NZB!</string>
+  <string name="connection_error_server_reply_code">Kód odpovědi serveru</string>
+  <string name="connections_server_reply">Zpráva odpovědi serveru</string>
+  <string name="connection_error_details">Podrobnosti</string>
+  <string name="detect_sd_not_detected">Hmm, žádná SD karta nebyla detekována.</string>
+  <string name="detect_sd_card_path">Externí cesta SD karty</string>
+  <string name="detect_sd_limitation">Všimněte si následujících omezení pro tuto cestu: Všechny soubory v tomto adresáři byly při odinstalování aplikace odstraněny. A skener médií v tomto adresáři nenajde žádné soubory, takže aplikace pro hudbu / video vaše média nevidí.</string>
+  <string name="detect_sd_link_message">Pro externí nastavení SD karty viz</string>
+  <string name="detect_sd_test_failed">nepodařilo se zapsat na SD kartu</string>
+  <string name="detect_sd_test_select_move">Vyberte prosím možnost přesunout stahování výše</string>
+  <string name="detect_sd_test_success">Úspěšně napsáno</string>
+  <string name="article_cache_warning">UPOZORNĚNÍ: Aplikace bude zhroucení, pokud je celková paměť (aplikace mezipaměti článku) větší než</string>
+  <string name="article_cache_20mb">Vyrovnávací paměť článku vyžaduje alespoň 20 MB</string>
+  <string name="sd_card_copy_path">Zkopírovat do schránky</string>
+  <string name="error">Chyba</string>
+  <string name="success">Úspěch</string>
+  <string name="connection_test_success">Úspěšně připojen</string>
+  <string name="sd_card_path_detected">Byla detekována možná externí cesta SD karty</string>
+  <string name="read_write_error">Nelze číst nebo zapisovat do vybraného adresáře.</string>
+  <string name="sd_card_help_message">Pro externí nastavení SD karty viz</string>
+  <string name="invalid_value">neplatná hodnota</string>
+  <string name="invalid_number">Neplatné číslo</string>
+  <string name="connecting">Spojovací</string>
+  <string name="press_back_to_cancel">Pro zrušení stiskněte tlačítko zpět</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Zkuste stáhnout nzb pomocí Chrome. Nebo email nzb soubor na przemeknzb@gmail.com vyšetřit</string>
+  <string name="corrupt_nzb">Poškozený nzb</string>
+  <string name="nzb_nothing_to_download">neobsahuje nic ke stažení</string>
+
+  
+  <string name="tutorial_dialog_heading">Soubor video.avi je rozdělen na spoustu souborů na webu usenet:</string>
+  <string name="tutorial_dialog_ok">OK</string>
+  <string name="tutorial_01_title">Začněte stahovat ve 3 krocích</string>
+  <string name="tutorial01_step_1">1. Získejte účet serveru usenet</string>
+  <string name="tutorial01_step_2">2. Přidejte server do Nzb Leech</string>
+  <string name="tutorial01_step_3">3. Vyhledejte soubory a začněte stahovat!</string>
+  <string name="tutorial01_footer">Pokračujte na další stránku, abyste zjistili, jak!</string>
+  <string name="tutorial02_heading">Usenet servery</string>
+  <string name="tutorial02_line1">Nzb Leech stahuje soubory ze serveru usenet, který určíte</string>
+  <string name="tutorial02_line2">Usenet servery umožňují velmi rychlé stahování a náklady od $ 10- $ 15 za měsíc</string>
+  <string name="tutorial02_line3">Mají bezplatné zkoušky</string>
+  <string name="tutorial02_list_servers_link">Seznam serverů usenet</string>
+  <string name="tutorial03_heading">Usenet servery</string>
+  <string name="tutorial03_line1">Jakmile se přihlásíte k účtu usenet, dostanete</string>
+  <string name="tutorial03_line2">• adresa serveru</string>
+  <string name="tutorial03_line3">• uživatelské jméno</string>
+  <string name="tutorial03_line4">• Heslo</string>
+  <string name="tutorial03_line5">• Číslo portu</string>
+  <string name="tutorial03_line6">Tyto hodnoty zadejte do</string>
+  <string name="tutorial03_settings_link">Nastavení</string>
+  <string name="tutorial04_heading">Usenet servery</string>
+  <string name="tutorial04_line1">Nyní jste připraveni ke stažení! Vyhledejte soubory na kartě Hledat</string>
+  <string name="tutorial04_line2">Toto je základ, ale pokračujte ve čtení, abyste se naučili užitečné tipy na další stránce</string>
+  <string name="tutorial05_heading">Soubory</string>
+  <string name="tutorial05_line1">Soubory na usenet jsou komprimovány a rozděleny do mnoha menších souborů nazvaných archivy, které mají příponu .r00, r.01, r.02 nebo .part01.rar, .part02.rar atd.</string>
+  <string name="tutorial05_line2">Vidět</string>
+  <string name="tutorial05_line3">příklad</string>
+  <string name="tutorial05_line4">Jakmile si stáhnete archivy, musíte je rozbalit.</string>
+  <string name="tutorial05_line5">Placená verze Nzb Leech automaticky rozbalí soubory.</string>
+  <string name="tutorial05_line6">V těchto dnech jsou soubory také přejmenovány (obfuscated) tak, že je můžete použít k nalezení běžného vyhledávače. Více o tom později.</string>
+  <string name="tutorial06_heading">Soubory</string>
+  <string name="tutorial06_line1">Někdy začnete stahovat a všimnete si, že stahování selhalo nebo je neúplné.</string>
+  <string name="tutorial06_line2">Důvodem je, že soubory uložené na serveru byly odebrány nebo ztraceny.</string>
+  <string name="tutorial06_line3">Nzb Leech indikuje problém se stažením souboru zobrazením červeně na kartě Nzb.</string>
+  <string name="tutorial07_heading">Nedokončené soubory</string>
+  <string name="tutorial07_line1">Pokud jsou některé části souboru neúplné, nebudete moci soubor rozbalit ani otevřít, pokud jej nemůžete opravit.</string>
+  <string name="tutorial07_line2">Naštěstí většina souborů také přichází s dalšími soubory, které končí v .par2, které můžete použít k opravě neúplných souborů.</string>
+  <string name="tutorial07_line3">To funguje tak dlouho, dokud nemáte příliš mnoho neúplných souborů. Obnovení pomocí souborů par2 není možné, pokud je příliš mnoho souborů neúplných.</string>
+  <string name="tutorial07_line4">Placená verze Nzb Leech automaticky ověří a opraví soubory</string>
+  <string name="tutorial08_heading">Soubory Nzb</string>
+  <string name="tutorial08_line1">Nzb soubor je jako index, který říká Nzb Leech, které soubory ke stažení ze serveru usenet.</string>
+  <string name="tutorial08_line2">Otevřete nzb soubor v Nzb Leech, aby mohl najít a stáhnout obsah ze serveru usenet.</string>
+  <string name="tutorial08_line3">Jakmile si stáhnete všechny soubory, nzb není potřeba a může být vymazán.</string>
+  <string name="tutorial09_heading">Kde najít Nzb soubory?</string>
+  <string name="tutorial09_line1">Nzb vyhledávače budou hledat celé usenet a vrátí soubor nzb odpovídající vašemu vyhledávání. Soubory jsou však obvykle přejmenovány na nesmysly, takže nenajdete to, co hledáte. Budu diskutovat o lepších stránkách na další stránce.</string>
+  <string name="tutorial09_line2">Tyto stránky jsou však někdy užitečné a několik z nich je integrováno do služby Nzb Leech a lze k nim přistupovat z karty Vyhledávání.</string>
+  <string name="tutorial09_line3">Tip: Vyhledejte soubory nzb, které obsahují soubory pro obnovu par2 v případě, že budete mít neúplné soubory a potřebujete opravit</string>
+  <string name="tutorial09_line4">Nzb Vyhledávače</string>
+  <string name="tutorial10_heading">Kde najít Nzb soubory?</string>
+  <string name="tutorial10_line1">Nejlepším místem jsou stránky indexu nzb řízené komunitou. Tyto stránky analyzují, stahují a kategorizují soubory, takže vyhledávání funguje mnohem lépe.</string>
+  <string name="tutorial10_line2">Vzhledem k další práci mnoho těchto stránek vyžadují platbu, ale tam jsou některé volné stránky.</string>
+  <string name="tutorial10_line3">Volná místa mají obvykle limit na počet vyhledávání, které můžete udělat, nebo počet souborů nzb, které si můžete stáhnout.</string>
+  <string name="tutorial10_line4">Několik stránek indexu Nzb. Google pro více</string>
+  <string name="tutorial11_heading">dík</string>
+  <string name="tutorial11_line1">To je ono.</string>
+  <string name="tutorial11_line2">Hodně se učit, ale jakmile se naučíte základy, budete se divit, jak jste někdy žili bez usenetu.</string>
+  <string name="tutorial11_line3">K tomuto výukovému programu můžete vždy přistupovat z nabídky možností.</string>
+  <string name="tutorial11_line4">Díky a šťastný download!</string>
+  <string name="tutorial_nav_previous">Předchozí</string>
+  <string name="tutorial_nav_next">další</string>
+
+</resources>

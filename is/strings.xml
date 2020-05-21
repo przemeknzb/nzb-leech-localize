@@ -1,0 +1,363 @@
+<resources>
+
+  <string name="preferences">Stillingar</string>
+  <string name="download_service">Sækja þjónustu</string>
+
+  
+  <string name="options_menu_settings">Stillingar</string>
+  <string name="options_menu_quit">Hætta</string>
+  <string name="options_menu_pause">Hlé</string>
+  <string name="options_menu_resume">Halda áfram</string>
+  <string name="options_menu_rate">Rate</string>
+  <string name="options_menu_about">Um</string>
+  <string name="options_menu_help">Hjálp</string>
+  <string name="options_menu_donate">Donate</string>
+  <string name="options_menu_start_nzb_monitor">Byrjaðu Nzb Skjár</string>
+  <string name="options_menu_nzb_tutorial">Nzb Námskeið</string>
+  <string name="options_menu_usenet_servers">Usenet Servers</string>
+
+  <string name="verifying">Staðfesting</string>
+  <string name="verified">Allar skrár í lagi!</string>
+  <string name="neededToRepair">blokkir sem þarf</string>
+  <string name="youNeed">Þú þarft</string>
+  <string name="thereAre">Það eru</string>
+  <string name="repairing">Viðgerðir:</string>
+  <string name="dialog_quitConfirm">Hætta við að hætta við niðurhal, halda áfram?</string>
+  <string name="yes">Já</string>
+  <string name="no">Nr</string>
+  <string name="access_sdcard_error">Villa: Ekki er hægt að nálgast geymslurými, forritið er óvirkt. Til að leyfa niðurhali skaltu ekki velja \ "USB massageymsla \" í tilkynningunni um USB tengingu.</string>
+  <string name="toast_download_finished">Niðurhal lokið</string>
+  <string name="status_finished">Lokið</string>
+  <string name="trial_expired">Prófun útrunnið, óvirkt aukagjald. Gefðu þér kleift að virkja aukagjald.</string>
+  <string name="context_title_load_nzb_file">Hlaða inn NZB skrá</string>
+  <string name="toast_no_nzb_files_found_in_">Engar NZB skrár fundust í</string>
+  <string name="no_nzbs_found_">Engar NZB fundust</string>
+  <string name="not_enough_space_to_download_need_">Ekki nóg pláss til að hlaða niður, þarf</string>
+  <string name="mb_of_free_space">af plássi</string>
+
+  <string name="search_category_prompt">Veldu flokk</string>
+
+  <string name="detailedTitleLabel">Titill:</string>
+  <string name="detailedPostedLabel">Sent:</string>
+  <string name="detailedSizeLabel">Stærð:</string>
+  <string name="detailedCategoryLabel">Flokkur:</string>
+  <string name="nzbMatrixURLLabel">URL:</string>
+  <string name="search">Leita</string>
+  <string name="back">Til baka</string>
+  <string name="download">Sækja</string>
+  <string name="downloading">Hlaða niður ...</string>
+  <string name="downloaded">Nzb niður</string>
+  <string name="startDownloading">Byrja að hlaða niður?</string>
+  <string name="details">Upplýsingar</string>
+  <string name="noSearchString">Veita leitarorð</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>Allt</item>
+    <item>Hljóð: Allt</item>
+    <item>Hljóð: MP3</item>
+    <item>Hljóð: FLAC</item>
+    <item>Sjónvarp</item>
+    <item>Sjónvarp: SD</item>
+    <item>Sjónvarp: HD</item>
+    <item>Sjónvarp: Íþróttir / Ent</item>
+    <item>Kvikmyndir</item>
+    <item>Kvikmyndir: SD</item>
+    <item>Kvikmyndir: HD</item>
+    <item>E-bók</item>
+    <item>Hljóðbækur</item>
+    <item>Teiknimyndasögur</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Slæmt vefslóðarsnið</string>
+
+
+  <string name="eula_title">Leyfisleyfisyfirlit notanda</string>
+  <string name="eula_accept">Ég samþykki</string>
+  <string name="eula_refuse">Ég neita</string>
+  <string name="OK">Allt í lagi</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Þessi eiginleiki er réttarhald og það útrunnið. Íhuga að gefa til stuðnings áframhaldandi þróunaraðstoð.</string>
+  <string name="Donate">Donate</string>
+  <string name="Later">Seinna</string>
+
+  
+  <string name="pref_disable_acra">Sjálfvirk villuskýrsla</string>
+  <string name="pref_acra_disabled">Villur eru ekki sendar til framkvæmdaraðila. Íhugaðu að gera þetta kleift að senda til forritara og hægt er að leysa galla</string>
+  <string name="pref_acra_enabled">Villur sendar sjálfkrafa til framkvæmdaraðila svo að galli geti verið fastur fljótt</string>
+
+  <string name="statusbar_paused">Hlé</string>
+
+  <string name="testConnectionFailureHelp">Athugaðu nettengingu og stillingar miðlara. Nýir miðlararreikningar geta tekið allt að 30 mínútur til að verða virk</string>
+
+  
+  <string name="app_name">Eftir viðgerð</string>
+  <string name="for_details_">fyrir nánari upplýsingar.</string>
+  <string name="repairing_">Viðgerðir:</string>
+  <string name="scanning_">Skönnun:</string>
+  <string name="loading_">Hleðsla:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">Undantekning sendiboða</string>
+  <string name="ok">Allt í lagi</string>
+  <string name="file">skrá</string>
+  <string name="Rate">Fara Rate!</string>
+  <string name="NO">Nr</string>
+  <string name="Rate_Nzb_Leech">Meta Nzb Leech</string>
+  <string name="if_you_like_the_app_let_me_know">Ef þú vilt forritið mitt skaltu meta það. Athugasemdir eru gagnlegar en valfrjálst.</string>
+  <string name="AdditionalDetail">Viðbótarupplýsingar:</string>
+  <string name="monitoringForNzbFiles">Vöktun fyrir nzb skrár ..</string>
+  <string name="title_activity_settings">Stillingar</string>
+  <string name="file_status_downloading">Hleðsla</string>
+  <string name="file_status_incomplete">Ófullnægjandi</string>
+  <string name="file_status_decoding">Afkóðun</string>
+  <string name="tutorial_done">Gert</string>
+  <string name="file_status_queued">Í biðröð</string>
+  <string name="file_status_paused">Hlé</string>
+
+  <string name="nzb_tab_press_and_hold">Haltu inni til að hlaða inn nzb</string>
+
+  
+  <string name="server_providers_list_heading">Sumir af þekktustu og vinsælustu notendum vefverslunar:</string>
+  <string name="server_providers_list_ok">Allt í lagi</string>
+
+  
+  <string name="buy_options_unlock_all_features">Aflæsa öllum aðgerðum með því að kaupa lítið, meðalstórt eða stórt gjafatriði. Eða allir þrír!</string>
+  <string name="buy_options_small_donation">Lítil framlag</string>
+  <string name="buy_options_medium_donation">Medium gjöf</string>
+  <string name="buy_options_large_donation">Stór framlag</string>
+  <string name="buy_options_footer">Nzb Leech var sleppt í desember 2011 og ég er enn að veita uppfærslur. Ég hefði yfirgefið þetta verkefni fyrir löngu síðan ef það var ekki fyrir alla gjafa, takk!</string>
+
+  
+  <string name="first_time_screen_line1">Nýtt í usenet?</string>
+  <string name="first_time_screen_start_here">Byrjaðu hér</string>
+  <string name="first_time_screen_line2">Eða bættu miðlara þínum við</string>
+  <string name="first_time_screen_settings">Stillingar</string>
+  <string name="first_time_screen_line3">og byrjaðu að hlaða niður!</string>
+  <string name="first_time_screen_line4">Þarftu miðlara?</string>
+  <string name="first_time_screen_line5">Sjá hér</string>
+
+  
+  <string name="search_config_type_site">Tegund vefsvæðis</string>
+  <string name="search_configure_name">Nafn</string>
+  <string name="search_configure_name_hint">Sláðu inn nafn fyrir þessa síðu</string>
+  <string name="search_configure_api_address">API-tölu</string>
+  <string name="search_configure_api_key">API lykill</string>
+  <string name="search_configure_api_key_hint">Sláðu inn API lykil sem þú varst að fá</string>
+  <string name="search_configure_cancel">Hætta við</string>
+  <string name="search_configure_help">Hjálp</string>
+  <string name="search_configure_save">Vista</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Hlaða inn NZB</string>
+  <string name="tv_nzb_tab_settings">Stillingar</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Byrjaðu Nzb Skjár</string>
+  <string name="tv_nzb_tab_exit">Hætta</string>
+  <string name="tv_nzb_tab_load_instructions">Hlaða nzb úr leit eða skrá flipa</string>
+
+  
+  <string name="server_1_enable_server">Virkja miðlara 1</string>
+  <string name="server_priority_summary">Nzb Leech mun sækja fyrst af aðalþjónum. Ef hluti vantar á aðalþjónn mun það reyna að taka öryggisafrit af netþjóni. Ef enn ekki finnst mun reyna annað öryggisafrit, þriðja osfrv.</string>
+  <string name="server_2_enable_server">Virkja miðlara 2</string>
+  <string name="server_3_enable_server">Virkja miðlara 3</string>
+  <string name="server_4_enable_server">Virkja miðlara 4</string>
+  <string name="server_5_enable_server">Virkja miðlara 5</string>
+  <string name="server_6_enable_server">Virkja miðlara 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Aðalmiðlari</item>
+    <item>First Backup Server</item>
+    <item>Second Backup Server</item>
+    <item>Þriðja Backup Server</item>
+    <item>Fjórða öryggisafritunarþjónn</item>
+    <item>Fifth Backup Server</item>
+  </string-array>
+
+  <string name="server_connection_settings">Tengistillingar</string>
+  <string name="server_settings">Server Stillingar</string>
+  <string name="server_1">Server 1</string>
+  <string name="server_2">Server 2</string>
+  <string name="server_3">Server 3</string>
+  <string name="server_4">Server 4</string>
+  <string name="server_5">Server 5</string>
+  <string name="server_6">Server 6</string>
+  <string name="server_priority">Server Forgangur</string>
+  <string name="server_address_hint">Server til að tengjast</string>
+  <string name="server_address">Server Heimilisfang</string>
+  <string name="server_port">Server Port</string>
+  <string name="server_summary">Athugaðu hjá þjónustuveitunni þinni. t.d. Non-SSL: 119, 23 SSL: 443, 563, osfrv</string>
+  <string name="server_ssl_summary_off">SSL er óvirk</string>
+  <string name="server_ssl_summary_on">SSL er virkt. SSL þarf mismunandi höfn</string>
+  <string name="server_ssl">Virkja SSL</string>
+  <string name="server_connections">Fjöldi tenginga</string>
+  <string name="server_connections_summary">Hversu margar tengingar að nota. Meira en 20 getur gert það hægar</string>
+  <string name="server_1_auth_summary">Ef þú þarft að tilgreina notendanafn / lykilorð</string>
+  <string name="server_auth">Krefst staðfestingar</string>
+  <string name="server_username">Notendanafn</string>
+  <string name="server_username_summary">Notendanafn</string>
+  <string name="server_password_summary">Lykilorð</string>
+  <string name="server_password">Lykilorð</string>
+  <string name="server_test_connection">Próf tenging</string>
+  <string name="server_test_connection_summary">Prófaðu tengingu netþjóna</string>
+
+  
+  <string name="nzb_leech_settings_title">Nzb Leech Stillingar</string>
+  <string name="general_settings_title">Almennar stillingar</string>
+  <string name="general_nzb_download_dir">NZB Niðurhal Directory</string>
+  <string name="general_nzb_download_dir_summary">Hvar niður skrár eru vistaðar</string>
+  <string name="general_nzb_directory">NZB Directory</string>
+  <string name="general_nzb_directory_summary">Hvar á að fá NZB skrár til að sýna í valmyndinni</string>
+  <string name="general_skip_par2">Hoppa yfir par2 skrár</string>
+  <string name="general_skip_par2_summary_on">Mun ekki hlaða niður par2 skrám</string>
+  <string name="general_skip_par2_summary_off">Mun sækja par2 skrár</string>
+  <string name="general_additional_title">Nzb Leech Viðbótar Stillingar</string>
+  <string name="additional_verify_repair_title">Par Staðfest / Viðgerð</string>
+  <string name="additional_verify_repair_summary_on">Staðfestu og gera við skrá virkar</string>
+  <string name="additional_verify_repair_summary_off">Mun ekki staðfesta og gera við skrár</string>
+  <string name="additional_extract_automatically_title">Dragðu skrár sjálfkrafa út</string>
+  <string name="additional_extract_automatically_summary_on">Mun útdráttur rar skjalasafn sjálfkrafa eftir niðurhal</string>
+  <string name="additional_extract_automatically_summary_off">Mun ekki þykkja rar skjalasafn sjálfkrafa eftir niðurhal</string>
+  <string name="additional_delete_archives_title">Eyða skjalasafnum</string>
+  <string name="additional_delete_archives_summary_on">Mun eyða skrám skrár eftir útdrátt</string>
+  <string name="additional_delete_archives_summary_off">Mun ekki eyða skrám skrár eftir útdrátt</string>
+  <string name="additional_queue_nzbs_title">Biðröð Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Næsta nzb verður sjálfkrafa sótt úr biðröðinni</string>
+  <string name="additional_queue_nzbs_summary_off">Hlaða niður nzbs sjálfkrafa úr biðröðinni</string>
+  <string name="additional_queue_folder_title">NZB biðröð möppu</string>
+  <string name="additional_queue_nzbs_summary">Hvar á að fá næstu nzb skrá til að hlaða niður. Nzb skrá verður eytt á árangursríkri niðurhal</string>
+
+  
+  <string name="nzb_monitor_title">Nzb Skjár Stillingar</string>
+  <string name="nzb_monitor_summary">Stillingar fyrir nzb skjár eingöngu. Byrjaðu nzb skjár frá aðalvalmyndinni.</string>
+  <string name="nzb_monitor_enable_title">Skoðaðu nzb skrá</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Directory Scan</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Nzb Directory Scan Interval (í mínútum)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Hversu oft er Nzb Directory skannaður fyrir nýjar NZB skrár.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS straumur</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS straumur</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS straumur</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS straumur</string>
+  <string name="nzb_monitor_rss_enable">Skoðaðu RSS straumar fyrir nýjar NZB skrár</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS Scan Interval Minutes</string>
+  <string name="nzb_monitor_rss_interval_summary">Hversu oft (í mínútum) RSS straumar er skönnuð fyrir nýjar nzb skrár til að hlaða niður.</string>
+  <string name="nzb_monitor_rss_url">RSS straumslóð</string>
+  <string name="nzb_monitor_rss_url_summary">verður að nota https: // og ekki http: // í Android 8 eða nýrri</string>
+
+  
+  <string name="sd_card_settings_title">Ytri SD-kortstillingar</string>
+  <string name="sd_card_top_level_enable">Færðu niðurhal á efstu möppu</string>
+  <string name="sd_card_top_level_enable_summary">Skrár verða fluttar í  \'/sd-kort-slóð / nzb-leech\' eftir niðurhal til að fá betri reynslu (t.d. tónlist / myndspilarar sjá nýju skrárnar). Get ekki flutt frá innri til ytri SD kort (aðeins ytri til ytri). Færa tekur smá stund. Má ekki vinna á öllum tækjum.</string>
+  <string name="sd_card_test_root_write">Prófaðu að skrifa á rót utanaðkomandi SD-kort</string>
+  <string name="sd_card_detect_private_folder">Uppgötva Takmarkað ytri SD-kortspor</string>
+  <string name="sd_card_detect_private_folder_summary">Þannig er hægt að afrita og líma inn í stillingar</string>
+
+  
+  <string name="advanced_screen_title">Ítarlegar stillingar</string>
+  <string name="advanced_screen_summary">VIÐVÖRUN: Aðeins í boði með háþróaðri notkun. Haltu áfram með varúð.</string>
+  <string name="advanced_article_cache">Skyndiminni greinarinnar</string>
+  <string name="advanced_article_cache_summary">Hversu mikið MB að úthluta til að geyma tímabundnar skrár í aðalmindu og draga þannig úr diskunaraðgerðum. Mæli með 60 MB (ef þú átt nóg af minni)</string>
+  <string name="advanced_cache_dir">Skyndiminni</string>
+  <string name="advanced_cache_dir_summary">Mappa þar sem greinar eru vistaðar þegar skyndiminni greinist</string>
+  <string name="advanced_data_skipping">Engin gagnaflutning</string>
+  <string name="advanced_data_skipping_summary">Leitaðu að gögnum sem eru ranglega óviðkomandi. Taktu lengri tíma til að staðfesta / viðgerð en mega gera fleiri skrár en án þessa stillingar. En gerir þessa stillingu kleift að staðfesta / viðgerðir ferli gæti hangið með illgjarn iðn par2 skrár</string>
+  <string name="advanced_smart_repair">Smart Repair</string>
+  <string name="advanced_smart_repair_summary_on">Mun reikna og hlaða niður lágmarksfjölda par2 skráa áður en þú reynir að gera viðgerðir. Ef par2 skrár sem þarf til að gera er meiri en í boði þá eru engar par2 skráar hlaðið niður og viðgerð er ekki reynt.</string>
+  <string name="advanced_smart_repair_summary_off">Mun sækja ALLE PAR2 skrár áður en reynt er að staðfesta / gera við skref.</string>
+  <string name="advanced_thread_priority">Sækja umræðuefni fyrirfram</string>
+  <string name="advanced_thread_priority_summary">Hámark getur valdið því að Android sleppi meira meðan þú hleður niður</string>
+
+  <string name="settings_download_speed">Hlaða niður hraði</string>
+
+  
+  <string name="load_nzb_not_found">Engin NZB skrá fannst!</string>
+  <string name="connection_error_server_reply_code">Svarkerakóði miðlara</string>
+  <string name="connections_server_reply">Svar við skilaboðum miðlara</string>
+  <string name="connection_error_details">Upplýsingar</string>
+  <string name="detect_sd_not_detected">Hmm, ekkert SD kort fannst.</string>
+  <string name="detect_sd_card_path">Ytri SD kort slóð</string>
+  <string name="detect_sd_limitation">Athugaðu eftirfarandi takmarkanir fyrir þessa slóð: Allar skrár í þessari möppu eru eytt þegar forritið er fjarlægt. Og fjölmiðla skanni finnur ekki neinar skrár í þessari möppu svo að tónlist / hreyfimyndir sjái ekki fjölmiðla þína.</string>
+  <string name="detect_sd_link_message">Fyrir utanaðkomandi SD Card skipulag, sjá</string>
+  <string name="detect_sd_test_failed">mistókst að skrifa á SD kort</string>
+  <string name="detect_sd_test_select_move">Vinsamlegast veldu færa niðurhal valkost hér að ofan</string>
+  <string name="detect_sd_test_success">Skriflega skrifað til</string>
+  <string name="article_cache_warning">VIÐVÖRUN: Forritið mun hrynja ef heildarminnið (skyndiminni greinarinnar) er stærra en</string>
+  <string name="article_cache_20mb">Skyndiminni greinarinnar þarf að minnsta kosti 20MB</string>
+  <string name="sd_card_copy_path">Afritaðu í klemmuspjald</string>
+  <string name="error">Villa</string>
+  <string name="success">Árangur</string>
+  <string name="connection_test_success">Að lokum tengdur við</string>
+  <string name="sd_card_path_detected">Möguleg utanaðkomandi SD-kort leið fannst</string>
+  <string name="read_write_error">Get ekki lesið eða skrifað í valda möppu.</string>
+  <string name="sd_card_help_message">Fyrir utanaðkomandi SD Card skipulag, sjá</string>
+  <string name="invalid_value">Ógilt gildi</string>
+  <string name="invalid_number">Ógilt númer</string>
+  <string name="connecting">Tengist</string>
+  <string name="press_back_to_cancel">Ýtið aftur til að hætta við</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Prófaðu að hlaða niður nzb með Chrome. Eða email nzb skrá til przemeknzb@gmail.com til að kanna</string>
+  <string name="corrupt_nzb">Spillt nzb</string>
+  <string name="nzb_nothing_to_download">inniheldur ekkert til að hlaða niður</string>
+
+  
+  <string name="tutorial_dialog_heading">A vídeó.avi skrá er skipt í fullt af skrám á usenet:</string>
+  <string name="tutorial_dialog_ok">Allt í lagi</string>
+  <string name="tutorial_01_title">Byrja að hlaða niður í 3 skrefum</string>
+  <string name="tutorial01_step_1">1. Fáðu usenet framreiðslumaður reikning</string>
+  <string name="tutorial01_step_2">2. Bæta við miðlara til Nzb Leech</string>
+  <string name="tutorial01_step_3">3. Leitaðu að skrám og byrjaðu að hlaða niður!</string>
+  <string name="tutorial01_footer">Halda áfram á næstu síðu til að finna út hvernig!</string>
+  <string name="tutorial02_heading">Usenet Servers</string>
+  <string name="tutorial02_line1">Nzb Leech niðurhal skrár frá usenet miðlara sem þú tilgreinir</string>
+  <string name="tutorial02_line2">Usenet framreiðslumaður leyfir mjög hratt niðurhali og kostar frá $ 10- $ 15 á mánuði</string>
+  <string name="tutorial02_line3">Þeir hafa frjálsar rannsóknir</string>
+  <string name="tutorial02_list_servers_link">Listi yfir usenet netþjóna</string>
+  <string name="tutorial03_heading">Usenet Servers</string>
+  <string name="tutorial03_line1">Þegar þú skráir þig inn á usenet reikning færðu það</string>
+  <string name="tutorial03_line2">• miðlara heimilisfang</string>
+  <string name="tutorial03_line3">• notendanafn</string>
+  <string name="tutorial03_line4">• lykilorð</string>
+  <string name="tutorial03_line5">• höfnarnúmer</string>
+  <string name="tutorial03_line6">Sláðu inn þessar gildi í</string>
+  <string name="tutorial03_settings_link">Stillingar</string>
+  <string name="tutorial04_heading">Usenet Servers</string>
+  <string name="tutorial04_line1">Nú ertu tilbúinn að hlaða niður! Leitaðu að skrám á flipanum Leita</string>
+  <string name="tutorial04_line2">Þetta er grunnatriði en halda áfram að lesa til að læra góðar ráðleggingar á næstu síðu</string>
+  <string name="tutorial05_heading">Skrár</string>
+  <string name="tutorial05_line1">Skrár á usenet eru þjappaðar og skipt í margar smærri skrár sem kallast skjalasafn sem hafa framlengingu .r00, r.01, r.02 eða .part01.rar, .part02.rar, osfrv.</string>
+  <string name="tutorial05_line2">Sjá</string>
+  <string name="tutorial05_line3">dæmi</string>
+  <string name="tutorial05_line4">Þegar þú hefur hlaðið niður skjalunum þarftu að pakka þeim út.</string>
+  <string name="tutorial05_line5">Greiddur útgáfa af Nzb Leech mun pakka upp skrám sjálfkrafa.</string>
+  <string name="tutorial05_line6">Í dag eru skrárnar einnig endurnefndir (obfuscated) þannig að þú getur ekki notað venjuleg leitarvél til að finna þær. Meira um þetta seinna.</string>
+  <string name="tutorial06_heading">Skrár</string>
+  <string name="tutorial06_line1">Stundum byrjar þú að hlaða niður og taka eftir því að niðurhalið mistókst eða er ófullnægjandi.</string>
+  <string name="tutorial06_line2">Þetta er vegna þess að skrár sem eru geymdar á þjóninum hafa verið fjarlægðar eða týndir.</string>
+  <string name="tutorial06_line3">Nzb Leech gefur til kynna vandamál að hlaða niður skrá með því að birta það í rauðum lit á Nzb flipanum.</string>
+  <string name="tutorial07_heading">Ófullnægjandi skrár</string>
+  <string name="tutorial07_line1">Ef einhver hluti af skrá er ófullnægjandi verður þú ekki hægt að taka upp eða opna skrána nema þú getir gert það.</string>
+  <string name="tutorial07_line2">Til allrar hamingju koma flestar skrár einnig með viðbótarskrám sem endar í .par2 sem þú getur notað til að gera við ófullkomnar skrár.</string>
+  <string name="tutorial07_line3">Þetta virkar svo lengi sem þú hefur ekki of marga ófullkomna skrár. Bati með par2 skrám er ekki hægt ef of margir skrár eru ófullnægjandi.</string>
+  <string name="tutorial07_line4">Greiddur útgáfa af Nzb Leech staðfestir sjálfkrafa og viðgerðir skrár</string>
+  <string name="tutorial08_heading">Nzb skrár</string>
+  <string name="tutorial08_line1">Nzb skrá er eins og vísitölu sem segir Nzb Leech hvaða skrá er að hlaða niður frá usenet miðlara.</string>
+  <string name="tutorial08_line2">Þú opnar nzb skrá í Nzb Leech svo það geti fundið og hlaðið niður efni frá usenet miðlara.</string>
+  <string name="tutorial08_line3">Þegar þú hefur hlaðið niður öllum skrám er nzb ekki þörf og hægt er að eyða.</string>
+  <string name="tutorial09_heading">Hvar á að finna Nzb skrár?</string>
+  <string name="tutorial09_line1">Nzb leitarvélar munu leita að öllu netinu og skila nzb skrá sem samsvarar leit þinni. Hins vegar eru skrárnar venjulega nefndir til vitleysa svo þú munt ekki finna það sem þú ert að leita að. Ég mun ræða betur staður á næstu síðu.</string>
+  <string name="tutorial09_line2">Ennþá eru þessar síður gagnlegar stundum og nokkrar eru felldar inn í Nzb Leech og hægt er að nálgast það í flipanum Leita.</string>
+  <string name="tutorial09_line3">Ábending: Leitaðu að nzb skrám sem innihalda par2 bata skrár ef þú færð ófullkomnar skrár og þarf að gera við</string>
+  <string name="tutorial09_line4">Nzb leitarvélar</string>
+  <string name="tutorial10_heading">Hvar á að finna Nzb skrár?</string>
+  <string name="tutorial10_line1">Besti staðurinn er samfélagsþjálfaðir nzb-vísitölusíður. Þessar síður flokka, hlaða niður og flokka skrár þannig að leit virkar miklu betur.</string>
+  <string name="tutorial10_line2">Vegna aukinnar vinnu þarf mikið af þessum vefsvæðum greiðslu, en það eru nokkrar ókeypis síður.</string>
+  <string name="tutorial10_line3">The frjáls staður hefur venjulega takmörk á fjölda leita sem þú getur gert eða fjölda nzb skrár sem þú getur hlaðið niður.</string>
+  <string name="tutorial10_line4">Nokkur Nzb Index Sites. Google fyrir meira</string>
+  <string name="tutorial11_heading">Takk</string>
+  <string name="tutorial11_line1">Þetta er það.</string>
+  <string name="tutorial11_line2">Auðvelt að læra en þegar þú lærir grunnatriði verður þú furða hvernig þú lifir alltaf án usenet.</string>
+  <string name="tutorial11_line3">Þú getur alltaf fengið aðgang að þessari kennslu úr valmyndinni.</string>
+  <string name="tutorial11_line4">Takk og hamingjusamur niðurhal!</string>
+  <string name="tutorial_nav_previous">Fyrri</string>
+  <string name="tutorial_nav_next">Næst</string>
+
+</resources>

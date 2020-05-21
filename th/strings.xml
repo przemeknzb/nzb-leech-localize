@@ -1,0 +1,363 @@
+<resources>
+
+  <string name="preferences">การตั้งค่า</string>
+  <string name="download_service">บริการดาวน์โหลด</string>
+
+  
+  <string name="options_menu_settings">การตั้งค่า</string>
+  <string name="options_menu_quit">เลิก</string>
+  <string name="options_menu_pause">หยุด</string>
+  <string name="options_menu_resume">ประวัติย่อ</string>
+  <string name="options_menu_rate">อัตรา</string>
+  <string name="options_menu_about">เกี่ยวกับ</string>
+  <string name="options_menu_help">ช่วยด้วย</string>
+  <string name="options_menu_donate">บริจาค</string>
+  <string name="options_menu_start_nzb_monitor">เริ่มการตรวจสอบ Nzb</string>
+  <string name="options_menu_nzb_tutorial">Nzb Tutorial</string>
+  <string name="options_menu_usenet_servers">เซิร์ฟเวอร์ Usenet</string>
+
+  <string name="verifying">การตรวจสอบ</string>
+  <string name="verified">ไฟล์ทั้งหมดตกลง!</string>
+  <string name="neededToRepair">บล็อกที่จำเป็น</string>
+  <string name="youNeed">คุณต้องการ</string>
+  <string name="thereAre">มี</string>
+  <string name="repairing">ซ่อม:</string>
+  <string name="dialog_quitConfirm">การเลิกจะยกเลิกการดาวน์โหลดใด ๆ ดำเนินการต่อหรือไม่</string>
+  <string name="yes">ใช่</string>
+  <string name="no">ไม่</string>
+  <string name="access_sdcard_error">ข้อผิดพลาด: ไม่สามารถเข้าถึงพื้นที่เก็บข้อมูลแอปพลิเคชันถูกปิดใช้งาน หากต้องการอนุญาตให้ดาวน์โหลดไม่ต้องเลือก \ "อุปกรณ์จัดเก็บข้อมูล USB \" ในการแจ้งเตือนการเชื่อมต่อ USB</string>
+  <string name="toast_download_finished">การดาวน์โหลดเสร็จสิ้น</string>
+  <string name="status_finished">เสร็จ</string>
+  <string name="trial_expired">การทดลองหมดอายุปิดใช้งานคุณลักษณะพรีเมียม บริจาคเพื่อเปิดใช้งานคุณสมบัติพิเศษ</string>
+  <string name="context_title_load_nzb_file">โหลดไฟล์ NZB</string>
+  <string name="toast_no_nzb_files_found_in_">ไม่พบไฟล์ NZB</string>
+  <string name="no_nzbs_found_">ไม่พบ NZB</string>
+  <string name="not_enough_space_to_download_need_">พื้นที่ในการดาวน์โหลดไม่เพียงพอจำเป็นต้องใช้</string>
+  <string name="mb_of_free_space">พื้นที่ว่าง</string>
+
+  <string name="search_category_prompt">เลือกหมวดหมู่</string>
+
+  <string name="detailedTitleLabel">หัวข้อ:</string>
+  <string name="detailedPostedLabel">โพสต์:</string>
+  <string name="detailedSizeLabel">ขนาด:</string>
+  <string name="detailedCategoryLabel">ประเภท:</string>
+  <string name="nzbMatrixURLLabel">URL:</string>
+  <string name="search">ค้นหา</string>
+  <string name="back">กลับ</string>
+  <string name="download">ดาวน์โหลด</string>
+  <string name="downloading">ดาวน์โหลด ...</string>
+  <string name="downloaded">Nzb ดาวน์โหลด</string>
+  <string name="startDownloading">เริ่มดาวน์โหลด?</string>
+  <string name="details">รายละเอียด</string>
+  <string name="noSearchString">ระบุคำค้นหา</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>ทุกอย่าง</item>
+    <item>เสียง: ทั้งหมด</item>
+    <item>เสียง: MP3</item>
+    <item>เสียง: FLAC</item>
+    <item>โทรทัศน์</item>
+    <item>ทีวี: SD</item>
+    <item>ทีวี: HD</item>
+    <item>ทีวี: กีฬา / เอนต์</item>
+    <item>ภาพยนตร์</item>
+    <item>ภาพยนตร์: SD</item>
+    <item>ภาพยนตร์: HD</item>
+    <item>E-Books</item>
+    <item>หนังสือเสียง</item>
+    <item>ภาพการ์ตูน</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">รูปแบบที่อยู่เว็บไซต์ไม่ถูกต้อง</string>
+
+
+  <string name="eula_title">ข้อตกลงใบอนุญาตผู้ใช้ปลายทาง</string>
+  <string name="eula_accept">ฉันยอมรับ</string>
+  <string name="eula_refuse">ฉันปฏิเสธ</string>
+  <string name="OK">ตกลง</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">คุณลักษณะนี้เป็นการทดลองใช้และหมดอายุแล้ว พิจารณาบริจาคเพื่อสนับสนุนความพยายามในการพัฒนาอย่างต่อเนื่อง</string>
+  <string name="Donate">บริจาค</string>
+  <string name="Later">ต่อมา</string>
+
+  
+  <string name="pref_disable_acra">การรายงานข้อผิดพลาดอัตโนมัติ</string>
+  <string name="pref_acra_disabled">ข้อผิดพลาดจะไม่ถูกส่งไปยังนักพัฒนา ลองเปิดใช้งานสิ่งนี้เพื่อให้สามารถส่งข้อผิดพลาดไปยังผู้พัฒนาและสามารถแก้ไขข้อบกพร่องได้</string>
+  <string name="pref_acra_enabled">ข้อผิดพลาดที่ส่งไปยังนักพัฒนาซอฟต์แวร์โดยอัตโนมัติเพื่อแก้ไขข้อบกพร่อง</string>
+
+  <string name="statusbar_paused">หยุดชั่วคราว</string>
+
+  <string name="testConnectionFailureHelp">ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและการตั้งค่าเซิร์ฟเวอร์ของคุณ บัญชีเซิร์ฟเวอร์ใหม่อาจใช้เวลาสูงสุด 30 นาทีจึงจะเปิดใช้งานได้</string>
+
+  
+  <string name="app_name">โดยการซ่อม</string>
+  <string name="for_details_">สำหรับรายละเอียด</string>
+  <string name="repairing_">ซ่อม:</string>
+  <string name="scanning_">การสแกน:</string>
+  <string name="loading_">โหลด:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">ข้อยกเว้นการส่งข้อความ</string>
+  <string name="ok">ตกลง</string>
+  <string name="file">ไฟล์</string>
+  <string name="Rate">ไปอัตรา!</string>
+  <string name="NO">ไม่</string>
+  <string name="Rate_Nzb_Leech">อัตรา Nzb ปลิง</string>
+  <string name="if_you_like_the_app_let_me_know">ถ้าคุณชอบแอพของฉันโปรดให้คะแนน ความคิดเห็นมีประโยชน์ แต่ไม่บังคับ</string>
+  <string name="AdditionalDetail">รายละเอียดเพิ่มเติม:</string>
+  <string name="monitoringForNzbFiles">การตรวจสอบไฟล์ nzb ..</string>
+  <string name="title_activity_settings">การตั้งค่า</string>
+  <string name="file_status_downloading">ดาวน์โหลด</string>
+  <string name="file_status_incomplete">ไม่สมบูรณ์</string>
+  <string name="file_status_decoding">ถอดรหัส</string>
+  <string name="tutorial_done">เสร็จสิ้น</string>
+  <string name="file_status_queued">อยู่ในคิว</string>
+  <string name="file_status_paused">หยุดชั่วคราว</string>
+
+  <string name="nzb_tab_press_and_hold">กดค้างไว้เพื่อโหลด nzb</string>
+
+  
+  <string name="server_providers_list_heading">ผู้ให้บริการ Usenet ที่เป็นที่รู้จักและได้รับความนิยมมากที่สุด:</string>
+  <string name="server_providers_list_ok">ตกลง</string>
+
+  
+  <string name="buy_options_unlock_all_features">ปลดล็อกคุณสมบัติทั้งหมดโดยการซื้อรายการบริจาคขนาดเล็กขนาดกลางหรือขนาดใหญ่ หรือทั้งสาม!</string>
+  <string name="buy_options_small_donation">บริจาคเล็กน้อย</string>
+  <string name="buy_options_medium_donation">บริจาคปานกลาง</string>
+  <string name="buy_options_large_donation">การบริจาคครั้งใหญ่</string>
+  <string name="buy_options_footer">Nzb Leech เปิดตัวในเดือนธันวาคม 2554 และฉันยังคงให้ข้อมูลอัปเดต ฉันจะยกเลิกโครงการนี้ไปนานแล้วถ้ามันไม่ใช่ของผู้บริจาคทุกคนขอบคุณ!</string>
+
+  
+  <string name="first_time_screen_line1">ยังใหม่กับ usenet ใช่ไหม</string>
+  <string name="first_time_screen_start_here">เริ่มที่นี่</string>
+  <string name="first_time_screen_line2">หรือเพิ่มเซิร์ฟเวอร์ของคุณไปที่</string>
+  <string name="first_time_screen_settings">การตั้งค่า</string>
+  <string name="first_time_screen_line3">และเริ่มดาวน์โหลด!</string>
+  <string name="first_time_screen_line4">ต้องการเซิร์ฟเวอร์หรือไม่</string>
+  <string name="first_time_screen_line5">ดูที่นี่</string>
+
+  
+  <string name="search_config_type_site">ประเภทของเว็บไซต์</string>
+  <string name="search_configure_name">ชื่อ</string>
+  <string name="search_configure_name_hint">ป้อนชื่อสำหรับไซต์นี้</string>
+  <string name="search_configure_api_address">ที่อยู่ API</string>
+  <string name="search_configure_api_key">คีย์ API</string>
+  <string name="search_configure_api_key_hint">ป้อนรหัส API ที่คุณได้รับ</string>
+  <string name="search_configure_cancel">ยกเลิก</string>
+  <string name="search_configure_help">ช่วยด้วย</string>
+  <string name="search_configure_save">บันทึก</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">โหลด Nzb</string>
+  <string name="tv_nzb_tab_settings">การตั้งค่า</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">เริ่มการตรวจสอบ Nzb</string>
+  <string name="tv_nzb_tab_exit">ทางออก</string>
+  <string name="tv_nzb_tab_load_instructions">โหลด nzb จากแท็บค้นหาหรือไฟล์</string>
+
+  
+  <string name="server_1_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 1</string>
+  <string name="server_priority_summary">Nzb Leech จะดาวน์โหลดจากเซิร์ฟเวอร์หลักก่อน หากส่วนหนึ่งหายไปบนเซิร์ฟเวอร์หลักมันจะลองเซิร์ฟเวอร์สำรองแรก หากยังไม่พบจะลองเซิร์ฟเวอร์สำรองที่สองจากนั้นสำรองที่สาม ฯลฯ</string>
+  <string name="server_2_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 2</string>
+  <string name="server_3_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 3</string>
+  <string name="server_4_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 4</string>
+  <string name="server_5_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 5</string>
+  <string name="server_6_enable_server">เปิดใช้งานเซิร์ฟเวอร์ 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>เซิร์ฟเวอร์หลัก</item>
+    <item>เซิร์ฟเวอร์สำรองแรก</item>
+    <item>เซิร์ฟเวอร์สำรองที่สอง</item>
+    <item>เซิร์ฟเวอร์สำรองที่สาม</item>
+    <item>เซิร์ฟเวอร์สำรองที่สี่</item>
+    <item>เซิร์ฟเวอร์สำรองที่ห้า</item>
+  </string-array>
+
+  <string name="server_connection_settings">การตั้งค่าการเชื่อมต่อ</string>
+  <string name="server_settings">การตั้งค่าเซิร์ฟเวอร์</string>
+  <string name="server_1">เซิร์ฟเวอร์ 1</string>
+  <string name="server_2">เซิร์ฟเวอร์ 2</string>
+  <string name="server_3">เซิร์ฟเวอร์ 3</string>
+  <string name="server_4">เซิร์ฟเวอร์ 4</string>
+  <string name="server_5">เซิร์ฟเวอร์ 5</string>
+  <string name="server_6">เซิร์ฟเวอร์ 6</string>
+  <string name="server_priority">ลำดับความสำคัญของเซิร์ฟเวอร์</string>
+  <string name="server_address_hint">เซิร์ฟเวอร์ที่จะเชื่อมต่อกับ</string>
+  <string name="server_address">ที่อยู่เซิฟเวอร์</string>
+  <string name="server_port">เซิร์ฟเวอร์พอร์ต</string>
+  <string name="server_summary">ตรวจสอบกับผู้ให้บริการของคุณ เช่น. ไม่ใช่ SSL: 119, 23 SSL: 443, 563, ฯลฯ</string>
+  <string name="server_ssl_summary_off">SSL ถูกปิดใช้งาน</string>
+  <string name="server_ssl_summary_on">เปิดใช้งาน SSL แล้ว SSL ต้องใช้พอร์ตอื่น</string>
+  <string name="server_ssl">เปิดใช้งาน SSL</string>
+  <string name="server_connections">จำนวนการเชื่อมต่อ</string>
+  <string name="server_connections_summary">จำนวนการเชื่อมต่อที่จะใช้ มากกว่า 20 สามารถทำให้ช้าลง</string>
+  <string name="server_1_auth_summary">หากคุณต้องการระบุชื่อผู้ใช้ / รหัสผ่าน</string>
+  <string name="server_auth">ต้องมีการรับรองความถูกต้อง</string>
+  <string name="server_username">ชื่อผู้ใช้</string>
+  <string name="server_username_summary">ชื่อผู้ใช้</string>
+  <string name="server_password_summary">รหัสผ่าน</string>
+  <string name="server_password">รหัสผ่าน</string>
+  <string name="server_test_connection">ทดสอบการเชื่อมต่อ</string>
+  <string name="server_test_connection_summary">ทดสอบการเชื่อมต่อเซิร์ฟเวอร์ของคุณ</string>
+
+  
+  <string name="nzb_leech_settings_title">การตั้งค่า Nzb ปลิง</string>
+  <string name="general_settings_title">การตั้งค่าทั่วไป</string>
+  <string name="general_nzb_download_dir">ไดเรกทอรีดาวน์โหลด NZB</string>
+  <string name="general_nzb_download_dir_summary">บันทึกไฟล์ที่ดาวน์โหลดไว้ที่ไหน</string>
+  <string name="general_nzb_directory">ไดเรกทอรี NZB</string>
+  <string name="general_nzb_directory_summary">ตำแหน่งที่จะรับไฟล์ NZB จากเพื่อแสดงในเมนูตัวเลือก</string>
+  <string name="general_skip_par2">ข้ามไฟล์ par2</string>
+  <string name="general_skip_par2_summary_on">จะไม่ดาวน์โหลดไฟล์ par2</string>
+  <string name="general_skip_par2_summary_off">จะดาวน์โหลดไฟล์ par2</string>
+  <string name="general_additional_title">Nzb Leech การตั้งค่าเพิ่มเติม</string>
+  <string name="additional_verify_repair_title">การทวนสอบ / ซ่อมแซม</string>
+  <string name="additional_verify_repair_summary_on">ตรวจสอบและซ่อมแซมไฟล์ที่เปิดใช้งาน</string>
+  <string name="additional_verify_repair_summary_off">จะไม่ตรวจสอบและซ่อมแซมไฟล์</string>
+  <string name="additional_extract_automatically_title">แตกไฟล์โดยอัตโนมัติ</string>
+  <string name="additional_extract_automatically_summary_on">จะแยกไฟล์เก็บถาวร rar โดยอัตโนมัติหลังจากดาวน์โหลด</string>
+  <string name="additional_extract_automatically_summary_off">จะไม่ดึงไฟล์เก็บถาวร rar โดยอัตโนมัติหลังจากดาวน์โหลด</string>
+  <string name="additional_delete_archives_title">ลบไฟล์เก็บถาวร</string>
+  <string name="additional_delete_archives_summary_on">จะลบไฟล์เก็บถาวรหลังจากคลายไฟล์</string>
+  <string name="additional_delete_archives_summary_off">จะไม่ลบไฟล์เก็บถาวรหลังจากแตกไฟล์</string>
+  <string name="additional_queue_nzbs_title">คิว Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">nzb ถัดไปจะถูกดาวน์โหลดโดยอัตโนมัติจากโฟลเดอร์คิว</string>
+  <string name="additional_queue_nzbs_summary_off">ดาวน์โหลด nzbs โดยอัตโนมัติจากโฟลเดอร์คิว</string>
+  <string name="additional_queue_folder_title">โฟลเดอร์คิวของ NZB</string>
+  <string name="additional_queue_nzbs_summary">จะดาวน์โหลดไฟล์ nzb ถัดไปได้จากที่ไหน ไฟล์ Nzb จะถูกลบเมื่อดาวน์โหลดสำเร็จ</string>
+
+  
+  <string name="nzb_monitor_title">การตั้งค่าจอภาพ Nzb</string>
+  <string name="nzb_monitor_summary">การตั้งค่าสำหรับมอนิเตอร์ nzb เท่านั้น เริ่มจอภาพ nzb จากเมนูหลัก</string>
+  <string name="nzb_monitor_enable_title">ตรวจสอบไดเร็กทอรี nzb</string>
+  <string name="nzb_monitor_directory_scan_category_title">สแกนไดเรกทอรี Nzb</string>
+  <string name="nzb_monitor_dir_scan_interval_title">ช่วงเวลาการสแกนไดเรกทอรี Nzb (เป็นนาที)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Nzb Directory สแกนหาไฟล์ nzb ใหม่บ่อยแค่ไหน</string>
+  <string name="nzb_monitor_category_title_1">ฟีด RSS Nzb</string>
+  <string name="nzb_monitor_category_title_2">ฟีด RSS Nzb</string>
+  <string name="nzb_monitor_category_title_3">ฟีด RSS Nzb</string>
+  <string name="nzb_monitor_category_title_4">ฟีด RSS Nzb</string>
+  <string name="nzb_monitor_rss_enable">ตรวจสอบฟีด RSS สำหรับไฟล์ nzb ใหม่</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS สแกนช่วงเวลา</string>
+  <string name="nzb_monitor_rss_interval_summary">มีการสแกนฟีด RSS (เป็นนาที) เพื่อให้ดาวน์โหลดไฟล์ nzb ใหม่</string>
+  <string name="nzb_monitor_rss_url">RSS Feed URL</string>
+  <string name="nzb_monitor_rss_url_summary">ต้องใช้ https: // และไม่ใช่ http: // ใน Android 8 หรือสูงกว่า</string>
+
+  
+  <string name="sd_card_settings_title">การตั้งค่าการ์ด SD ภายนอก</string>
+  <string name="sd_card_top_level_enable">ย้ายการดาวน์โหลดไปยังโฟลเดอร์ระดับบนสุด</string>
+  <string name="sd_card_top_level_enable_summary">ไฟล์จะถูกย้ายไปที่ \ \'/ sd-card-path / nzb-leech \' หลังจากดาวน์โหลดเพื่อประสบการณ์ที่ดีกว่า (เช่นเครื่องเล่นเพลง / วิดีโอดูไฟล์ใหม่) ไม่สามารถย้ายจาก SD การ์ดภายในไปยังการ์ดภายนอก (เฉพาะภายนอกไปยังการ์ดภายนอก) การย้ายใช้เวลาสักครู่ อาจไม่ทำงานบนอุปกรณ์ทั้งหมด</string>
+  <string name="sd_card_test_root_write">ทดสอบเขียนลงในการ์ด SD ภายนอกของรูท</string>
+  <string name="sd_card_detect_private_folder">ตรวจหาเส้นทางการ์ด SD ภายนอกที่ถูก จำกัด</string>
+  <string name="sd_card_detect_private_folder_summary">ดังนั้นคุณสามารถคัดลอกและวางในการตั้งค่า</string>
+
+  
+  <string name="advanced_screen_title">ตั้งค่าขั้นสูง</string>
+  <string name="advanced_screen_summary">คำเตือน: ผู้ใช้ขั้นสูงเท่านั้น ดำเนินการต่อด้วยความระมัดระวัง</string>
+  <string name="advanced_article_cache">แคชบทความ</string>
+  <string name="advanced_article_cache_summary">จำนวน MB ที่จะจัดสรรให้กับการจัดเก็บไฟล์ชั่วคราวในหน่วยความจำหลักจึงลดการใช้งานดิสก์ แนะนำ 60MB (ถ้าคุณมีหน่วยความจำเพียงพอ)</string>
+  <string name="advanced_cache_dir">ไดเรกทอรีแคช</string>
+  <string name="advanced_cache_dir_summary">โฟลเดอร์ที่บันทึกบทความเมื่อ Article Cache เต็ม</string>
+  <string name="advanced_data_skipping">ไม่มีการข้ามข้อมูล</string>
+  <string name="advanced_data_skipping_summary">ค้นหาบล็อคข้อมูลที่มีการจัดวางผิดที่ไม่ดี ใช้เวลานานกว่าในการตรวจสอบ / ซ่อมแซม แต่อาจซ่อมไฟล์มากกว่าที่ไม่มีการตั้งค่านี้ แต่การเปิดใช้งานการตั้งค่านี้กระบวนการตรวจสอบ / ซ่อมแซมอาจค้างอยู่กับไฟล์ par2 ที่ออกแบบมาเพื่อประสงค์ร้าย</string>
+  <string name="advanced_smart_repair">ซ่อมสมาร์ท</string>
+  <string name="advanced_smart_repair_summary_on">จะคำนวณและดาวน์โหลดจำนวนไฟล์ par2 ขั้นต่ำก่อนที่จะทำการซ่อมแซมขั้นตอน หากไฟล์ par2 ที่ต้องการซ่อมแซมมากกว่าที่มีอยู่แสดงว่าไม่มีไฟล์ par2 ถูกดาวน์โหลดและไม่พยายามซ่อมแซม</string>
+  <string name="advanced_smart_repair_summary_off">จะดาวน์โหลดไฟล์ par2 ทั้งหมดก่อนที่จะยืนยันขั้นตอนการตรวจสอบ / ซ่อมแซม</string>
+  <string name="advanced_thread_priority">ดาวน์โหลดลำดับความสำคัญของเธรด</string>
+  <string name="advanced_thread_priority_summary">จำนวนสูงสุดอาจทำให้ Android ล้าช้ากว่าขณะดาวน์โหลด</string>
+
+  <string name="settings_download_speed">ความเร็วดาวน์โหลด</string>
+
+  
+  <string name="load_nzb_not_found">ไม่พบไฟล์ NZB!</string>
+  <string name="connection_error_server_reply_code">รหัสตอบกลับของเซิร์ฟเวอร์</string>
+  <string name="connections_server_reply">ข้อความตอบกลับของเซิร์ฟเวอร์</string>
+  <string name="connection_error_details">รายละเอียด</string>
+  <string name="detect_sd_not_detected">อืมไม่พบการ์ด SD</string>
+  <string name="detect_sd_card_path">เส้นทางการ์ด SD ภายนอก</string>
+  <string name="detect_sd_limitation">โปรดสังเกตข้อ จำกัด ต่อไปนี้สำหรับเส้นทางนี้: ไฟล์ทั้งหมดในไดเรกทอรีนี้ถูกลบเมื่อถอนการติดตั้งแอป และเครื่องสแกนสื่อไม่พบไฟล์ใด ๆ ในไดเรกทอรีนี้ดังนั้นแอปเพลง / วิดีโอจึงไม่เห็นสื่อของคุณ</string>
+  <string name="detect_sd_link_message">สำหรับการตั้งค่าการ์ด SD ภายนอกดู</string>
+  <string name="detect_sd_test_failed">ไม่สามารถเขียนไปยังการ์ด SD</string>
+  <string name="detect_sd_test_select_move">โปรดเลือกตัวเลือกย้ายการดาวน์โหลดด้านบน</string>
+  <string name="detect_sd_test_success">ประสบความสำเร็จในการเขียน</string>
+  <string name="article_cache_warning">คำเตือน: แอปจะหยุดทำงานหากหน่วยความจำรวม (แอพแคชบทความ) มากกว่า</string>
+  <string name="article_cache_20mb">แคชบทความต้องการอย่างน้อย 20MB</string>
+  <string name="sd_card_copy_path">คัดลอกไปที่คลิปบอร์ด</string>
+  <string name="error">ความผิดพลาด</string>
+  <string name="success">ความสำเร็จ</string>
+  <string name="connection_test_success">เชื่อมต่อสำเร็จแล้ว</string>
+  <string name="sd_card_path_detected">ตรวจพบเส้นทางการ์ด SD ภายนอกที่เป็นไปได้</string>
+  <string name="read_write_error">ไม่สามารถอ่านหรือเขียนไปยังไดเรกทอรีที่เลือก</string>
+  <string name="sd_card_help_message">สำหรับการตั้งค่าการ์ด SD ภายนอกดู</string>
+  <string name="invalid_value">ค่าไม่ถูกต้อง</string>
+  <string name="invalid_number">หมายเลขไม่ถูกต้อง</string>
+  <string name="connecting">การเชื่อมต่อ</string>
+  <string name="press_back_to_cancel">กดย้อนกลับเพื่อยกเลิก</string>
+
+  
+  <string name="corrupt_nzb_suggestion">ลองดาวน์โหลด nzb โดยใช้ Chrome หรือส่งอีเมลไฟล์ nzb ไปที่ przemeknzb@gmail.com เพื่อตรวจสอบ</string>
+  <string name="corrupt_nzb">เสียหาย nzb</string>
+  <string name="nzb_nothing_to_download">ไม่มีอะไรให้ดาวน์โหลด</string>
+
+  
+  <string name="tutorial_dialog_heading">ไฟล์ video.avi จะแบ่งออกเป็นกลุ่มของไฟล์บน usenet:</string>
+  <string name="tutorial_dialog_ok">ตกลง</string>
+  <string name="tutorial_01_title">เริ่มดาวน์โหลดใน 3 ขั้นตอน</string>
+  <string name="tutorial01_step_1">1. รับบัญชีเซิร์ฟเวอร์ usenet</string>
+  <string name="tutorial01_step_2">2. เพิ่มเซิร์ฟเวอร์ลงใน Nzb Leech</string>
+  <string name="tutorial01_step_3">3. ค้นหาไฟล์และเริ่มดาวน์โหลด!</string>
+  <string name="tutorial01_footer">ไปที่หน้าถัดไปเพื่อหาวิธี!</string>
+  <string name="tutorial02_heading">เซิร์ฟเวอร์ Usenet</string>
+  <string name="tutorial02_line1">Nzb Leech ดาวน์โหลดไฟล์จากเซิร์ฟเวอร์ usenet ที่คุณระบุ</string>
+  <string name="tutorial02_line2">เซิร์ฟเวอร์ Usenet อนุญาตให้ดาวน์โหลดได้อย่างรวดเร็วและมีราคาตั้งแต่ $ 10 - $ 15 ต่อเดือน</string>
+  <string name="tutorial02_line3">พวกเขามีการทดลองฟรี</string>
+  <string name="tutorial02_list_servers_link">รายชื่อเซิร์ฟเวอร์ usenet</string>
+  <string name="tutorial03_heading">เซิร์ฟเวอร์ Usenet</string>
+  <string name="tutorial03_line1">เมื่อคุณสมัครเป็นสมาชิกบัญชี usenet คุณจะได้รับ</string>
+  <string name="tutorial03_line2">• ที่อยู่เซิฟเวอร์</string>
+  <string name="tutorial03_line3">•ชื่อผู้ใช้</string>
+  <string name="tutorial03_line4">•รหัสผ่าน</string>
+  <string name="tutorial03_line5">• หมายเลขพอร์ต</string>
+  <string name="tutorial03_line6">ป้อนค่าเหล่านี้ใน</string>
+  <string name="tutorial03_settings_link">การตั้งค่า</string>
+  <string name="tutorial04_heading">เซิร์ฟเวอร์ Usenet</string>
+  <string name="tutorial04_line1">ตอนนี้คุณพร้อมที่จะดาวน์โหลด! ค้นหาไฟล์จากแท็บค้นหา</string>
+  <string name="tutorial04_line2">นี่คือพื้นฐาน แต่อ่านต่อเพื่อเรียนรู้เคล็ดลับที่มีประโยชน์ในหน้าถัดไป</string>
+  <string name="tutorial05_heading">ไฟล์</string>
+  <string name="tutorial05_line1">ไฟล์บน usenet ถูกบีบอัดและแบ่งเป็นไฟล์ขนาดเล็กจำนวนมากที่เรียกว่าไฟล์เก็บถาวรที่มีนามสกุล. r00, r.01, r.02 หรือ .part01.rar, .part02.rar เป็นต้น</string>
+  <string name="tutorial05_line2">ดู</string>
+  <string name="tutorial05_line3">ตัวอย่าง</string>
+  <string name="tutorial05_line4">เมื่อคุณดาวน์โหลดคลังเก็บคุณจะต้องแตกไฟล์ออก</string>
+  <string name="tutorial05_line5">รุ่นที่จ่ายของ Nzb Leech จะคลายไฟล์โดยอัตโนมัติ</string>
+  <string name="tutorial05_line6">วันนี้ไฟล์จะถูกเปลี่ยนชื่อ (obfuscated) เพื่อให้คุณไม่สามารถใช้เครื่องมือค้นหาปกติเพื่อค้นหา เพิ่มเติมเกี่ยวกับเรื่องนี้ในภายหลัง</string>
+  <string name="tutorial06_heading">ไฟล์</string>
+  <string name="tutorial06_line1">บางครั้งคุณเริ่มดาวน์โหลดและสังเกตว่าการดาวน์โหลดล้มเหลวหรือไม่สมบูรณ์</string>
+  <string name="tutorial06_line2">นี่เป็นเพราะไฟล์ที่เก็บไว้ในเซิร์ฟเวอร์ถูกลบหรือสูญหาย</string>
+  <string name="tutorial06_line3">Nzb Leech ระบุว่ามีปัญหาในการดาวน์โหลดไฟล์โดยแสดงเป็นสีแดงในแท็บ Nzb</string>
+  <string name="tutorial07_heading">ไฟล์ที่ไม่สมบูรณ์</string>
+  <string name="tutorial07_line1">หากส่วนใดส่วนหนึ่งของไฟล์ไม่สมบูรณ์คุณจะไม่สามารถแตกไฟล์หรือเปิดไฟล์ได้จนกว่าคุณจะซ่อมได้</string>
+  <string name="tutorial07_line2">โชคดีที่ไฟล์ส่วนใหญ่ยังมาพร้อมกับไฟล์เพิ่มเติมที่ลงท้ายด้วย. par2 ที่คุณสามารถใช้เพื่อซ่อมแซมไฟล์ที่ไม่สมบูรณ์</string>
+  <string name="tutorial07_line3">ใช้งานได้ตราบใดที่คุณไม่มีไฟล์ไม่สมบูรณ์จำนวนมากเกินไป การกู้คืนโดยใช้ไฟล์ par2 เป็นไปไม่ได้หากไฟล์มากเกินไปไม่สมบูรณ์</string>
+  <string name="tutorial07_line4">รุ่นที่จ่ายของ Nzb Leech จะตรวจสอบและซ่อมแซมไฟล์โดยอัตโนมัติ</string>
+  <string name="tutorial08_heading">ไฟล์ Nzb</string>
+  <string name="tutorial08_line1">ไฟล์ Nzb เปรียบเสมือนดัชนีที่บอก Nzb Leech ว่าไฟล์ใดที่จะดาวน์โหลดจากเซิร์ฟเวอร์ usenet</string>
+  <string name="tutorial08_line2">คุณเปิดไฟล์ nzb ใน Nzb Leech เพื่อให้สามารถค้นหาและดาวน์โหลดเนื้อหาจากเซิร์ฟเวอร์ usenet</string>
+  <string name="tutorial08_line3">เมื่อคุณดาวน์โหลดไฟล์ทั้งหมด nzb ไม่จำเป็นและสามารถลบได้</string>
+  <string name="tutorial09_heading">จะหาไฟล์ Nzb ได้ที่ไหน</string>
+  <string name="tutorial09_line1">เครื่องมือค้นหา Nzb จะค้นหา usenet ทั้งหมดและส่งคืนไฟล์ nzb ที่ตรงกับที่คุณค้นหา อย่างไรก็ตามไฟล์มักจะถูกเปลี่ยนชื่อเป็นไร้สาระดังนั้นคุณจะไม่พบสิ่งที่คุณต้องการ ฉันจะหารือเกี่ยวกับไซต์ที่ดีกว่าในหน้าถัดไป</string>
+  <string name="tutorial09_line2">อย่างไรก็ตามบางครั้งไซต์เหล่านี้มีประโยชน์และบางส่วนถูกรวมเข้าใน Nzb Leech และสามารถเข้าถึงได้จากแท็บค้นหา</string>
+  <string name="tutorial09_line3">เคล็ดลับ: ค้นหาไฟล์ nzb ที่มีไฟล์กู้คืน par2 ในกรณีที่คุณได้รับไฟล์ที่ไม่สมบูรณ์และจำเป็นต้องซ่อมแซม</string>
+  <string name="tutorial09_line4">เครื่องมือค้นหา Nzb</string>
+  <string name="tutorial10_heading">จะหาไฟล์ Nzb ได้ที่ไหน</string>
+  <string name="tutorial10_line1">สถานที่ที่ดีที่สุดคือไซต์ดัชนีขับเคลื่อนโดยชุมชน ไซต์เหล่านี้แยกวิเคราะห์ดาวน์โหลดและจัดหมวดหมู่ไฟล์เพื่อให้การค้นหาทำงานได้ดีขึ้นมาก</string>
+  <string name="tutorial10_line2">เนื่องจากเว็บไซต์เหล่านี้มีงานพิเศษจำนวนมากจึงต้องการการชำระเงิน แต่มีบางเว็บไซต์ที่ให้บริการฟรี</string>
+  <string name="tutorial10_line3">ไซต์ฟรีมักจะมีข้อ จำกัด เกี่ยวกับจำนวนการค้นหาที่คุณสามารถทำได้หรือจำนวนไฟล์ nzb ที่คุณสามารถดาวน์โหลดได้</string>
+  <string name="tutorial10_line4">เว็บไซต์ดัชนีน้อย Nzb Google มากขึ้น</string>
+  <string name="tutorial11_heading">ขอบคุณ</string>
+  <string name="tutorial11_line1">อย่างนั้นแหละ.</string>
+  <string name="tutorial11_line2">การเรียนรู้มากมาย แต่เมื่อคุณเรียนรู้พื้นฐานคุณจะสงสัยว่าคุณเคยมีชีวิตอยู่ได้อย่างไรโดยไม่ต้องใช้ Usenet</string>
+  <string name="tutorial11_line3">คุณสามารถเข้าถึงบทช่วยสอนนี้ได้จากเมนูตัวเลือก</string>
+  <string name="tutorial11_line4">ขอขอบคุณและดาวน์โหลดอย่างมีความสุข!</string>
+  <string name="tutorial_nav_previous">ก่อน</string>
+  <string name="tutorial_nav_next">ต่อไป</string>
+
+</resources>

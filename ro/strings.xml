@@ -1,0 +1,363 @@
+<resources>
+
+  <string name="preferences">Setări</string>
+  <string name="download_service">Serviciul de descărcare</string>
+
+  
+  <string name="options_menu_settings">Setări</string>
+  <string name="options_menu_quit">Părăsi</string>
+  <string name="options_menu_pause">Pauză</string>
+  <string name="options_menu_resume">Relua</string>
+  <string name="options_menu_rate">Rată</string>
+  <string name="options_menu_about">Despre</string>
+  <string name="options_menu_help">Ajutor</string>
+  <string name="options_menu_donate">Dona</string>
+  <string name="options_menu_start_nzb_monitor">Porniți monitorul Nzb</string>
+  <string name="options_menu_nzb_tutorial">Tutorial Nzb</string>
+  <string name="options_menu_usenet_servers">Servere Usenet</string>
+
+  <string name="verifying">verificarea</string>
+  <string name="verified">Toate fișierele sunt OK!</string>
+  <string name="neededToRepair">blocuri necesare</string>
+  <string name="youNeed">Ai nevoie</string>
+  <string name="thereAre">Sunt</string>
+  <string name="repairing">Repararea:</string>
+  <string name="dialog_quitConfirm">Renunțarea va anula orice descărcări, continuați?</string>
+  <string name="yes">da</string>
+  <string name="no">Nu</string>
+  <string name="access_sdcard_error">Eroare: nu poate accesa spațiul de stocare, aplicația este dezactivată. Pentru a permite descărcarea, nu selectați "Mass Storage USB" în notificarea conexiunii USB.</string>
+  <string name="toast_download_finished">Descarca terminat</string>
+  <string name="status_finished">Terminat</string>
+  <string name="trial_expired">Procesul a expirat, dezactivând caracteristicile premium. Donați pentru a permite caracteristici premium.</string>
+  <string name="context_title_load_nzb_file">Încărcați fișierul NZB</string>
+  <string name="toast_no_nzb_files_found_in_">Nu există fișiere NZB găsite în</string>
+  <string name="no_nzbs_found_">Nu au fost găsite NZB-uri</string>
+  <string name="not_enough_space_to_download_need_">Nu este suficient spațiu pentru a descărca, nevoie</string>
+  <string name="mb_of_free_space">de spațiu liber</string>
+
+  <string name="search_category_prompt">Alegeți categoria</string>
+
+  <string name="detailedTitleLabel">Titlu:</string>
+  <string name="detailedPostedLabel">Publicat:</string>
+  <string name="detailedSizeLabel">Mărimea:</string>
+  <string name="detailedCategoryLabel">Categorie:</string>
+  <string name="nzbMatrixURLLabel">Adresa URL:</string>
+  <string name="search">Căutare</string>
+  <string name="back">Înapoi</string>
+  <string name="download">Descarca</string>
+  <string name="downloading">Descarca…</string>
+  <string name="downloaded">Nzb descărcat</string>
+  <string name="startDownloading">Începeți descărcarea?</string>
+  <string name="details">Detalii</string>
+  <string name="noSearchString">Furnizați termenul de căutare</string>
+
+  <string-array name="searchCategoryNzbMatrix">
+    <item>Tot</item>
+    <item>Audio: Toate</item>
+    <item>Audio: MP3</item>
+    <item>Audio: FLAC</item>
+    <item>televizor</item>
+    <item>TV: SD</item>
+    <item>TV: HD</item>
+    <item>TV: Sport/Ent</item>
+    <item>Filme</item>
+    <item>Filme: SD</item>
+    <item>Filme: HD</item>
+    <item>E-Cărți</item>
+    <item>Cărți audio</item>
+    <item>Benzi desenate</item>
+  </string-array>
+
+  <string name="badApiSiteAddress">Formatul incorect al adresei de site</string>
+
+
+  <string name="eula_title">Final acord de licență utilizator</string>
+  <string name="eula_accept">Accept</string>
+  <string name="eula_refuse">Eu refuz</string>
+  <string name="OK">O.K</string>
+
+
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">Această caracteristică este o încercare și a expirat. Luați în considerare donarea pentru a sprijini efortul de dezvoltare continuă.</string>
+  <string name="Donate">Dona</string>
+  <string name="Later">Mai tarziu</string>
+
+  
+  <string name="pref_disable_acra">Raportare automată a erorilor</string>
+  <string name="pref_acra_disabled">Erori nu sunt trimise dezvoltatorului. Luați în considerare acest lucru, astfel încât erorile să poată fi trimise dezvoltatorului, iar defectele pot fi rezolvate</string>
+  <string name="pref_acra_enabled">Erori trimise automat dezvoltatorului, astfel încât problemele pot fi reparate rapid</string>
+
+  <string name="statusbar_paused">Întrerupt</string>
+
+  <string name="testConnectionFailureHelp">Verificați conexiunea la internet și setările pentru server. Conturile de server noi pot dura până la 30 de minute pentru a deveni active</string>
+
+  
+  <string name="app_name">Prin reparare</string>
+  <string name="for_details_">pentru detalii.</string>
+  <string name="repairing_">Repararea:</string>
+  <string name="scanning_">scanarea:</string>
+  <string name="loading_">Se incarca:</string>
+  <string name="par2service">Par2Service</string>
+  <string name="exception_sending_message">Cu excepția mesajului de trimitere</string>
+  <string name="ok">O.K</string>
+  <string name="file">fişier</string>
+  <string name="Rate">Du-te!</string>
+  <string name="NO">Nu</string>
+  <string name="Rate_Nzb_Leech">Evaluați Nzb Leech</string>
+  <string name="if_you_like_the_app_let_me_know">Dacă vă place aplicația mea, evaluați-o. Comentariile sunt utile, dar opționale.</string>
+  <string name="AdditionalDetail">Detalii suplimentare:</string>
+  <string name="monitoringForNzbFiles">Monitorizarea fișierelor nzb ..</string>
+  <string name="title_activity_settings">Setări</string>
+  <string name="file_status_downloading">Descărcarea</string>
+  <string name="file_status_incomplete">Incomplet</string>
+  <string name="file_status_decoding">Decodarea</string>
+  <string name="tutorial_done">Terminat</string>
+  <string name="file_status_queued">În așteptare</string>
+  <string name="file_status_paused">Întrerupt</string>
+
+  <string name="nzb_tab_press_and_hold">Țineți apăsat pentru a încărca nzb</string>
+
+  
+  <string name="server_providers_list_heading">Unii dintre cei mai cunoscuți și cei mai cunoscuți furnizori de servicii de tip usenet:</string>
+  <string name="server_providers_list_ok">O.K</string>
+
+  
+  <string name="buy_options_unlock_all_features">Deblocați toate funcțiile achiziționând un element de donație mic, mediu sau mare. Sau toate cele trei!</string>
+  <string name="buy_options_small_donation">Donație mică</string>
+  <string name="buy_options_medium_donation">Donație medie</string>
+  <string name="buy_options_large_donation">Donație mare</string>
+  <string name="buy_options_footer">Nzb Leech a fost lansat în decembrie 2011 și încă furnizez actualizări. Aș fi abandonat acest proiect cu mult timp în urmă, dacă nu ar fi fost pentru toți donatorii, vă mulțumesc!</string>
+
+  
+  <string name="first_time_screen_line1">Nou pentru usenet?</string>
+  <string name="first_time_screen_start_here">Începe aici</string>
+  <string name="first_time_screen_line2">Sau adăugați serverul dvs. la</string>
+  <string name="first_time_screen_settings">Setări</string>
+  <string name="first_time_screen_line3">și începe descărcarea!</string>
+  <string name="first_time_screen_line4">Aveți nevoie de un server?</string>
+  <string name="first_time_screen_line5">Vezi aici</string>
+
+  
+  <string name="search_config_type_site">Tipul de site</string>
+  <string name="search_configure_name">Nume</string>
+  <string name="search_configure_name_hint">Introduceți numele pentru acest site</string>
+  <string name="search_configure_api_address">Adresa API</string>
+  <string name="search_configure_api_key">Cheia API</string>
+  <string name="search_configure_api_key_hint">Introduceți cheia API pe care ați primit-o</string>
+  <string name="search_configure_cancel">Anulare</string>
+  <string name="search_configure_help">Ajutor</string>
+  <string name="search_configure_save">Salvați</string>
+
+  
+  <string name="tv_nzb_tab_load_nzb">Încărcați Nzb</string>
+  <string name="tv_nzb_tab_settings">Setări</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Porniți monitorul Nzb</string>
+  <string name="tv_nzb_tab_exit">Ieșire</string>
+  <string name="tv_nzb_tab_load_instructions">Încărcați nzb din fila de căutare sau fișier</string>
+
+  
+  <string name="server_1_enable_server">Activați serverul 1</string>
+  <string name="server_priority_summary">Nzb Leech va descărca mai întâi serverele primare. Dacă o parte lipsește pe serverul primar, acesta va încerca primul server de rezervă. Dacă nu găsiți încă, veți încerca al doilea server de rezervă, apoi al treilea, etc.</string>
+  <string name="server_2_enable_server">Activați serverul 2</string>
+  <string name="server_3_enable_server">Activați serverul 3</string>
+  <string name="server_4_enable_server">Activați serverul 4</string>
+  <string name="server_5_enable_server">Activați serverul 5</string>
+  <string name="server_6_enable_server">Activați serverul 6</string>
+
+  <string-array name="ServerPriorityDisplayArray">
+    <item>Server primar</item>
+    <item>Primul server de rezervă</item>
+    <item>Server secundar de backup</item>
+    <item>Al treilea server de rezervă</item>
+    <item>Al patrulea server de backup</item>
+    <item>Al cincilea server de rezervă</item>
+  </string-array>
+
+  <string name="server_connection_settings">Setări de conectare</string>
+  <string name="server_settings">Setări server</string>
+  <string name="server_1">Server 1</string>
+  <string name="server_2">Server 2</string>
+  <string name="server_3">Server 3</string>
+  <string name="server_4">Server 4</string>
+  <string name="server_5">Server 5</string>
+  <string name="server_6">Server 6</string>
+  <string name="server_priority">Prioritatea serverului</string>
+  <string name="server_address_hint">Server pentru a vă conecta la</string>
+  <string name="server_address">Adresa serverului</string>
+  <string name="server_port">Portul serverului</string>
+  <string name="server_summary">Consultați furnizorul dvs.. de exemplu. Non-SSL: 119, 23 SSL: 443, 563, etc.</string>
+  <string name="server_ssl_summary_off">SSL este dezactivat</string>
+  <string name="server_ssl_summary_on">SSL este activat. SSL necesită un port diferit</string>
+  <string name="server_ssl">Activați SSL</string>
+  <string name="server_connections">Numărul de conexiuni</string>
+  <string name="server_connections_summary">Câte conexiuni să utilizați. Peste 20 pot face mai lent</string>
+  <string name="server_1_auth_summary">Dacă trebuie să specificați numele de utilizator / parola</string>
+  <string name="server_auth">Necesită autentificare</string>
+  <string name="server_username">Nume de utilizator</string>
+  <string name="server_username_summary">Nume de utilizator</string>
+  <string name="server_password_summary">Parola</string>
+  <string name="server_password">Parola</string>
+  <string name="server_test_connection">Test de conexiune</string>
+  <string name="server_test_connection_summary">Testați conectivitatea serverului</string>
+
+  
+  <string name="nzb_leech_settings_title">Nzb Leech Settings</string>
+  <string name="general_settings_title">setari generale</string>
+  <string name="general_nzb_download_dir">Descărcați directorul NZB</string>
+  <string name="general_nzb_download_dir_summary">În cazul în care fișierele descărcate sunt salvate</string>
+  <string name="general_nzb_directory">Directorul NZB</string>
+  <string name="general_nzb_directory_summary">Unde puteți obține fișiere NZB pentru a fi afișate în meniul de selecție</string>
+  <string name="general_skip_par2">Treci peste fișierele par2</string>
+  <string name="general_skip_par2_summary_on">Nu va descărca fișiere par2</string>
+  <string name="general_skip_par2_summary_off">Va descărca fișiere par2</string>
+  <string name="general_additional_title">Nzb Leech Setări suplimentare</string>
+  <string name="additional_verify_repair_title">Par Verificați / Reparați</string>
+  <string name="additional_verify_repair_summary_on">Verificați și reparați fișierele activate</string>
+  <string name="additional_verify_repair_summary_off">Nu va verifica și repara fișierele</string>
+  <string name="additional_extract_automatically_title">Extrage automat fișierele</string>
+  <string name="additional_extract_automatically_summary_on">Va extrage automat arhivele după descărcare</string>
+  <string name="additional_extract_automatically_summary_off">Nu va extrage automat arhivele rar după descărcare</string>
+  <string name="additional_delete_archives_title">Șterge fișierele de arhivă</string>
+  <string name="additional_delete_archives_summary_on">Se va șterge fișierele de arhivă după extragere</string>
+  <string name="additional_delete_archives_summary_off">Nu va șterge fișierele de arhivă după extragere</string>
+  <string name="additional_queue_nzbs_title">Coada Nzbs</string>
+  <string name="additional_queue_nzbs_summary_on">Următorul nzb va fi descărcat automat din dosarul de coadă</string>
+  <string name="additional_queue_nzbs_summary_off">Descărcați automat nzbs din dosarul de coadă</string>
+  <string name="additional_queue_folder_title">NZB Coadă Dosar</string>
+  <string name="additional_queue_nzbs_summary">În cazul în care pentru a obține următorul fișier nzb pentru a descărca. Fișierul Nzb va fi șters la descărcarea cu succes</string>
+
+  
+  <string name="nzb_monitor_title">Setările monitorului Nzb</string>
+  <string name="nzb_monitor_summary">Setări numai pentru monitorul nzb. Porniți monitorul nzb din meniul principal.</string>
+  <string name="nzb_monitor_enable_title">Monitorizați directorul nzb</string>
+  <string name="nzb_monitor_directory_scan_category_title">Nzb Directory Scan</string>
+  <string name="nzb_monitor_dir_scan_interval_title">Nzb Directory Scan Interval (In Minutes)</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">Cât de des este scanat directorul Nzb pentru fișierele nzb noi.</string>
+  <string name="nzb_monitor_category_title_1">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_2">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_3">Nzb RSS Feed</string>
+  <string name="nzb_monitor_category_title_4">Nzb RSS Feed</string>
+  <string name="nzb_monitor_rss_enable">Monitorizați feedul RSS pentru fișierele nzb noi</string>
+  <string name="nzb_monitor_rss_interval">Nzb RSS Scan Interval Minutes</string>
+  <string name="nzb_monitor_rss_interval_summary">Cât de des (în minute) RSS feed-ul este scanat pentru fișiere noi nzb pentru descărcare.</string>
+  <string name="nzb_monitor_rss_url">RSS Feed URL</string>
+  <string name="nzb_monitor_rss_url_summary">trebuie să utilizeze https: // și nu http: // în Android 8 sau o versiune superioară</string>
+
+  
+  <string name="sd_card_settings_title">Setări card SD externe</string>
+  <string name="sd_card_top_level_enable">Mutați descărcările în dosarul de nivel superior</string>
+  <string name="sd_card_top_level_enable_summary">Fișierele vor fi mutate la \'/ sd-card-path / nzb-leech \' după descărcare pentru o experiență mai bună (de ex., Muzica / playerele video văd noile fișiere). Nu se poate trece de la cartela SD internă (externă la externă). Mișcarea durează un timp. Nu poate funcționa pe toate dispozitivele.</string>
+  <string name="sd_card_test_root_write">Testați scrierea pe cardul SD extern extern</string>
+  <string name="sd_card_detect_private_folder">Detectați calea SD externă restricționată externă</string>
+  <string name="sd_card_detect_private_folder_summary">Deci, puteți copia și lipi în setări</string>
+
+  
+  <string name="advanced_screen_title">Setari avansate</string>
+  <string name="advanced_screen_summary">ATENȚIE: NUMAI UTILIZATORI AVANSATE. Continuați cu grijă.</string>
+  <string name="advanced_article_cache">Articolul Cache</string>
+  <string name="advanced_article_cache_summary">Cât de mult MB să aloceți pentru stocarea fișierelor temporare în memoria principală, reducând astfel operațiile discului. Recomanda 60MB (dacă aveți suficientă memorie)</string>
+  <string name="advanced_cache_dir">Cache Directory</string>
+  <string name="advanced_cache_dir_summary">Dosar în cazul în care articolele salvate când cache-ul articolului se umple</string>
+  <string name="advanced_data_skipping">Nu sunt șterse date</string>
+  <string name="advanced_data_skipping_summary">Căutați blocuri de date greșit depuse. E nevoie de mai mult timp pentru a verifica / repara, dar poate repara mai multe fișiere decât fără această setare. Dar permițând această setare, procesul de verificare / reparație ar putea să se închidă cu fișierele par2 create în mod malitios</string>
+  <string name="advanced_smart_repair">Smart Repair</string>
+  <string name="advanced_smart_repair_summary_on">Va calcula și descărca numărul minim de fișiere par2 înainte de a încerca etapa de reparații. Dacă fișierele par2 necesare pentru reparații sunt mai mari decât cele disponibile, atunci nu se descarcă fișiere par2 și nu se încearcă reparația.</string>
+  <string name="advanced_smart_repair_summary_off">Va descărca TOATE fișierele par2 înainte de a încerca să verificați / reparați pasul.</string>
+  <string name="advanced_thread_priority">Descărcați Prioritate Thread</string>
+  <string name="advanced_thread_priority_summary">Maximă poate determina Android să rămână mai târziu în timpul descărcării</string>
+
+  <string name="settings_download_speed">Viteza de descărcare</string>
+
+  
+  <string name="load_nzb_not_found">Nu s-au găsit fișiere NZB!</string>
+  <string name="connection_error_server_reply_code">Codul de răspuns al serverului</string>
+  <string name="connections_server_reply">Mesaj de răspuns la server</string>
+  <string name="connection_error_details">Detalii</string>
+  <string name="detect_sd_not_detected">Hmm, nu a fost detectat niciun card SD.</string>
+  <string name="detect_sd_card_path">Cale externă a cartelei SD</string>
+  <string name="detect_sd_limitation">Rețineți următoarele limitări pentru această cale: Toate fișierele din acest director sunt șterse când aplicația este dezinstalată. Și scanerul media nu găsește niciun fișier în acest director, astfel încât aplicațiile muzicale / video nu văd media.</string>
+  <string name="detect_sd_link_message">Pentru configurarea cardului SD extern, consultați</string>
+  <string name="detect_sd_test_failed">nu a reușit să scrie pe cartela SD</string>
+  <string name="detect_sd_test_select_move">Selectați opțiunea de mutare a descărcărilor de mai sus</string>
+  <string name="detect_sd_test_success">Succes scris la</string>
+  <string name="article_cache_warning">AVERTISMENT: Aplicația se va prăbuși dacă memoria totală (aplicația cache de articole) este mai mare decât</string>
+  <string name="article_cache_20mb">Memoria cache-ului are nevoie de cel puțin 20MB</string>
+  <string name="sd_card_copy_path">Copiați în clipboard</string>
+  <string name="error">Eroare</string>
+  <string name="success">Succes</string>
+  <string name="connection_test_success">Conectat cu succes la</string>
+  <string name="sd_card_path_detected">Posibilă o cale externă a cardului SD detectată</string>
+  <string name="read_write_error">Nu pot citi sau scrie în directorul selectat.</string>
+  <string name="sd_card_help_message">Pentru configurarea cardului SD extern, consultați</string>
+  <string name="invalid_value">valoare invalida</string>
+  <string name="invalid_number">Numar invalid</string>
+  <string name="connecting">conectarea</string>
+  <string name="press_back_to_cancel">Apăsați înapoi pentru a anula</string>
+
+  
+  <string name="corrupt_nzb_suggestion">Încercați să descărcați nzb utilizând Chrome. Sau trimiteți fișierul nzb prin e-mail la przemeknzb@gmail.com pentru a investiga</string>
+  <string name="corrupt_nzb">NZB corupt</string>
+  <string name="nzb_nothing_to_download">nu conține nimic de descărcat</string>
+
+  
+  <string name="tutorial_dialog_heading">Un fișier video.avi este împărțit într-o grămadă de fișiere de pe usenet:</string>
+  <string name="tutorial_dialog_ok">O.K</string>
+  <string name="tutorial_01_title">Începeți descărcarea în 3 pași</string>
+  <string name="tutorial01_step_1">1. Obțineți un cont de server de utilizator</string>
+  <string name="tutorial01_step_2">2. Adăugați serverul la Nzb Leech</string>
+  <string name="tutorial01_step_3">3. Căutați fișiere și începeți să descărcați!</string>
+  <string name="tutorial01_footer">Continuați la pagina următoare pentru a afla cum!</string>
+  <string name="tutorial02_heading">Servere Usenet</string>
+  <string name="tutorial02_line1">Nzb Leech descarcă fișiere de pe un server de utilizator pe care îl specificați</string>
+  <string name="tutorial02_line2">Serverele Usenet permit descărcări foarte rapide și costă între 10 și 15 dolari pe lună</string>
+  <string name="tutorial02_line3">Ei au încercări gratuite</string>
+  <string name="tutorial02_list_servers_link">Lista de servere usenet</string>
+  <string name="tutorial03_heading">Servere Usenet</string>
+  <string name="tutorial03_line1">După ce vă abonați la un cont usenet, veți obține</string>
+  <string name="tutorial03_line2">• adresa serverului</string>
+  <string name="tutorial03_line3">• nume de utilizator</string>
+  <string name="tutorial03_line4">• parola</string>
+  <string name="tutorial03_line5">• numarul portului</string>
+  <string name="tutorial03_line6">Introduceți aceste valori în</string>
+  <string name="tutorial03_settings_link">Setări</string>
+  <string name="tutorial04_heading">Servere Usenet</string>
+  <string name="tutorial04_line1">Acum sunteți gata să descărcați! Căutați fișiere din fila Căutare</string>
+  <string name="tutorial04_line2">Acestea sunt elementele de bază, dar continuați să citiți pentru a afla sfaturi utile pe pagina următoare</string>
+  <string name="tutorial05_heading">Fișiere</string>
+  <string name="tutorial05_line1">Fișierele de pe usenet sunt comprimate și împărțite în mai multe fișiere mai mici numite arhive care au extensia .r00, r.01, r.02 sau .part01.rar, .part02.rar etc.</string>
+  <string name="tutorial05_line2">Vedea</string>
+  <string name="tutorial05_line3">exemplu</string>
+  <string name="tutorial05_line4">După ce descărcați arhivele, trebuie să le despachetați.</string>
+  <string name="tutorial05_line5">Versiunea plătită a Nzb Leech va dezarhiva fișierele în mod automat.</string>
+  <string name="tutorial05_line6">În aceste zile, fișierele sunt redenumite (obfuscate), astfel încât să nu puteți utiliza un motor de căutare normal pentru a le găsi. Mai multe despre asta mai târziu.</string>
+  <string name="tutorial06_heading">Fișiere</string>
+  <string name="tutorial06_line1">Uneori începeți să descărcați și observați că descărcarea a eșuat sau este incompletă.</string>
+  <string name="tutorial06_line2">Acest lucru se datorează faptului că fișierele stocate pe server au fost eliminate sau pierdute.</string>
+  <string name="tutorial06_line3">Nzb Leech indică o problemă de descărcare a unui fișier prin afișarea acestuia în roșu în fila Nzb.</string>
+  <string name="tutorial07_heading">Dosare incomplete</string>
+  <string name="tutorial07_line1">Dacă unele părți ale unui fișier sunt incomplete, nu veți putea să despachetați sau să deschideți fișierul decât dacă îl puteți repara.</string>
+  <string name="tutorial07_line2">Din fericire, majoritatea fișierelor au, de asemenea, fișiere suplimentare care se termină în .par2 pe care le puteți utiliza pentru a repara fișierele incomplete.</string>
+  <string name="tutorial07_line3">Acest lucru funcționează atât timp cât nu aveți prea multe fișiere incomplete. O recuperare utilizând fișierele par2 nu este posibilă dacă prea multe fișiere sunt incomplete.</string>
+  <string name="tutorial07_line4">Versiunea plătită a Nzb Leech verifică și repară automat fișierele</string>
+  <string name="tutorial08_heading">Fișiere Nzb</string>
+  <string name="tutorial08_line1">Fișierul Nzb este ca un indice care îi spune lui Nzb Leech care fișiere să se descarce de pe un server usenet.</string>
+  <string name="tutorial08_line2">Deschideți un fișier nzb în Nzb Leech, astfel încât acesta să poată găsi și descărca conținutul de pe serverul usenet.</string>
+  <string name="tutorial08_line3">După ce descărcați toate fișierele, nzb-ul nu este necesar și poate fi șters.</string>
+  <string name="tutorial09_heading">Unde să găsiți fișierele Nzb?</string>
+  <string name="tutorial09_line1">Motoarele de căutare Nzb vor căuta întreaga usenet și vor returna un fișier nzb care corespunde căutării dvs. Cu toate acestea, fișierele sunt de obicei redenumite la prostii, astfel încât să nu găsiți ceea ce căutați. Voi discuta mai multe site-uri pe pagina următoare.</string>
+  <string name="tutorial09_line2">Totuși, aceste site-uri sunt uneori utile și câteva sunt integrate în Nzb Leech și pot fi accesate din fila Căutare.</string>
+  <string name="tutorial09_line3">Sfat: Căutați fișiere nzb care conțin fișiere de recuperare par2 în cazul în care obțineți fișiere incomplete și trebuie să le reparați</string>
+  <string name="tutorial09_line4">Nzb Motoare de căutare</string>
+  <string name="tutorial10_heading">Unde să găsiți fișierele Nzb?</string>
+  <string name="tutorial10_line1">Cel mai bun loc este site-urile index nzb conduse de comunitate. Aceste site-uri parsează, descarcă și clasifică fișierele, astfel căutarea funcționează mult mai bine.</string>
+  <string name="tutorial10_line2">Din cauza muncii suplimentare, multe dintre aceste site-uri necesită plata, dar există și câteva site-uri gratuite.</string>
+  <string name="tutorial10_line3">Site-urile gratuite au, de obicei, o limită a numărului de căutări pe care le puteți efectua sau a numărului de fișiere nzb pe care le puteți descărca.</string>
+  <string name="tutorial10_line4">Câteva site-uri de indexare Nzb. Google pentru mai multe</string>
+  <string name="tutorial11_heading">Mulțumiri</string>
+  <string name="tutorial11_line1">Aia este.</string>
+  <string name="tutorial11_line2">Multe de învățat, dar odată ce ați învățat elementele de bază, vă veți întreba cum ați trăit vreodată fără Usenet.</string>
+  <string name="tutorial11_line3">Puteți accesa întotdeauna acest tutorial din meniul de opțiuni.</string>
+  <string name="tutorial11_line4">Vă mulțumim și descărcări fericite!</string>
+  <string name="tutorial_nav_previous">Anterior</string>
+  <string name="tutorial_nav_next">Următor →</string>
+
+</resources>
