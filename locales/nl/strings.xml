@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <string name="preferences">instellingen</string>
+  <string name="preferences">Instellingen</string>
   <string name="download_service">Download Service</string>
 
   
   <!-- Options menu right hand side -->
-  <string name="options_menu_settings">instellingen</string>
-  <string name="options_menu_quit">ophouden</string>
+  <string name="options_menu_settings">Instellingen</string>
+  <string name="options_menu_quit">Ophouden</string>
   <string name="options_menu_pause">Pauze</string>
   <string name="options_menu_resume">Hervatten</string>
   <string name="options_menu_rate">tarief</string>
