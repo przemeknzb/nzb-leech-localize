@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="preferences">Settings</string>
+
+  <!-- Options menu right hand side -->
+  <string name="options_menu_settings">Settings</string>
+  <string name="options_menu_pause">Pause</string>
+
+  <string name="dialog_quitConfirm">Quitting will cancel any downloads, continue?</string>
+
+
+  </resources>
