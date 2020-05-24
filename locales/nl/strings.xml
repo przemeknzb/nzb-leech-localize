@@ -1,9 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
   <string name="preferences">instellingen</string>
   <string name="download_service">Download Service</string>
 
   
+  <!-- Options menu right hand side -->
   <string name="options_menu_settings">instellingen</string>
   <string name="options_menu_quit">ophouden</string>
   <string name="options_menu_pause">Pauze</string>
@@ -25,7 +27,7 @@
   <string name="dialog_quitConfirm">Als u ophoudt, worden alle downloads geannuleerd, maar gaat u verder?</string>
   <string name="yes">Ja</string>
   <string name="no">Nee</string>
-  <string name="access_sdcard_error">Fout: geen toegang tot opslagruimte, toepassing uitgeschakeld. Als u downloads wilt toestaan, selecteert u \ "USB-massaopslag \" niet in de melding over de USB-verbinding.</string>
+  <string name="access_sdcard_error">Fout: geen toegang tot opslagruimte, toepassing uitgeschakeld. Als u downloads wilt toestaan, selecteert u \ &quot;USB-massaopslag \&quot; niet in de melding over de USB-verbinding.</string>
   <string name="toast_download_finished">Downloaden voltooid</string>
   <string name="status_finished">Afgewerkt</string>
   <string name="trial_expired">Proefperiode verlopen, premiumfuncties uitschakelen. Doneer om premiumfuncties in te schakelen.</string>
@@ -51,23 +53,6 @@
   <string name="details">Details</string>
   <string name="noSearchString">Geef zoekterm op</string>
 
-  <string-array name="searchCategoryNzbMatrix">
-    <item>Alles</item>
-    <item>Audio: allemaal</item>
-    <item>Audio: MP3</item>
-    <item>Audio: FLAC</item>
-    <item>TV</item>
-    <item>TV: SD</item>
-    <item>TV: HD</item>
-    <item>TV: Sport/Ent</item>
-    <item>Films</item>
-    <item>Films: SD</item>
-    <item>Films: HD</item>
-    <item>E-Books</item>
-    <item>Audio Boeken</item>
-    <item>comics</item>
-  </string-array>
-
   <string name="badApiSiteAddress">Slecht formaat van website-adres</string>
 
 
@@ -82,6 +67,7 @@
   <string name="Later">Later</string>
 
   
+  <!-- preferences -->
   <string name="pref_disable_acra">Automatische foutrapportage</string>
   <string name="pref_acra_disabled">Fouten worden niet verzonden naar de ontwikkelaar. Overweeg het inschakelen van dit zodat fouten kunnen worden verzonden naar de ontwikkelaar en defecten kunnen worden opgelost</string>
   <string name="pref_acra_enabled">Fouten automatisch verzonden naar de ontwikkelaar, zodat problemen snel kunnen worden opgelost</string>
@@ -91,6 +77,7 @@
   <string name="testConnectionFailureHelp">Controleer uw internetverbinding en uw serverinstellingen. Nieuwe serveraccounts kunnen maximaal 30 minuten duren om actief te worden</string>
 
   
+  <!-- Par Activity -->
   <string name="app_name">Door reparatie</string>
   <string name="for_details_">voor details.</string>
   <string name="repairing_">Het herstellen:</string>
@@ -117,10 +104,12 @@
   <string name="nzb_tab_press_and_hold">Houd ingedrukt om nzb te laden</string>
 
   
+  <!-- server providers heading -->
   <string name="server_providers_list_heading">Enkele van de bekendste en populairste usenet-providers:</string>
   <string name="server_providers_list_ok">OK</string>
 
   
+  <!-- donate sceen -->
   <string name="buy_options_unlock_all_features">Ontgrendel alle functies door een klein, middelgroot of groot donatieartikel te kopen. Of alle drie!</string>
   <string name="buy_options_small_donation">Kleine gift</string>
   <string name="buy_options_medium_donation">Medium donatie</string>
@@ -128,6 +117,7 @@
   <string name="buy_options_footer">Nzb Leech werd uitgebracht in december 2011 en ik bied nog steeds updates aan. Ik zou dit project lang geleden hebben opgegeven als het niet voor alle donoren was, dank je!</string>
 
   
+  <!-- first time nzb tab screen -->
   <string name="first_time_screen_line1">Nieuw bij usenet?</string>
   <string name="first_time_screen_start_here">Begin hier</string>
   <string name="first_time_screen_line2">Of voeg uw server toe aan</string>
@@ -137,6 +127,7 @@
   <string name="first_time_screen_line5">Kijk hier</string>
 
   
+  <!-- search config dialog -->
   <string name="search_config_type_site">Type site</string>
   <string name="search_configure_name">Naam</string>
   <string name="search_configure_name_hint">Voer de naam in voor deze site</string>
@@ -148,6 +139,7 @@
   <string name="search_configure_save">Opslaan</string>
 
   
+  <!-- tv differences -->
   <string name="tv_nzb_tab_load_nzb">Load Nzb</string>
   <string name="tv_nzb_tab_settings">instellingen</string>
   <string name="tv_nzb_tab_start__nzb_monitor">Start Nzb Monitor</string>
@@ -155,6 +147,7 @@
   <string name="tv_nzb_tab_load_instructions">Laad nzb van het zoek- of bestandentabblad</string>
 
   
+  <!-- server settings -->
   <string name="server_1_enable_server">Schakel Server 1 in</string>
   <string name="server_priority_summary">Nzb Leech wordt eerst gedownload van de primaire servers. Als een onderdeel ontbreekt op de primaire server, wordt eerst de back-upserver geprobeerd. Als het nog steeds niet wordt gevonden, probeert u een tweede back-upserver, vervolgens een derde, enzovoort.</string>
   <string name="server_2_enable_server">Schakel Server 2 in</string>
@@ -162,15 +155,6 @@
   <string name="server_4_enable_server">Schakel Server 4 in</string>
   <string name="server_5_enable_server">Schakel Server 5 in</string>
   <string name="server_6_enable_server">Schakel Server 6 in</string>
-
-  <string-array name="ServerPriorityDisplayArray">
-    <item>Primaire server</item>
-    <item>First Backup Server</item>
-    <item>Tweede back-up server</item>
-    <item>Derde back-up server</item>
-    <item>Vierde back-upserver</item>
-    <item>Vijfde back-upserver</item>
-  </string-array>
 
   <string name="server_connection_settings">Verbindingsinstellingen</string>
   <string name="server_settings">Server instellingen</string>
@@ -200,6 +184,7 @@
   <string name="server_test_connection_summary">Test de connectiviteit van uw server</string>
 
   
+  <!-- nzb general settings -->
   <string name="nzb_leech_settings_title">Nzb Leech Settings</string>
   <string name="general_settings_title">Algemene instellingen</string>
   <string name="general_nzb_download_dir">NZB Download Directory</string>
@@ -226,6 +211,7 @@
   <string name="additional_queue_nzbs_summary">Waar moet het volgende nzb-bestand worden gedownload. Nzb-bestand wordt verwijderd bij succesvolle download</string>
 
   
+  <!-- nzb monitor settings -->
   <string name="nzb_monitor_title">Nzb Monitor Settings</string>
   <string name="nzb_monitor_summary">Alleen instellingen voor nzb-monitor. Start nzb-monitor vanuit het hoofdmenu.</string>
   <string name="nzb_monitor_enable_title">Monitor nzb directory</string>
@@ -243,15 +229,16 @@
   <string name="nzb_monitor_rss_url_summary">moet https: // en niet http: // gebruiken in Android 8 of hoger</string>
 
   
+  <!-- sd card settings -->
   <string name="sd_card_settings_title">Externe SD-kaartinstellingen</string>
   <string name="sd_card_top_level_enable">Verplaats downloads naar map op het hoogste niveau</string>
   <string name="sd_card_top_level_enable_summary">Bestanden worden na het downloaden verplaatst naar \'/ sd-card-path / nzb-leech\' voor een betere ervaring (bijv. Muziek / videospelers zien de nieuwe bestanden). Kan niet verplaatsen van interne naar externe SD-kaart (alleen extern naar extern). Verplaatsen duurt even. Werkt mogelijk niet op alle apparaten.</string>
-  <string name="sd_card_test_root_write">Test schrijven naar root externe SD-kaart</string>
   <string name="sd_card_detect_private_folder">Detect Beperkt extern SD-kaartpad</string>
   <string name="sd_card_detect_private_folder_summary">U kunt dus de instellingen kopiëren en plakken</string>
   <string name="sd_card_select_sd_card">Belangrijk! Selecteer in het volgende scherm de hoofdmap naar uw EXTERNAL SD-kaart om Nzb Leech schrijftoegang te geven</string>
 
   
+  <!-- advanced settings -->
   <string name="advanced_screen_title">Geavanceerde instellingen</string>
   <string name="advanced_screen_summary">WAARSCHUWING: ALLEEN VOOR GEAVANCEERDE GEBRUIKERS. Ga voorzichtig te werk.</string>
   <string name="advanced_article_cache">Artikelcache</string>
@@ -267,9 +254,11 @@
   <string name="advanced_thread_priority_summary">Maximaal kan ervoor zorgen dat Android tijdens het downloaden meer achterloopt</string>
 
   <string name="settings_download_speed">Download snelheid</string>
+  <string name="settings_change_theme">Thema Veranderen</string>
   <string name="fix_translations">Vertaling repareren</string>
   <string name="fix_translations_summary">Help de vertaling in uw taal te verbeteren</string>
   
+  <!-- settings error messages and popups -->
   <string name="load_nzb_not_found">Geen NZB-bestanden gevonden!</string>
   <string name="connection_error_server_reply_code">Antwoordcode van server</string>
   <string name="connections_server_reply">Server antwoordbericht</string>
@@ -296,11 +285,13 @@
   <string name="press_back_to_cancel">Druk op Terug om te annuleren</string>
 
   
+  <!-- parsing nzb errors -->
   <string name="corrupt_nzb_suggestion">Probeer nzb te downloaden met Chrome. Of email nzb bestand naar przemeknzb@gmail.com om te onderzoeken</string>
   <string name="corrupt_nzb">Corrupt nzb</string>
   <string name="nzb_nothing_to_download">bevat niets om te downloaden</string>
 
   
+  <!-- tutorials -->
   <string name="tutorial_dialog_heading">Een video.avi-bestand is opgedeeld in een aantal bestanden op usenet:</string>
   <string name="tutorial_dialog_ok">OK</string>
   <string name="tutorial_01_title">Begin met downloaden in 3 stappen</string>
@@ -361,5 +352,4 @@
   <string name="tutorial11_line4">Bedankt en blij downloaden!</string>
   <string name="tutorial_nav_previous">voorgaand</string>
   <string name="tutorial_nav_next">volgende</string>
-
-</resources>
+  </resources>
