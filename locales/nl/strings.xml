@@ -157,6 +157,12 @@
   <string name="server_6_enable_server">Schakel Server 6 in</string>
 
 
+  <string name="server_priority_first_backup">First Backup Server</string>
+  <string name="server_priority_second_backup">Second Backup Server</string>
+  <string name="server_priority_third_backup">Third Backup Server</string>
+  <string name="server_priority_fourth_backup">Fourth Backup Server</string>
+  <string name="server_priority_fifth_backup">Fifth Backup Server</string>
+
   <string name="server_connection_settings">Verbindingsinstellingen</string>
   <string name="server_settings">Server instellingen</string>
   <string name="server_1">Server 1</string>
