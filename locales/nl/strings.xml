@@ -157,6 +157,7 @@
   <string name="server_6_enable_server">Schakel Server 6 in</string>
 
 
+  <string name="server_priority_primary"></string>
   <string name="server_priority_first_backup">First Backup Serverr</string>
   <string name="server_priority_second_backup">Second Backup Server</string>
   <string name="server_priority_third_backup">Third Backup Server</string>
@@ -308,7 +309,6 @@
   <string name="tutorial01_footer">Ga door naar de volgende pagina om te weten hoe!</string>
   <string name="tutorial02_heading">Usenet-servers</string>
   <string name="tutorial02_line1">Nzb Leech downloadt bestanden van een usenetserver die u opgeeft</string>
-  <string name="tutorial02_line2">Usenet-servers staan zeer snelle downloads toe en kosten van $ 10- $ 15 per maand</string>
   <string name="tutorial02_line3">Ze hebben gratis proeven</string>
   <string name="tutorial02_list_servers_link">Lijst met usenetservers</string>
   <string name="tutorial03_heading">Usenet-servers</string>
