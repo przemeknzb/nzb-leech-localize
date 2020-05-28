@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
 
   <string name="preferences">Settings</string>
@@ -53,26 +52,43 @@
   <string name="back">Back</string>
   <string name="download">Download</string>
   <string name="downloading">Download…</string>
+  <string name="downloading_nzb_file">Downloading nzb file…</string>
   <string name="downloaded">Nzb downloaded</string>
   <string name="startDownloading">Start downloading?</string>
   <string name="details">Details</string>
   <string name="noSearchString">Provide search term</string>
 
-  <string-array name="searchCategoryNzbMatrix">
-    <item>Everything</item>
-    <item>Audio: All</item>
-    <item>Audio: MP3</item>
-    <item>Audio: FLAC</item>
-    <item>TV</item>
-    <item>TV: SD</item>
-    <item>TV: HD</item>
-    <item>TV: Sport/Ent</item>
-    <item>Movies</item>
-    <item>Movies: SD</item>
-    <item>Movies: HD</item>
-    <item>E-Books</item>
-    <item>Audio Books</item>
-    <item>Comics</item>
+
+	<string name="category_everything">Everything</string>
+	<string name="category_audio_all">Everything</string>
+	<string name="category_audio_mp3">Everything</string>
+	<string name="category_audio_flac">Everything</string>
+	<string name="category_tv">TV</string>
+	<string name="category_tv_sd">TV: SD</string>
+	<string name="category_tv_hd">TV: HD</string>
+	<string name="category_tv_sport_ent">TV: Sport/Ent</string>
+	<string name="category_movies">Movies</string>
+	<string name="category_movies_sd">Movies: SD</string>
+	<string name="category_movies_hd">Movies: HD</string>
+	<string name="category_ebooks">E-Books</string>
+	<string name="category_audio_books">Audio Books</string>
+	<string name="category_comics">Comics</string>
+
+	<string-array name="searchCategoryNzbMatrix">
+    <item>@string/category_everything</item>
+    <item>@string/category_audio_all</item>
+    <item>@string/category_audio_mp3</item>
+    <item>@string/category_audio_flac</item>
+    <item>@string/category_tv</item>
+    <item>@string/category_tv_sd</item>
+    <item>@string/category_tv_hd</item>
+    <item>@string/category_tv_sport_ent</item>
+    <item>@string/category_movies</item>
+    <item>@string/category_movies_sd</item>
+    <item>@string/category_movies_hd</item>
+    <item>@string/category_ebooks</item>
+    <item>@string/category_audio_books</item>
+    <item>@string/category_comics</item>
   </string-array>
 
   <string name="badApiSiteAddress">Bad site address format</string>
@@ -155,6 +171,7 @@
   <string name="search_configure_help">Help</string>
   <string name="search_configure_save">Save</string>
   <string name="search_configure_url">URL</string>
+  <string name="search_configure_no_browser_tv">Cannot open website on TV</string>
 
   <!-- tv differences -->
   <string name="tv_nzb_tab_load_nzb">Load Nzb</string>
@@ -172,17 +189,27 @@
   <string name="server_5_enable_server">Enable Server 5</string>
   <string name="server_6_enable_server">Enable Server 6</string>
 
+
+  <string name="server_priority_primary">Primary Server</string>
+  <string name="server_priority_first_backup">First Backup Server</string>
+  <string name="server_priority_second_backup">Second Backup Server</string>
+  <string name="server_priority_third_backup">Third Backup Server</string>
+  <string name="server_priority_fourth_backup">Fourth Backup Server</string>
+  <string name="server_priority_fifth_backup">Fifth Backup Server</string>
+
   <string-array name="ServerPriorityDisplayArray">
-    <item>Primary Server</item>
-    <item>First Backup Server</item>
-    <item>Second Backup Server</item>
-    <item>Third Backup Server</item>
-    <item>Fourth Backup Server</item>
-    <item>Fifth Backup Server</item>
+    <item>@string/server_priority_primary</item>
+    <item>@string/server_priority_first_backup</item>
+    <item>@string/server_priority_second_backup</item>
+    <item>@string/server_priority_third_backup</item>
+    <item>@string/server_priority_fourth_backup</item>
+    <item>@string/server_priority_fifth_backup</item>
   </string-array>
 
   <string name="server_connection_settings">Connection settings</string>
+  <string name="server_settings_need_server_desc">Touch here to get the fastest and most secure premium servers</string>
   <string name="server_settings">Server Settings</string>
+  <string name="server_settings_need_server">Need a Server?</string>
   <string name="server_1">Server 1</string>
   <string name="server_2">Server 2</string>
   <string name="server_3">Server 3</string>
@@ -373,6 +400,9 @@
   <string name="tutorial_nav_previous">Previous</string>
   <string name="tutorial_nav_next">Next</string>
   <string name="download_must_external_directory">Your download directory must be on external sd card for this to work</string>
+<string name="nzb_tab_file_already_queued">File is already queued for download</string>
+<string name="preferences_copied_to_clipboard">Copied to clipboard!</string>
+<string name="search_tab_site">Site</string>
 
 
 </resources>
