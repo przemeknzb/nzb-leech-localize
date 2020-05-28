@@ -19,7 +19,7 @@
   <string name="options_menu_usenet_servers">Usenet-servers</string>
 
   <string name="verifying">Het verifiëren</string>
-  <string name="verified">Alle bestanden OK!</string>
+  <string name="verified">Alle bestanden ok!</string>
   <string name="neededToRepair">blokken nodig</string>
   <string name="youNeed">Jij hebt nodig</string>
   <string name="thereAre">Er zijn</string>
@@ -155,6 +155,7 @@
   <string name="server_4_enable_server">Schakel Server 4 in</string>
   <string name="server_5_enable_server">Schakel Server 5 in</string>
   <string name="server_6_enable_server">Schakel Server 6 in</string>
+
 
   <string name="server_connection_settings">Verbindingsinstellingen</string>
   <string name="server_settings">Server instellingen</string>
