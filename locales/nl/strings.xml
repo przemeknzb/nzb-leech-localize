@@ -162,6 +162,15 @@
   <string name="server_priority_third_backup">Third Backup Server</string>
   <string name="server_priority_fourth_backup">Fourth Backup Server</string>
   <string name="server_priority_fifth_backup">Fifth Backup Server</string>
+  
+  <string-array name="ServerPriorityDisplayArray">
+		<item>@string/server_priority_primary</item>
+		<item>@string/server_priority_first_backup</item>
+		<item>@string/server_priority_second_backup</item>
+		<item>@string/server_priority_third_backup</item>
+		<item>@string/server_priority_fourth_backup</item>
+		<item>@string/server_priority_fifth_backup</item>
+	</string-array>
 
   <string name="server_connection_settings">Verbindingsinstellingen</string>
   <string name="server_settings">Server instellingen</string>
