@@ -51,7 +51,7 @@
   <string name="downloaded">Nzb downloaded</string>
   <string name="startDownloading">Beginnen met downloaden?</string>
   <string name="details">Details</string>
-  <string name="noSearchString">Geef zoekterm op</string>
+  <string name="noSearchString">Geef zoekterm op S</string>
 
   <string name="badApiSiteAddress">Slecht formaat van website-adres</string>
 
