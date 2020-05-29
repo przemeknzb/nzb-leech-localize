@@ -142,7 +142,7 @@
   <!-- tv differences -->
   <string name="tv_nzb_tab_load_nzb">Load Nzb</string>
   <string name="tv_nzb_tab_settings">instellingen</string>
-  <string name="tv_nzb_tab_start__nzb_monitor">Start Nzb Monitor</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">Begin Nzb Monitor</string>
   <string name="tv_nzb_tab_exit">Uitgang</string>
   <string name="tv_nzb_tab_load_instructions">Laad nzb van het zoek- of bestandentabblad</string>
 
@@ -359,4 +359,7 @@
   <string name="tutorial11_line4">Bedankt en blij downloaden!</string>
   <string name="tutorial_nav_previous">voorgaand</string>
   <string name="tutorial_nav_next">volgende</string>
-  </resources>
+  <string name="search_tab_site">Sitee</string>
+
+
+</resources>
