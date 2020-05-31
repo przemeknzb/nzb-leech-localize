@@ -1,412 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2007-2008 OpenIntents.org
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
 <resources>
+	<!-- ***************************
+	     About information
+	     *************************** -->
 
-  <string name="preferences">Settings</string>
-  <string name="download_service">Download Service</string>
+	<!-- Automatically filled in by Launchpad: -->
+	<string name="about_translators">translator-credits</string>
 
-	<string name="navigation_drawer_open">Open navigation drawer</string>
-	<string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Short explanation of the application (max. 80 characters) -->
+    <string name="about_comments">Manage files on the SD card with OI File Manager.</string>
 
-  <!-- Options menu right hand side -->
-  <string name="options_menu_settings">Settings</string>
-  <string name="options_menu_quit">Quit</string>
-  <string name="options_menu_pause">Pause</string>
-  <string name="options_menu_resume">Resume</string>
-  <string name="options_menu_rate">Rate</string>
-  <string name="options_menu_about">About</string>
-  <string name="options_menu_help">Help</string>
-  <string name="options_menu_donate">Donate</string>
-  <string name="options_menu_start_nzb_monitor">Start Nzb Monitor</string>
-  <string name="options_menu_nzb_tutorial">Nzb Tutorial</string>
-  <string name="options_menu_usenet_servers">Usenet Servers</string>
+	<!-- ***************************
+	     Applicatio-specific strings
+	     *************************** -->
+	<!-- Name of application. Can be localized. OI = OpenIntents should stay unmodified. -->
+    <string name="app_name">OI File Manager</string>
 
-  <string name="verifying">Verifying</string>
-  <string name="verified">All files OK!</string>
-  <string name="moving_files">Moving files</string>
-  <string name="media_scanning">Media scanning...</string>
-  <string name="done">Done!</string>
-  <string name="failed_to_move_files">Failed to move files</string>
-  <string name="not_enough_blocks">Not enough blocks available to repair</string>
-  <string name="neededToRepair">blocks needed</string>
-  <string name="youNeed">You need</string>
-  <string name="thereAre">There are</string>
-  <string name="repairing">Repairing</string>
-  <string name="dialog_quitConfirm">Quitting will cancel any downloads, continue?</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
-  <string name="access_sdcard_error">Error: cannot access storage space, application disabled. To allow downloads, don\'t select \"USB mass storage\" in the USB connection notification.</string>
-  <string name="toast_download_finished">Download finished</string>
-  <string name="status_finished">Finished</string>
-  <string name="trial_expired">Trial expired, disabling premium features. Donate to enable premium features.</string>
-  <string name="context_title_load_nzb_file">Load NZB file</string>
-  <string name="toast_no_nzb_files_found_in_">No NZB files found in</string>
-  <string name="no_nzbs_found_">No NZBs found</string>
-  <string name="not_enough_space_to_download_need_">Not enough space to download, need</string>
-  <string name="mb_of_free_space">of free space</string>
+  <!-- Multi select option menu -->
 
-  <string name="search_category_prompt">Choose category</string>
+  <string name="menu_delete">Delete</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_open">Open</string>
+  <string name="menu_details">Details</string>
+  <string name="menu_filter">Filter</string>
+  <string name="menu_refresh">Refresh</string>
 
-  <string name="detailedTitleLabel">Title:</string>
-  <string name="detailedPostedLabel">Posted:</string>
-  <string name="detailedSizeLabel">Size:</string>
-  <string name="detailedCategoryLabel">Category:</string>
-  <string name="nzbMatrixURLLabel">URL:</string>
-  <string name="search">Search</string>
-  <string name="back">Back</string>
-  <string name="download">Download</string>
-  <string name="downloading">Download…</string>
-  <string name="downloading_nzb_file">Downloading nzb file…</string>
-  <string name="downloaded">Nzb downloaded</string>
-  <string name="startDownloading">Start downloading?</string>
-  <string name="details">Details</string>
-  <string name="noSearchString">Provide search term</string>
+    <string name="create_new_folder">Create new folder</string>
+    <string name="folder_name">Folder name</string>
+    <string name="file_name">File name</string>
+    <string name="extension">Extension (with \'.\')</string>
+    <string name="this_folder_is_empty">This folder is empty.</string>
+    <string name="really_delete">Do you really want to delete %s?</string>
+    <string name="file_deleted">File deleted.</string>
+    <string name="folder_deleted">Folder deleted.</string>
+    <string name="file_renamed">File renamed.</string>
+    <string name="folder_renamed">Folder renamed.</string>
+  <string name="move_title">Select folder to move to</string>
+    <string name="move_button">Move here</string>
+    <string name="copy_title">Select folder to copy to</string>
+    <string name="copy_button">Copy here</string>
+	<string name="title_warning_some_may_not_work">Warning</string>
+    <string name="warning_some_may_not_work">Some of the following options may not work.</string>
+    <string name="show_warning_again">Show warning again</string>
 
+    <!-- Strings for a multi select feature -->
+	<string name="really_delete_multiselect">Do you really want to delete %d files?</string>
+    <string name="move_button_multiselect">Move</string>
+    <string name="copy_button_multiselect">Copy</string>
+    <string name="delete_button_multiselect">Delete</string>
+    <string name="compress_zip_button_multiselect">ZIP</string>
+    <string name="multiselect_title">Select multiple files</string>
+    <string name="error_selection">Please select one or more file(s).</string>
 
-	<string name="category_everything">Everything</string>
-	<string name="category_audio_all">Audio: All</string>
-	<string name="category_audio_mp3">Audio: MP3</string>
-	<string name="category_audio_flac">Audio: FLAC</string>
-	<string name="category_tv">TV</string>
-	<string name="category_tv_sd">TV: SD</string>
-	<string name="category_tv_hd">TV: HD</string>
-	<string name="category_tv_sport_ent">TV: Sport/Ent</string>
-	<string name="category_movies">Movies</string>
-	<string name="category_movies_sd">Movies: SD</string>
-	<string name="category_movies_hd">Movies: HD</string>
-	<string name="category_ebooks">E-Books</string>
-	<string name="category_audio_books">Audio Books</string>
-	<string name="category_comics">Comics</string>
+    <!-- Strings for details table -->
+    <string name="details_type">Type</string>
+    <string name="details_type_folder">Folder</string>
+    <string name="details_type_file">File</string>
+    <string name="details_type_other">Other</string>
+    <string name="details_size">Size</string>
+    <string name="details_permissions">Permissions</string>
+    <string name="details_hidden">Hidden</string>
+    <string name="details_lastmodified">Last Modified</string>
+    <string name="details_yes">Yes</string>
+    <string name="details_no">No</string>
 
-	<string-array name="searchCategoryNzbMatrix">
-    <item>@string/category_everything</item>
-    <item>@string/category_audio_all</item>
-    <item>@string/category_audio_mp3</item>
-    <item>@string/category_audio_flac</item>
-    <item>@string/category_tv</item>
-    <item>@string/category_tv_sd</item>
-    <item>@string/category_tv_hd</item>
-    <item>@string/category_tv_sport_ent</item>
-    <item>@string/category_movies</item>
-    <item>@string/category_movies_sd</item>
-    <item>@string/category_movies_hd</item>
-    <item>@string/category_ebooks</item>
-    <item>@string/category_audio_books</item>
-    <item>@string/category_comics</item>
-  </string-array>
+    <!-- Construct a unique file name of a file called %s. -->
+    <string name="copied_file_name">Copy of %s</string>
 
-  <string name="badApiSiteAddress">Bad site address format</string>
+    <!-- Construct a unique file name with number %1$d of a file called %2$s. -->
+    <string name="copied_file_name_2">Copy %1$d of %2$s</string>
 
+    <string name="media_scan_included">This folder will be included in the next media scan.</string>
+    <string name="media_scan_excluded">This folder will be excluded during the next media scan.</string>
 
-  <string name="eula_title">End User License Agreement</string>
-  <string name="eula_accept">I Accept</string>
-  <string name="eula_refuse">I Refuse</string>
-  <string name="OK">OK</string>
+    <string name="error_creating_new_folder">Could not create new folder.</string>
+    <string name="error_deleting_file">Could not delete file.</string>
+    <string name="error_deleting_folder">Could not delete folder \'%s\'.</string>
+    <string name="error_renaming_file">Could not rename file.</string>
+    <string name="error_renaming_folder">Could not rename folder.</string>
+  <string name="error_file_does_not_exists">File does not exist.</string>
+    <string name="error_deleting_child_file">Could not delete child file \'%s\'.</string>
+    <string name="error_generic">An error occurred: </string>
+    <string name="error_media_scan">Could not change media scan settings.</string>
 
+    <string name="send_not_available">No application available for sending.</string>
 
-  <string name="preferences_this_feature_is_is_in_the_paid_version_only">This feature is a trial and it expired.  Consider donating to support the ongoing development effort.</string>
-  <string name="Donate">Donate</string>
-  <string name="Later">Later</string>
+    <string name="application_not_available">Application not available</string>
 
-  <!-- preferences -->
-  <string name="pref_disable_acra">Automatic error reporting</string>
-  <string name="pref_acra_disabled">Errors are not sent to the developer. Consider enabling this so errors can be sent to the developer and defects can be resolved</string>
-  <string name="pref_acra_enabled">Errors automatically sent to the developer so glitches can be fixed quickly</string>
+	<!-- ***************************
+	     Preferences
+	     *************************** -->
+    <!-- Menu item for Settings -->
+	<string name="options_menu_settings">Settings</string>
 
-  <string name="statusbar_paused">Paused</string>
+    <!-- Category for preferences. -->
+    <string name="preference_advanced_features">Advanced features</string>
+	<string name="preference_mediascan_title">Exclude from media scan</string>
+    <string name="preference_mediascan_summary_on">Show menu item to exclude folders from media scan.</string>
+    <string name="preference_mediascan_summary_off">Hide menu item to exclude folders from media scan.</string>
 
-  <string name="testConnectionFailureHelp">Check your internet connection and your server settings.  New server accounts can take up to 30 minutes to become active</string>
+    <string name="preference_showallwarning_title">Show all warnings</string>
+    <string name="preference_showallwarning_summary_on">Show all warning messages</string>
+    <string name="preference_showallwarning_summary_off">Suppress warning messages</string>
 
-  <!-- Par Activity -->
-  <string name="app_name">Par Repair</string>
-  <string name="for_details_">for details.</string>
-  <string name="repairing_">Repairing:</string>
-  <string name="scanning_">Scanning:</string>
-  <string name="loading_">Loading:</string>
-  <string name="par2service">Par2Service</string>
-  <string name="exception_sending_message">Exception sending message</string>
-  <string name="ok">OK</string>
-  <string name="file">file</string>
-  <string name="Rate">Go Rate!</string>
-  <string name="NO">No</string>
-  <string name="Rate_Nzb_Leech">Rate Nzb Leech</string>
-  <string name="if_you_like_the_app_let_me_know">If you like my app please rate it. Comments are helpful, but optional.</string>
-  <string name="AdditionalDetail">Additional Detail:</string>
-  <string name="monitoringForNzbFiles">Monitoring for nzb files..</string>
-  <string name="title_activity_settings">Settings</string>
-  <string name="file_status_downloading">Downloading</string>
-  <string name="file_status_incomplete">Incomplete</string>
-  <string name="file_status_decoding">Decoding</string>
-  <string name="tutorial_done">Done</string>
-  <string name="file_status_queued">Queued</string>
-  <string name="file_status_paused">Paused</string>
+    <string name="preference_displayhiddenfiles_title">Display hidden files</string>
+    <string name="preference_displayhiddenfiles_summary_on">Display hidden files</string>
+    <string name="preference_displayhiddenfiles_summary_off">Hide hidden files</string>
 
-  <string name="nzb_tab_press_and_hold">Press and hold to load nzb</string>
-
-  <!-- server providers heading -->
-  <string name="server_providers_list_heading">Recommended premium Usenet providers for NZB Leech (no-risk free trial included):</string>
-  <string name="server_providers_list_ok">OK</string>
-	<string name="server_referral_description">Support NZB Leech by using these referral links</string>
-
-  <!-- donate sceen -->
-  <string name="buy_options_unlock_all_features">Unlock all features by buying a small, medium, or large donation item. Or all three!</string>
-  <string name="buy_options_small_donation">Small donation</string>
-  <string name="buy_options_medium_donation">Medium donation</string>
-  <string name="buy_options_large_donation">Large donation</string>
-  <string name="buy_options_footer">Nzb Leech was released in December 2011 and I\'m still providing updates. I would have abandoned this project a long time ago if it wasn\'t for all the donors, thank you!</string>
-
-  <!-- first time nzb tab screen -->
-  <string name="first_time_screen_line1">New to usenet?</string>
-  <string name="first_time_screen_start_here">Start here</string>
-  <string name="first_time_screen_line2">Or add your server to</string>
-  <string name="first_time_screen_settings">Settings</string>
-  <string name="first_time_screen_line3">and start downloading!</string>
-  <string name="first_time_screen_line4">Need a server?</string>
-  <string name="first_time_screen_line5">See here</string>
-
-  <!-- search config dialog -->
-  <string name="search_config_type_site">Type of Site</string>
-  <string name="search_configure_name">Name</string>
-  <string name="search_configure_name_hint">Enter name for this site</string>
-  <string name="search_configure_api_address">API Address</string>
-  <string name="search_configure_api_key">API Key</string>
-  <string name="search_configure_api_key_hint">Enter API Key you were given</string>
-  <string name="search_configure_cancel">Cancel</string>
-  <string name="search_configure_help">Help</string>
-  <string name="search_configure_save">Save</string>
-  <string name="search_configure_url">URL</string>
-  <string name="search_configure_no_browser_tv">Cannot open website on TV</string>
-
-  <!-- tv differences -->
-  <string name="tv_nzb_tab_load_nzb">Load Nzb</string>
-  <string name="tv_nzb_tab_settings">Settings</string>
-  <string name="tv_nzb_tab_start__nzb_monitor">Start Nzb Monitor</string>
-  <string name="tv_nzb_tab_exit">Exit</string>
-  <string name="tv_nzb_tab_load_instructions">Load nzb from search or file tab</string>
-
-  <!-- server settings -->
-  <string name="server_1_enable_server">Enable Server 1</string>
-  <string name="server_priority_summary">Nzb Leech will download from Primary servers first.  If a part is missing on primary server it will try first backup server.  If still not found will try second backup server, then third, etc.</string>
-  <string name="server_2_enable_server">Enable Server 2</string>
-  <string name="server_3_enable_server">Enable Server 3</string>
-  <string name="server_4_enable_server">Enable Server 4</string>
-  <string name="server_5_enable_server">Enable Server 5</string>
-  <string name="server_6_enable_server">Enable Server 6</string>
+    <string name="preference_sort_settings">Sort settings</string>
+    <string name="preference_sortby">Sort by</string>
+    <string name="preference_sortby_ascending">In ascending order</string>
+    <string name="preference_sortby_ascending_summary_on">Sort in ascending order</string>
+    <string name="preference_sortby_ascending_summary_off">Sort in descending order</string>
+    <string-array name="preference_sortby_names">
+        <item>Name</item>
+        <item>Size</item>
+        <item>Last modified</item>
+    </string-array>
 
 
-  <string name="server_priority_primary">Primary Server</string>
-  <string name="server_priority_first_backup">First Backup Server</string>
-  <string name="server_priority_second_backup">Second Backup Server</string>
-  <string name="server_priority_third_backup">Third Backup Server</string>
-  <string name="server_priority_fourth_backup">Fourth Backup Server</string>
-  <string name="server_priority_fifth_backup">Fifth Backup Server</string>
-
-  <string-array name="ServerPriorityDisplayArray">
-    <item>@string/server_priority_primary</item>
-    <item>@string/server_priority_first_backup</item>
-    <item>@string/server_priority_second_backup</item>
-    <item>@string/server_priority_third_backup</item>
-    <item>@string/server_priority_fourth_backup</item>
-    <item>@string/server_priority_fifth_backup</item>
-  </string-array>
-
-  <string name="server_connection_settings">Connection settings</string>
-  <string name="server_settings_need_server_desc">Touch here to get the fastest and most secure premium servers</string>
-  <string name="server_settings">Server Settings</string>
-  <string name="server_settings_need_server">Need a Server?</string>
-  <string name="server_1">Server 1</string>
-  <string name="server_2">Server 2</string>
-  <string name="server_3">Server 3</string>
-  <string name="server_4">Server 4</string>
-  <string name="server_5">Server 5</string>
-  <string name="server_6">Server 6</string>
-  <string name="server_priority">Server Priority</string>
-  <string name="server_address_hint">Server to connect to</string>
-  <string name="server_address">Server Address</string>
-  <string name="server_port">Server Port</string>
-  <string name="server_summary">Check with your provider. e.g. Non-SSL: 119, 23 SSL: 443, 563, etc</string>
-  <string name="server_ssl_summary_off">SSL is disabled</string>
-  <string name="server_ssl_summary_on">SSL is enabled. SSL requires different port</string>
-  <string name="server_ssl">Enable SSL</string>
-  <string name="server_connections">Number of Connections</string>
-  <string name="server_connections_summary">How many connections to use. More than 20 can make it slower</string>
-  <string name="server_1_auth_summary">If you need to specify username/password</string>
-  <string name="server_auth">Requires Authentication</string>
-  <string name="server_username">Username</string>
-  <string name="server_username_summary">Username</string>
-  <string name="server_password_summary">Password</string>
-  <string name="server_password">Password</string>
-  <string name="server_test_connection">Test Connection</string>
-  <string name="server_test_connection_summary">Test your server connectivity</string>
-
-  <!-- nzb general settings -->
-  <string name="nzb_leech_settings_title">Nzb Leech Settings</string>
-  <string name="general_settings_title">General Settings</string>
-  <string name="general_nzb_download_dir">NZB Download Directory</string>
-  <string name="general_nzb_download_dir_summary">Where downloaded files are saved</string>
-  <string name="general_nzb_directory">NZB Directory</string>
-  <string name="general_nzb_directory_summary">Where to get NZB files from to show in selection menu</string>
-  <string name="general_skip_par2">Skip par2 files</string>
-  <string name="general_skip_par2_summary_on">Will not download par2 files</string>
-  <string name="general_skip_par2_summary_off">Will download par2 files</string>
-  <string name="general_additional_title">Nzb Leech Additional Settings</string>
-  <string name="additional_verify_repair_title">Par Verify/Repair</string>
-  <string name="additional_verify_repair_summary_on">Verify and repair files enabled</string>
-  <string name="additional_verify_repair_summary_off">Will not verify and repair files</string>
-  <string name="additional_extract_automatically_title">Extract Files Automatically</string>
-  <string name="additional_extract_automatically_summary_on">Will extract rar archives automatically after downloading</string>
-  <string name="additional_extract_automatically_summary_off">Will not extract rar archives automatically after downloading</string>
-  <string name="additional_delete_archives_title">Delete Archive Files</string>
-  <string name="additional_delete_archives_summary_on">Will delete archive files after extracting</string>
-  <string name="additional_delete_archives_summary_off">Will not delete archive files after extracting</string>
-  <string name="additional_queue_nzbs_title">Queue Nzbs</string>
-  <string name="additional_queue_nzbs_summary_on">Next nzb will be automatically downloaded from the queue folder</string>
-  <string name="additional_queue_nzbs_summary_off">Download nzbs automatically from the queue folder</string>
-  <string name="additional_queue_folder_title">NZB Queue Folder</string>
-  <string name="additional_queue_nzbs_summary">Where to get the next nzb file to download. Nzb file will be deleted on successful download</string>
-
-  <!-- nzb monitor settings -->
-  <string name="nzb_monitor_title">Nzb Monitor Settings</string>
-  <string name="nzb_monitor_summary">Settings for nzb monitor only. Start nzb monitor from main menu.</string>
-  <string name="nzb_monitor_enable_title">Monitor nzb directory</string>
-  <string name="nzb_monitor_directory_scan_category_title">Nzb Directory Scan</string>
-  <string name="nzb_monitor_dir_scan_interval_title">Nzb Directory Scan Interval (In Minutes)</string>
-  <string name="nzb_monitor_dir_scan_interval_summary">How often Nzb Directory is scanned for new nzb files.</string>
-  <string name="nzb_monitor_category_title_1">Nzb RSS Feed #1 Scan</string>
-  <string name="nzb_monitor_category_title_2">Nzb RSS Feed #2 Scan</string>
-  <string name="nzb_monitor_category_title_3">Nzb RSS Feed #3 Scan</string>
-  <string name="nzb_monitor_category_title_4">Nzb RSS Feed #4 Scan</string>
-  <string name="nzb_monitor_rss_enable">Monitor RSS feed for new nzb files</string>
-  <string name="nzb_monitor_rss_interval">Nzb RSS Scan Interval Minutes</string>
-  <string name="nzb_monitor_rss_interval_summary">How often (in minutes) RSS feed is scanned for new nzb files to download.</string>
-  <string name="nzb_monitor_rss_url">RSS Feed URL</string>
-  <string name="nzb_monitor_rss_url_summary">must use https:// and not http:// in Android 8 or higher</string>
-
-  <!-- sd card settings -->
-  <string name="sd_card_settings_title">External SD Card Settings</string>
-  <string name="sd_card_top_level_enable">Move downloads to top level folder</string>
-  <string name="sd_card_top_level_enable_summary">Files will be moved to \'/sd-card-path/nzb-leech\' after download for better experience (e.g., music/video players see the new files). Cannot move from internal to external sd card (only external to external). Move takes a while. May not work on all devices.</string>
-  <string name="sd_card_detect_private_folder">Detect Private External SD Card Directory</string>
-  <string name="sd_card_detect_private_folder_summary">So you can copy and paste in settings</string>
-  <string name="sd_card_select_sd_card">Important! On the next screen, select the root folder to your EXTERNAL sd card to give Nzb Leech write access</string>
+    <!-- ***************************
+   		 Strings for the 'Save as' feature
+    	 *************************** -->
+    <string name="saveas_no_file_picked">You haven\'t picked any file.</string>
+    <string name="saveas_error">An error occured.</string>
+    <string name="saveas_file_saved">File successfully saved!</string>
 
 
-  <!-- advanced settings -->
-  <string name="advanced_screen_title">Advanced Settings</string>
-  <string name="advanced_screen_summary">WARNING: ADVANCED USERS ONLY. Proceed with care.</string>
-  <string name="advanced_article_cache">Article Cache</string>
-  <string name="advanced_article_cache_summary">How much MB to allocate to storing temporary files in main memory thus reducing disk operations. Recommend 60MB (if you have enough memory)</string>
-  <string name="advanced_cache_dir">Cache Directory</string>
-  <string name="advanced_cache_dir_summary">Folder where articles saved when Article Cache gets full</string>
-  <string name="advanced_data_skipping">No Data Skipping</string>
-  <string name="advanced_data_skipping_summary">Search for badly mispositioned data blocks. Takes longer to verify/repair but MAY repair more files than without this setting. But enabling this setting, verify/repair process might hang with maliciously crafted par2 files</string>
-  <string name="advanced_smart_repair">Smart Repair</string>
-  <string name="advanced_smart_repair_summary_on">Will calculate and download minimum number of par2 files before attemping repair step. If par2 files required to repair is greater than available then no par2 files are downloaded and repair is not attempted.</string>
-  <string name="advanced_smart_repair_summary_off">Will download ALL par2 files before attemping verify/repair step.</string>
-  <string name="advanced_thread_priority">Download Thread Priority</string>
-  <string name="advanced_thread_priority_summary">Maximum can cause Android to lag more while downloading</string>
 
-  <string name="settings_download_speed">Download Speed</string>
-  <string name="settings_change_theme">Change Theme</string>
-  <string name="fix_translations">Fix translations</string>
-  <string name="fix_translations_summary">Help improve the translation in your language</string>
-
-  <!-- settings error messages and popups -->
-  <string name="load_nzb_not_found">No NZB files found!</string>
-  <string name="connection_error_server_reply_code">Server reply code</string>
-  <string name="connections_server_reply">Server reply message</string>
-  <string name="connection_error_details">Details</string>
-  <string name="detect_sd_not_detected">Hmm, no SD Card detected.</string>
-  <string name="detect_sd_card_path">External Private SD card directory</string>
-  <string name="detect_sd_limitation">Note the following limitations for this path: All files in this directory deleted when app uninstalled.  And media scanner does not find any files in this directory so music/video apps don\'t see your media.</string>
-  <string name="detect_sd_link_message">For external SD Card setup, see</string>
-  <string name="detect_sd_test_failed">failed to write to sd card</string>
-  <string name="detect_sd_test_select_move">Please select move downloads option above</string>
-  <string name="detect_sd_test_success">Successfully written to</string>
-  <string name="article_cache_warning">WARNING: App will crash if total memory (article cache + app) is greater than</string>
-  <string name="article_cache_20mb">Article cache needs at least 20MB</string>
-  <string name="sd_card_copy_path">Copy to Clipboard</string>
-  <string name="error">Error</string>
-  <string name="success">Success</string>
-  <string name="connection_test_success">Successfully connected to</string>
-  <string name="sd_card_path_detected">Possible external SD card path detected</string>
-  <string name="read_write_error">Cannot read or write to selected directory.</string>
-  <string name="sd_card_help_message">For external SD Card setup, see</string>
-  <string name="invalid_value">Invalid value</string>
-  <string name="invalid_number">Invalid number</string>
-  <string name="connecting">Connecting</string>
-  <string name="press_back_to_cancel">Press back to cancel</string>
-
-  <!-- parsing nzb errors -->
-  <string name="corrupt_nzb_suggestion">Try downloading nzb using Chrome. Or email nzb file to przemeknzb@gmail.com to investigate</string>
-  <string name="corrupt_nzb">Corrupt nzb</string>
-  <string name="nzb_nothing_to_download">contains nothing to download</string>
-
-  <!-- tutorials -->
-  <string name="tutorial_dialog_heading">A video.avi file is split into a bunch of files on usenet:</string>
-  <string name="tutorial_dialog_ok">OK</string>
-  <string name="tutorial_01_title">Start downloading in 3 steps</string>
-  <string name="tutorial01_step_1">1. Get a usenet server account (top recommended on next page)</string>
-  <string name="tutorial01_step_2">2. Add server to Nzb Leech</string>
-  <string name="tutorial01_step_3">3. Search for files and start downloading!</string>
-  <string name="tutorial01_footer">Continue to next page to find out how!</string>
-  <string name="tutorial02_heading">Usenet Servers</string>
-  <string name="tutorial02_line1">Nzb Leech searches for files and downloads them from a Usenet server you specify.</string>
-  <string name="tutorial02_line2">In order to access a server, you will need to subscribe to a Usenet service provider. We recommend using a premium provider - this will get you the fastest and most secure downloads plus access to the largest and most complete archive of files.</string>
-  <string name="tutorial02_line3">Here’s a list of our top recommended providers.  They are the best in terms of speed, security, file availability, and file completion.  These also offer a no-risk free trial.</string>
-  <string name="tutorial02_list_servers_link">Recommended Premium Usenet Providers</string>
-  <string name="tutorial03_heading">Usenet Servers</string>
-  <string name="tutorial03_line1">Once you subscribe to a usenet account, you will get</string>
-  <string name="tutorial03_line2">• server address</string>
-  <string name="tutorial03_line3">• username</string>
-  <string name="tutorial03_line4">• password</string>
-  <string name="tutorial03_line5">• port number</string>
-  <string name="tutorial03_line6">Enter these values in</string>
-  <string name="tutorial03_settings_link">Settings</string>
-  <string name="tutorial04_heading">Usenet Servers</string>
-  <string name="tutorial04_line1">Now you are ready to download! Search for files from the Search tab</string>
-  <string name="tutorial04_line2">This is the basics but continue reading to learn helpful tips on the next page</string>
-  <string name="tutorial05_heading">Files</string>
-  <string name="tutorial05_line1">Files on usenet are compressed, and split into many smaller files called archives that have the extension .r00, r.01, r.02 or .part01.rar, .part02.rar, etc.</string>
-  <string name="tutorial05_line2">See</string>
-  <string name="tutorial05_line3">example</string>
-  <string name="tutorial05_line4">Once you download the archives you need to unpack them.</string>
-  <string name="tutorial05_line5">Paid version of Nzb Leech will unpack files automatically.</string>
-  <string name="tutorial05_line6">These days, files are also renamed (obfuscated) so that you can\'t use a normal search engine to find them. More on this later.</string>
-  <string name="tutorial06_heading">Files</string>
-  <string name="tutorial06_line1">Sometimes you start downloading and notice that the download failed or is incomplete.</string>
-  <string name="tutorial06_line2">This is because the files stored on the server have been removed or lost.</string>
-  <string name="tutorial06_line3">Nzb Leech indicates a problem downloading a file by displaying it in red in the Nzb tab.</string>
-  <string name="tutorial07_heading">Incomplete Files</string>
-  <string name="tutorial07_line1">If any parts of a file are incomplete you will not be able to unpack or open the file unless you can repair it.</string>
-  <string name="tutorial07_line2">Luckily, most files also come with additional files that end in .par2 that you can use to repair the incomplete files.</string>
-  <string name="tutorial07_line3">This works as long as you do not have too many incomplete files. A recovery using the par2 files is not possible if too many files are incomplete.</string>
-  <string name="tutorial07_line4">Paid version of Nzb Leech automatically verifies and repairs files</string>
-  <string name="tutorial08_heading">Nzb Files</string>
-  <string name="tutorial08_line1">Nzb file is like an index that tells Nzb Leech which files to download from a usenet server.</string>
-  <string name="tutorial08_line2">You open a nzb file in Nzb Leech so it can find and download the content from the usenet server.</string>
-  <string name="tutorial08_line3">Once you download all the files the nzb is not needed and can be deleted.</string>
-  <string name="tutorial09_heading">Where to find Nzb Files?</string>
-  <string name="tutorial09_line1">Nzb search engines will search the entire usenet and return a nzb file matching your search. However the files are usually renamed to nonsense so you will not find what you\'re looking for. I\'ll discuss better sites on the next page.</string>
-  <string name="tutorial09_line2">Still, these sites are useful sometimes and a few are integrated into Nzb Leech and can be accessed from the Search tab.</string>
-  <string name="tutorial09_line3">Tip: Look for nzb files that contain par2 recovery files in case you get incomplete files and need to repair</string>
-  <string name="tutorial09_line4">Nzb Search Engines</string>
-  <string name="tutorial10_heading">Where to find Nzb Files?</string>
-  <string name="tutorial10_line1">Best place is community driven nzb index sites. These sites parse, download, and categorize the files so search works a lot better.</string>
-  <string name="tutorial10_line2">Because of the extra work a lot of these sites require payment, but there are some free sites.</string>
-  <string name="tutorial10_line3">The free sites usually have a limit on the number of searches you can do or number of nzb files you can download.</string>
-  <string name="tutorial10_line4">A Few Nzb Index Sites. Google for more</string>
-  <string name="tutorial11_heading">Thanks</string>
-  <string name="tutorial11_line1">That is it.</string>
-  <string name="tutorial11_line2">A lot to learn but once you learn the basics you will wonder how you ever lived without usenet.</string>
-  <string name="tutorial11_line3">You can always access this tutorial from the options menu.</string>
-  <string name="tutorial11_line4">Thanks and happy downloading!</string>
-  <string name="tutorial_nav_previous">Previous</string>
-  <string name="tutorial_nav_next">Next</string>
-  <string name="download_must_external_directory">Your download directory must be on external sd card for this to work</string>
-	<string name="nzb_tab_file_already_queued">File is already queued for download</string>
-	<string name="preferences_copied_to_clipboard">Copied to clipboard!</string>
-	<string name="search_tab_site">Site</string>
-	<string name="nav_translate">Translate</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="bookmarks_cancel">Cancel</string>
+    <string name="bookmarks_delete">Delete</string>
+    <string name="bookmarks_select_to_delete">Select bookmarks to delete</string>
+    <string name="bookmarks_manage">Manage bookmarks</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="bookmark_not_found">Bookmarked destination not found.</string>
+    <string name="bookmarks_deleted">Selected bookmarks deleted</string>
+    <string name="bookmark_already_exists">This file is already bookmarked</string>
 
 
+    <!-- ***************************
+             Strings for the 'Compressing' and 'Extracting' feature
+          *************************** -->
+  <string name="compress_into_archive">Compress into archive:</string>
+  <string name="extract_title">Select folder to extract into</string>
+    <string name="extract_button">Extract here</string>
+  <string name="warning_overwrite">File %s exists. Do you want to overwrite it?</string>
+
+    <string name="change_file_extension">Do you want to change the file extension?</string>
 </resources>
