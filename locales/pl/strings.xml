@@ -3,7 +3,7 @@
   <string name="preferences">Ustawienia</string>
   <string name="download_service">Usługa pobierania</string>
 
-  
+
   <string name="options_menu_settings">Ustawienia</string>
   <string name="options_menu_quit">Porzucić</string>
   <string name="options_menu_pause">Pauza</string>
@@ -37,7 +37,6 @@
 
   <string name="search_category_prompt">Wybierz kategorię</string>
 
-  <string name="detailedTitleLabel">Tytuł:</string>
   <string name="detailedPostedLabel">Wysłano:</string>
   <string name="detailedSizeLabel">Rozmiar:</string>
   <string name="detailedCategoryLabel">Kategoria:</string>
@@ -45,7 +44,6 @@
   <string name="search">Szukaj</string>
   <string name="back">Z powrotem</string>
   <string name="download">Ściągnij</string>
-  <string name="downloading">Ściągnij…</string>
   <string name="downloaded">Pobrano Nzb</string>
   <string name="startDownloading">Rozpocząć pobieranie?</string>
   <string name="details">Detale</string>
@@ -81,7 +79,7 @@
   <string name="Donate">Podarować</string>
   <string name="Later">Później</string>
 
-  
+
   <string name="pref_disable_acra">Automatyczne raportowanie błędów</string>
   <string name="pref_acra_disabled">Błędy nie są wysyłane do programisty. Rozważ włączenie tej opcji, aby błędy mogły być wysyłane do programisty, a wady można rozwiązać</string>
   <string name="pref_acra_enabled">Błędy wysyłane automatycznie do programisty, dzięki czemu można szybko naprawić usterki</string>
@@ -90,7 +88,7 @@
 
   <string name="testConnectionFailureHelp">Sprawdź połączenie internetowe i ustawienia serwera. Aktywowanie nowych kont serwerów może zająć do 30 minut</string>
 
-  
+
   <string name="app_name">Przez naprawę</string>
   <string name="for_details_">dla szczegółów.</string>
   <string name="repairing_">Naprawa:</string>
@@ -106,28 +104,26 @@
   <string name="if_you_like_the_app_let_me_know">Jeśli podoba Ci się moja aplikacja, oceń ją. Komentarze są pomocne, ale opcjonalne.</string>
   <string name="AdditionalDetail">Dodatkowy szczegół:</string>
   <string name="monitoringForNzbFiles">Monitorowanie plików nzb ..</string>
-  <string name="title_activity_settings">Ustawienia</string>
   <string name="file_status_downloading">Ściąganie</string>
   <string name="file_status_incomplete">Niekompletny</string>
   <string name="file_status_decoding">Rozszyfrowanie</string>
   <string name="tutorial_done">Gotowe</string>
   <string name="file_status_queued">W kolejce</string>
-  <string name="file_status_paused">Wstrzymany</string>
 
   <string name="nzb_tab_press_and_hold">Naciśnij i przytrzymaj, aby załadować nzb</string>
 
-  
+
   <string name="server_providers_list_heading">Jedni z najbardziej znanych i najpopularniejszych dostawców usług typu usenet:</string>
   <string name="server_providers_list_ok">OK</string>
 
-  
+
   <string name="buy_options_unlock_all_features">Odblokuj wszystkie funkcje, kupując mały, średni lub duży przedmiot darowizny. Albo wszystkie trzy!</string>
   <string name="buy_options_small_donation">Mała darowizna</string>
   <string name="buy_options_medium_donation">Średnia darowizna</string>
   <string name="buy_options_large_donation">Duża darowizna</string>
   <string name="buy_options_footer">Nzb Leech został wydany w grudniu 2011 r. I nadal dostarczam aktualizacje. Odrzuciłbym ten projekt dawno temu, gdyby nie wszyscy darczyńcy, dziękuję!</string>
 
-  
+
   <string name="first_time_screen_line1">Nowy w usenet?</string>
   <string name="first_time_screen_start_here">Zacznij tutaj</string>
   <string name="first_time_screen_line2">Lub dodaj swój serwer do</string>
@@ -136,25 +132,24 @@
   <string name="first_time_screen_line4">Potrzebujesz serwera?</string>
   <string name="first_time_screen_line5">Spójrz tutaj</string>
 
-  
+
   <string name="search_config_type_site">Typ witryny</string>
   <string name="search_configure_name">Imię</string>
   <string name="search_configure_name_hint">Wpisz nazwę tej witryny</string>
-  <string name="search_configure_api_address">Adres API</string>
   <string name="search_configure_api_key">Klucz API</string>
   <string name="search_configure_api_key_hint">Wpisz klucz API, który otrzymałeś</string>
   <string name="search_configure_cancel">Anuluj</string>
   <string name="search_configure_help">Wsparcie</string>
   <string name="search_configure_save">Zapisać</string>
 
-  
+
   <string name="tv_nzb_tab_load_nzb">Załaduj Nzb</string>
   <string name="tv_nzb_tab_settings">Ustawienia</string>
   <string name="tv_nzb_tab_start__nzb_monitor">Uruchom monitor Nzb</string>
   <string name="tv_nzb_tab_exit">Wyjście</string>
   <string name="tv_nzb_tab_load_instructions">Załaduj nzb z zakładki wyszukiwania lub pliku</string>
 
-  
+
   <string name="server_1_enable_server">Włącz serwer 1</string>
   <string name="server_priority_summary">Nzb Leech najpierw pobierze z serwerów podstawowych. Jeśli brakuje części na serwerze głównym, spróbuje pierwszego serwera zapasowego. Jeśli nadal nie zostanie znaleziony, spróbuje drugiego serwera kopii zapasowych, a następnie trzeciego itd.</string>
   <string name="server_2_enable_server">Włącz serwer 2</string>
@@ -199,7 +194,7 @@
   <string name="server_test_connection">Testuj połączenie</string>
   <string name="server_test_connection_summary">Przetestuj łączność z serwerem</string>
 
-  
+
   <string name="nzb_leech_settings_title">Ustawienia Nzb Leech</string>
   <string name="general_settings_title">Ustawienia główne</string>
   <string name="general_nzb_download_dir">Katalog pobierania NZB</string>
@@ -225,7 +220,7 @@
   <string name="additional_queue_folder_title">Folder kolejki NZB</string>
   <string name="additional_queue_nzbs_summary">Skąd pobrać następny plik nzb do pobrania. Plik Nzb zostanie usunięty po pomyślnym pobraniu</string>
 
-  
+
   <string name="nzb_monitor_title">Ustawienia monitora Nzb</string>
   <string name="nzb_monitor_summary">Ustawienia tylko dla monitora nzb. Uruchom monitor nzb z głównego menu.</string>
   <string name="nzb_monitor_enable_title">Monitoruj katalog nzb</string>
@@ -242,15 +237,14 @@
   <string name="nzb_monitor_rss_url">Adres URL kanału RSS</string>
   <string name="nzb_monitor_rss_url_summary">musi używać https: //, a nie http: // w Androidzie 8 lub nowszym</string>
 
-  
+
   <string name="sd_card_settings_title">Ustawienia zewnętrznej karty SD</string>
   <string name="sd_card_top_level_enable">Przenieś pliki do folderu najwyższego poziomu</string>
   <string name="sd_card_top_level_enable_summary">Pliki zostaną przeniesione do / sd-card-path / nzb-leech po pobraniu w celu uzyskania lepszych wrażeń (np. Odtwarzacze muzyki / wideo zobaczą nowe pliki). Nie można przejść z wewnętrznej na zewnętrzną kartę SD (tylko zewnętrzną na zewnętrzną). Przenieś zajmuje trochę czasu. Może nie działać na wszystkich urządzeniach.</string>
-  <string name="sd_card_test_root_write">Test Zapis do głównej zewnętrznej karty SD</string>
   <string name="sd_card_detect_private_folder">Wykrywanie ścieżki zastrzeżonej zewnętrznej karty SD</string>
   <string name="sd_card_detect_private_folder_summary">Możesz więc kopiować i wklejać ustawienia</string>
 
-  
+
   <string name="advanced_screen_title">Zaawansowane ustawienia</string>
   <string name="advanced_screen_summary">OSTRZEŻENIE: TYLKO ZAAWANSOWANE UŻYTKOWNICY. Postępuj ostrożnie.</string>
   <string name="advanced_article_cache">Pamięć podręczna artykułów</string>
@@ -259,14 +253,9 @@
   <string name="advanced_cache_dir_summary">Folder, w którym zapisywane są artykuły po zapełnieniu pamięci podręcznej artykułów</string>
   <string name="advanced_data_skipping">Bez przeskakiwania danych</string>
   <string name="advanced_data_skipping_summary">Wyszukaj źle rozmieszczone bloki danych. Weryfikacja / naprawa trwa dłużej, ale MOŻE naprawić więcej plików niż bez tego ustawienia. Jednak włączenie tego ustawienia może spowodować zawieszenie procesu weryfikacji / naprawy ze złośliwie spreparowanymi plikami par2</string>
-  <string name="advanced_smart_repair">Inteligentna naprawa</string>
-  <string name="advanced_smart_repair_summary_on">Obliczy i pobierze minimalną liczbę plików par2 przed krokiem naprawy w serwisie. Jeśli pliki par2 wymagane do naprawy są większe niż dostępne, żadne pliki par2 nie są pobierane i naprawa nie jest podejmowana.</string>
-  <string name="advanced_smart_repair_summary_off">Pobierze WSZYSTKIE pliki par2 przed przystąpieniem do kroku weryfikacji / naprawy.</string>
-  <string name="advanced_thread_priority">Pobierz priorytet wątku</string>
-  <string name="advanced_thread_priority_summary">Maksimum może spowodować, że Android pozostanie w tyle podczas pobierania</string>
 
   <string name="settings_download_speed">Prędkość pobierania</string>
-  
+
   <string name="load_nzb_not_found">Nie znaleziono plików NZB!</string>
   <string name="connection_error_server_reply_code">Kod odpowiedzi serwera</string>
   <string name="connections_server_reply">Komunikat odpowiedzi serwera</string>
@@ -276,7 +265,6 @@
   <string name="detect_sd_limitation">Zwróć uwagę na następujące ograniczenia tej ścieżki: Wszystkie pliki w tym katalogu zostały usunięte po odinstalowaniu aplikacji. Skaner multimediów nie znajduje żadnych plików w tym katalogu, więc aplikacje muzyczne / wideo nie widzą twoich multimediów.</string>
   <string name="detect_sd_link_message">Informacje na temat konfiguracji zewnętrznej karty SD można znaleźć w sekcji</string>
   <string name="detect_sd_test_failed">nie udało się zapisać na karcie SD</string>
-  <string name="detect_sd_test_select_move">Wybierz powyżej opcję przenoszenia plików</string>
   <string name="detect_sd_test_success">Pomyślnie napisano do</string>
   <string name="article_cache_warning">OSTRZEŻENIE: Aplikacja ulegnie awarii, jeśli całkowita pamięć (aplikacja pamięci podręcznej artykułu) jest większa niż</string>
   <string name="article_cache_20mb">Pamięć podręczna artykułów wymaga co najmniej 20 MB</string>
@@ -292,12 +280,12 @@
   <string name="connecting">Złączony</string>
   <string name="press_back_to_cancel">Naciśnij ponownie, aby anulować</string>
 
-  
+
   <string name="corrupt_nzb_suggestion">Spróbuj pobrać nzb za pomocą Chrome. Lub wyślij plik nzb na adres przemeknzb@gmail.com w celu zbadania</string>
   <string name="corrupt_nzb">Uszkodzony nzb</string>
   <string name="nzb_nothing_to_download">nie zawiera nic do pobrania</string>
 
-  
+
   <string name="tutorial_dialog_heading">Plik video.avi jest podzielony na kilka plików na usenet:</string>
   <string name="tutorial_dialog_ok">OK</string>
   <string name="tutorial_01_title">Rozpocznij pobieranie w 3 krokach</string>

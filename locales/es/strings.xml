@@ -3,7 +3,7 @@
   <string name="preferences">Ajustes</string>
   <string name="download_service">Servicio de descarga</string>
 
-  
+
   <string name="options_menu_settings">Ajustes</string>
   <string name="options_menu_quit">Dejar</string>
   <string name="options_menu_pause">Pausa</string>
@@ -37,7 +37,6 @@
 
   <string name="search_category_prompt">Elegir la categoría</string>
 
-  <string name="detailedTitleLabel">Título:</string>
   <string name="detailedPostedLabel">Al corriente:</string>
   <string name="detailedSizeLabel">Tamaño:</string>
   <string name="detailedCategoryLabel">Categoría:</string>
@@ -45,7 +44,6 @@
   <string name="search">Buscar</string>
   <string name="back">Espalda</string>
   <string name="download">Descargar</string>
-  <string name="downloading">Descargar…</string>
   <string name="downloaded">Nzb descargado</string>
   <string name="startDownloading">¿Comenzar a descargar?</string>
   <string name="details">Detalles</string>
@@ -81,7 +79,7 @@
   <string name="Donate">Donar</string>
   <string name="Later">Luego</string>
 
-  
+
   <string name="pref_disable_acra">Informe automático de errores</string>
   <string name="pref_acra_disabled">Los errores no se envían al desarrollador. Considere habilitar esto para que se puedan enviar errores al desarrollador y se puedan resolver los defectos</string>
   <string name="pref_acra_enabled">Los errores se envían automáticamente al desarrollador, por lo que los fallos pueden solucionarse rápidamente</string>
@@ -90,7 +88,7 @@
 
   <string name="testConnectionFailureHelp">Comprueba tu conexión a internet y la configuración de tu servidor. Las nuevas cuentas de servidor pueden tardar hasta 30 minutos en activarse</string>
 
-  
+
   <string name="app_name">Por reparacion</string>
   <string name="for_details_">para detalles.</string>
   <string name="repairing_">Reparando</string>
@@ -106,28 +104,26 @@
   <string name="if_you_like_the_app_let_me_know">Si te gusta mi aplicación por favor puntúalo. Los comentarios son útiles, pero opcionales.</string>
   <string name="AdditionalDetail">Detalle adicional:</string>
   <string name="monitoringForNzbFiles">Monitoreo de archivos nzb ..</string>
-  <string name="title_activity_settings">Ajustes</string>
   <string name="file_status_downloading">Descargando</string>
   <string name="file_status_incomplete">Incompleto</string>
   <string name="file_status_decoding">Descodificación</string>
   <string name="tutorial_done">Hecho</string>
   <string name="file_status_queued">En cola</string>
-  <string name="file_status_paused">En pausa</string>
 
   <string name="nzb_tab_press_and_hold">Mantén presionado para cargar nzb</string>
 
-  
+
   <string name="server_providers_list_heading">Algunos de los proveedores de usenet más conocidos y populares son:</string>
   <string name="server_providers_list_ok">DE ACUERDO</string>
 
-  
+
   <string name="buy_options_unlock_all_features">Desbloquee todas las funciones comprando un artículo de donación pequeño, mediano o grande. ¡O los tres!</string>
   <string name="buy_options_small_donation">Pequeña donación</string>
   <string name="buy_options_medium_donation">Donación mediana</string>
   <string name="buy_options_large_donation">Donación grande</string>
   <string name="buy_options_footer">Nzb Leech se lanzó en diciembre de 2011 y todavía ofrezco actualizaciones. Hubiera abandonado este proyecto hace mucho tiempo si no fuera por todos los donantes, ¡gracias!</string>
 
-  
+
   <string name="first_time_screen_line1">¿Nuevo en usenet?</string>
   <string name="first_time_screen_start_here">Empieza aqui</string>
   <string name="first_time_screen_line2">O agrega tu servidor a</string>
@@ -136,25 +132,24 @@
   <string name="first_time_screen_line4">¿Necesita un servidor?</string>
   <string name="first_time_screen_line5">Mira aquí</string>
 
-  
+
   <string name="search_config_type_site">Tipo de sitio</string>
   <string name="search_configure_name">Nombre</string>
   <string name="search_configure_name_hint">Ingrese el nombre para este sitio</string>
-  <string name="search_configure_api_address">Dirección API</string>
   <string name="search_configure_api_key">Clave API</string>
   <string name="search_configure_api_key_hint">Ingrese la clave API que le dieron</string>
   <string name="search_configure_cancel">Cancelar</string>
   <string name="search_configure_help">Ayuda</string>
   <string name="search_configure_save">Salvar</string>
 
-  
+
   <string name="tv_nzb_tab_load_nzb">Cargar nzb</string>
   <string name="tv_nzb_tab_settings">Ajustes</string>
   <string name="tv_nzb_tab_start__nzb_monitor">Iniciar Nzb Monitor</string>
   <string name="tv_nzb_tab_exit">Salida</string>
   <string name="tv_nzb_tab_load_instructions">Carga nzb desde la pestaña de búsqueda o archivo</string>
 
-  
+
   <string name="server_1_enable_server">Habilitar servidor 1</string>
   <string name="server_priority_summary">Nzb Leech se descargará primero de los servidores primarios. Si falta una parte en el servidor primario, intentará primero hacer una copia de seguridad del servidor. Si aún no se encuentra, intente el segundo servidor de respaldo, luego el tercero, etc.</string>
   <string name="server_2_enable_server">Habilitar servidor 2</string>
@@ -199,7 +194,7 @@
   <string name="server_test_connection">Conexión de prueba</string>
   <string name="server_test_connection_summary">Pon a prueba la conectividad de tu servidor.</string>
 
-  
+
   <string name="nzb_leech_settings_title">Ajustes de Nzb Leech</string>
   <string name="general_settings_title">Configuración general</string>
   <string name="general_nzb_download_dir">Directorio de descarga de NZB</string>
@@ -225,7 +220,7 @@
   <string name="additional_queue_folder_title">Carpeta de cola de NZB</string>
   <string name="additional_queue_nzbs_summary">Dónde obtener el siguiente archivo nzb para descargar. El archivo Nzb será eliminado en la descarga exitosa</string>
 
-  
+
   <string name="nzb_monitor_title">Configuración del monitor Nzb</string>
   <string name="nzb_monitor_summary">Configuraciones para monitor nzb solamente. Iniciar el monitor nzb desde el menú principal.</string>
   <string name="nzb_monitor_enable_title">Monitorear el directorio nzb</string>
@@ -242,16 +237,15 @@
   <string name="nzb_monitor_rss_url">URL del feed RSS</string>
   <string name="nzb_monitor_rss_url_summary">debe usar https: // y no http: // en Android 8 o superior</string>
 
-  
+
   <string name="sd_card_settings_title">Configuración de la tarjeta SD externa</string>
   <string name="sd_card_top_level_enable">Mueve las descargas a la carpeta de nivel superior</string>
   <string name="sd_card_top_level_enable_summary">Los archivos se moverán a \'/ sd-card-path / nzb-leech \' después de la descarga para una mejor experiencia (por ejemplo, los reproductores de música / video ven los nuevos archivos). No se puede mover de la tarjeta sd interna a la externa (solo externa a externa). Mover lleva un tiempo. Puede que no funcione en todos los dispositivos.</string>
-  <string name="sd_card_test_root_write">Prueba de escritura en la tarjeta SD externa de la raíz</string>
   <string name="sd_card_detect_private_folder">Detectar la ruta de la tarjeta SD externa restringida</string>
   <string name="sd_card_detect_private_folder_summary">Así podrás copiar y pegar en la configuración.</string>
   <string name="fix_translations">Corriger les traductions</string>
   <string name="fix_translations_summary">Ayuda a mejorar la traducción en tu idioma</string>
-  
+
   <string name="advanced_screen_title">Ajustes avanzados</string>
   <string name="advanced_screen_summary">ADVERTENCIA: SOLO USUARIOS AVANZADOS. Proceda con cuidado.</string>
   <string name="advanced_article_cache">Artículo caché</string>
@@ -260,15 +254,10 @@
   <string name="advanced_cache_dir_summary">Carpeta donde se guardan los artículos cuando se llena la caché del artículo</string>
   <string name="advanced_data_skipping">Sin omisión de datos</string>
   <string name="advanced_data_skipping_summary">Buscar bloques de datos mal colocados. Se demora más en verificar / reparar, pero PUEDE reparar más archivos que sin esta configuración. Pero habilitando esta configuración, el proceso de verificación / reparación podría bloquearse con archivos par2 creados con fines malintencionados</string>
-  <string name="advanced_smart_repair">Reparación inteligente</string>
-  <string name="advanced_smart_repair_summary_on">Calculará y descargará la cantidad mínima de archivos par2 antes de intentar un paso de reparación. Si los archivos par2 necesarios para la reparación son mayores que los disponibles, no se descargarán los archivos par2 y no se intentará la reparación.</string>
-  <string name="advanced_smart_repair_summary_off">Descargará TODOS los archivos par2 antes de intentar verificar / reparar el paso.</string>
-  <string name="advanced_thread_priority">Descargar Thread Priority</string>
-  <string name="advanced_thread_priority_summary">El máximo puede hacer que Android se demore más mientras se descarga.</string>
 
   <string name="settings_download_speed">Velocidad de Descarga</string>
 
-  
+
   <string name="load_nzb_not_found">No se encontraron archivos NZB!</string>
   <string name="connection_error_server_reply_code">Código de respuesta del servidor</string>
   <string name="connections_server_reply">Mensaje de respuesta del servidor</string>
@@ -278,7 +267,6 @@
   <string name="detect_sd_limitation">Tenga en cuenta las siguientes limitaciones para esta ruta: Todos los archivos de este directorio se eliminaron al desinstalar la aplicación. Y el escáner de medios no encuentra ningún archivo en este directorio, por lo que las aplicaciones de música / video no ven sus medios.</string>
   <string name="detect_sd_link_message">Para la configuración de la tarjeta SD externa, consulte</string>
   <string name="detect_sd_test_failed">no se pudo escribir en la tarjeta sd</string>
-  <string name="detect_sd_test_select_move">Por favor, seleccione la opción de mover descargas arriba</string>
   <string name="detect_sd_test_success">Escrito con éxito a</string>
   <string name="article_cache_warning">ADVERTENCIA: la aplicación se bloqueará si la memoria total (aplicación de caché de artículos) es mayor que</string>
   <string name="article_cache_20mb">El caché del artículo necesita al menos 20MB</string>
@@ -294,12 +282,12 @@
   <string name="connecting">Conectando</string>
   <string name="press_back_to_cancel">Presione Atrás para cancelar</string>
 
-  
+
   <string name="corrupt_nzb_suggestion">Intenta descargar nzb usando Chrome. O envíe un archivo nzb a przemeknzb@gmail.com para investigar</string>
   <string name="corrupt_nzb">Nzb corrupto</string>
   <string name="nzb_nothing_to_download">no contiene nada para descargar</string>
 
-  
+
   <string name="tutorial_dialog_heading">Un archivo video.avi se divide en un grupo de archivos en usenet:</string>
   <string name="tutorial_dialog_ok">DE ACUERDO</string>
   <string name="tutorial_01_title">Comienza a descargar en 3 pasos</string>

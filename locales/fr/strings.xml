@@ -3,3 +3,327 @@
 
 
   </resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="preferences">"Réglages"</string>
+  <string name="download_service">"Service de Téléchargement"</string>
+
+  <!-- Options menu right hand side -->
+  <string name="options_menu_settings">"Réglages"</string>
+  <string name="options_menu_quit">"Quitter"</string>
+  <string name="options_menu_pause">"Pause"</string>
+  <string name="options_menu_resume">"Reprendre"</string>
+  <string name="options_menu_rate">"Taux"</string>
+  <string name="options_menu_about">"A propos"</string>
+  <string name="options_menu_help">"Aide"</string>
+  <string name="options_menu_donate">"Faire un don"</string>
+  <string name="options_menu_start_nzb_monitor">"Démarrer le moniteur NZB"</string>
+  <string name="options_menu_nzb_tutorial">"Tutoriel Nzb"</string>
+  <string name="options_menu_usenet_servers">"Serveurs Usenet"</string>
+  <string name="verifying">"Vérification"</string>
+  <string name="verified">"Tous les fichiers sont OK!"</string>
+  <string name="neededToRepair">"blocs nécessaires"</string>
+  <string name="youNeed">"Vous avez besoin"</string>
+  <string name="thereAre">"Il y a"</string>
+  <string name="repairing">"Réparation"</string>
+  <string name="dialog_quitConfirm">"Quitter va annuler tous les téléchargements, continuer?"</string>
+  <string name="yes">"Oui"</string>
+  <string name="no">"Non"</string>
+  <string name="access_sdcard_error">"Erreur: impossible d'accéder à l'espace de stockage, application désactivée. Pour autoriser les téléchargements, ne sélectionnez pas \"Stockage de masse USB\" dans la notification de connexion USB."</string>
+  <string name="toast_download_finished">"Téléchargement terminé"</string>
+  <string name="status_finished">"Fini"</string>
+  <string name="trial_expired">"Version d'évaluation expirée, désactivation des fonctionnalités premium. Faites un don pour activer les fonctionnalités premium."</string>
+  <string name="context_title_load_nzb_file">"Charger le fichier NZB"</string>
+  <string name="toast_no_nzb_files_found_in_">"Aucun fichier NZB trouvé dans"</string>
+  <string name="no_nzbs_found_">"Aucun NZB trouvé"</string>
+  <string name="not_enough_space_to_download_need_">"Pas assez d'espace pour télécharger, besoin de"</string>
+  <string name="mb_of_free_space">"d'espace libre"</string>
+  <string name="search_category_prompt">"Choisissez une catégorie"</string>
+  <string name="detailedPostedLabel">"Envoyé:"</string>
+  <string name="detailedSizeLabel">"Taille:"</string>
+  <string name="detailedCategoryLabel">"Catégorie:"</string>
+  <string name="nzbMatrixURLLabel">"URL:"</string>
+  <string name="search">"Chercher"</string>
+  <string name="back">"Retour"</string>
+  <string name="download">"Télécharger"</string>
+  <string name="downloaded">"Nzb téléchargé"</string>
+  <string name="startDownloading">"Commencer à télécharger?"</string>
+  <string name="details">"Détails"</string>
+  <string name="noSearchString">"Fournir un terme de recherche"</string>
+  <string name="badApiSiteAddress">"Mauvais format d'adresse de site"</string>
+  <string name="eula_title">"Contrat de licence de l'utilisateur final"</string>
+  <string name="eula_accept">"J'accepte"</string>
+  <string name="eula_refuse">"Je refuse"</string>
+  <string name="OK">"D'accord"</string>
+  <string name="preferences_this_feature_is_is_in_the_paid_version_only">"Cette fonctionnalité est un essai et elle a expiré. Envisagez de faire un don pour soutenir l'effort de développement en cours."</string>
+  <string name="Donate">"Faire un don"</string>
+  <string name="Later">"Plus tard"</string>
+
+  <!-- preferences -->
+  <string name="pref_disable_acra">"Rapport d'erreur automatique"</string>
+  <string name="pref_acra_disabled">"Les erreurs ne sont pas envoyées au développeur. Pensez à l'activer pour que les erreurs puissent être envoyées au développeur et les défauts résolus"</string>
+  <string name="pref_acra_enabled">"Les erreurs sont automatiquement envoyées au développeur afin que les problèmes puissent être résolus rapidement"</string>
+  <string name="statusbar_paused">"En pause"</string>
+  <string name="testConnectionFailureHelp">"Vérifiez votre connexion Internet et les paramètres de votre serveur. Les nouveaux comptes de serveur peuvent prendre jusqu'à 30 minutes pour devenir actifs"</string>
+
+  <!-- Par Activity -->
+  <string name="app_name">"Réparation PAR"</string>
+  <string name="for_details_">"pour plus de détails."</string>
+  <string name="repairing_">"Réparation:"</string>
+  <string name="scanning_">"Scan:"</string>
+  <string name="loading_">"Chargement:"</string>
+  <string name="par2service">"Par2Service"</string>
+  <string name="exception_sending_message">"Exception d'envoi de message"</string>
+  <string name="ok">"OK"</string>
+  <string name="file">"fichier"</string>
+  <string name="Rate">"Aller noter !"</string>
+  <string name="NO">"Non"</string>
+  <string name="Rate_Nzb_Leech">"Noter Nzb Leech"</string>
+  <string name="if_you_like_the_app_let_me_know">"Si vous aimez mon application merci de la noter. Les commentaires sont utiles, mais facultatifs."</string>
+  <string name="AdditionalDetail">"Détail supplémentaire:"</string>
+  <string name="monitoringForNzbFiles">"Surveillance des fichiers nzb .."</string>
+  <string name="file_status_downloading">"Téléchargement"</string>
+  <string name="file_status_incomplete">"Incomplet"</string>
+  <string name="file_status_decoding">"Décodage"</string>
+  <string name="tutorial_done">"Terminé"</string>
+  <string name="file_status_queued">"En file d'attente"</string>
+  <string name="nzb_tab_press_and_hold">"Appuyez et maintenez pour charger nzb"</string>
+
+  <!-- server providers heading -->
+  <string name="server_providers_list_heading">"Certains des fournisseurs Usenet les plus connus et les plus populaires:"</string>
+  <string name="server_providers_list_ok">"OK"</string>
+
+  <!-- donate sceen -->
+  <string name="buy_options_unlock_all_features">"Déverrouillez toutes les fonctionnalités en faisant une petite, moyenne ou grande donation. Ou tous les trois!"</string>
+  <string name="buy_options_small_donation">"Petite donation"</string>
+  <string name="buy_options_medium_donation">"Moyenne donation"</string>
+  <string name="buy_options_large_donation">"Grande donation"</string>
+  <string name="buy_options_footer">"Nzb Leech est sorti en décembre 2011 et je continue à fournir des mises à jour. J'aurais abandonné ce projet il y a longtemps s'il n'y avait pas eu tous les donateurs, merci!"</string>
+
+  <!-- first time nzb tab screen -->
+  <string name="first_time_screen_line1">"Nouveau sur Usenet?"</string>
+  <string name="first_time_screen_start_here">"Commencer ici"</string>
+  <string name="first_time_screen_line2">"Ou ajoutez votre serveur à"</string>
+  <string name="first_time_screen_settings">"Réglages"</string>
+  <string name="first_time_screen_line3">"et commencez à télécharger!"</string>
+  <string name="first_time_screen_line4">"Besoin d'un serveur?"</string>
+  <string name="first_time_screen_line5">"Regarder ici"</string>
+
+  <!-- search config dialog -->
+  <string name="search_config_type_site">"Type de site"</string>
+  <string name="search_configure_name">"prénom"</string>
+  <string name="search_configure_name_hint">"Entrez le nom de ce site"</string>
+  <string name="search_configure_api_key">"clé API"</string>
+  <string name="search_configure_api_key_hint">"Entrez la clé API qui vous a été donnée"</string>
+  <string name="search_configure_cancel">"Annuler"</string>
+  <string name="search_configure_help">"Aidez-moi"</string>
+  <string name="search_configure_save">"sauvegarder"</string>
+
+  <!-- tv differences -->
+  <string name="tv_nzb_tab_load_nzb">"Charger Nzb"</string>
+  <string name="tv_nzb_tab_settings">"Réglages"</string>
+  <string name="tv_nzb_tab_start__nzb_monitor">"Démarrer le moniteur NZB"</string>
+  <string name="tv_nzb_tab_exit">"Sortie"</string>
+  <string name="tv_nzb_tab_load_instructions">"Charger nzb à partir de l'onglet de recherche ou du fichier"</string>
+
+  <!-- server settings -->
+  <string name="server_1_enable_server">"Activer le serveur 1"</string>
+  <string name="server_priority_summary">"Nzb Leech téléchargera d'abord des serveurs primaires. S'il manque une pièce sur le serveur principal, le premier serveur de sauvegarde sera essayé. S'il n'est toujours pas trouvé, essaiera le deuxième serveur de sauvegarde, puis le troisième, etc."</string>
+  <string name="server_2_enable_server">"Activer le serveur 2"</string>
+  <string name="server_3_enable_server">"Activer le serveur 3"</string>
+  <string name="server_4_enable_server">"Activer le serveur 4"</string>
+  <string name="server_5_enable_server">"Activer le serveur 5"</string>
+  <string name="server_6_enable_server">"Activer le serveur 6"</string>
+  <string name="server_connection_settings">"Paramètres de connexion"</string>
+  <string name="server_settings">"Paramètres du serveur"</string>
+  <string name="server_1">"Serveur 1"</string>
+  <string name="server_2">"Serveur 2"</string>
+  <string name="server_3">"Serveur 3"</string>
+  <string name="server_4">"Serveur 4"</string>
+  <string name="server_5">"Serveur 5"</string>
+  <string name="server_6">"Serveur 6"</string>
+  <string name="server_priority">"Priorité du serveur"</string>
+  <string name="server_address_hint">"Serveur auquel se connecter"</string>
+  <string name="server_address">"Adresse du serveur"</string>
+  <string name="server_port">"Server Port"</string>
+  <string name="server_summary">"Vérifiez auprès de votre fournisseur. par exemple. Non-SSL: 119, 23 SSL: 443, 563, etc."</string>
+  <string name="server_ssl_summary_off">"SSL est désactivé"</string>
+  <string name="server_ssl_summary_on">"SSL est activé. SSL nécessite un port différent"</string>
+  <string name="server_ssl">"Activer SSL"</string>
+  <string name="server_connections">"Nombre de connexions"</string>
+  <string name="server_connections_summary">"Combien de connexions à utiliser. Plus de 20 peuvent ralentir"</string>
+  <string name="server_1_auth_summary">"Si vous devez spécifier un nom d'utilisateur / mot de passe"</string>
+  <string name="server_auth">"Nécessite une authentification"</string>
+  <string name="server_username">"Nom d'utilisateur"</string>
+  <string name="server_username_summary">"Nom d'utilisateur"</string>
+  <string name="server_password_summary">"Mot de passe"</string>
+  <string name="server_password">"Mot de passe"</string>
+  <string name="server_test_connection">"Test de connexion"</string>
+  <string name="server_test_connection_summary">"Testez la connectivité de votre serveur"</string>
+
+  <!-- nzb general settings -->
+  <string name="nzb_leech_settings_title">"Nzb Leech Paramètres"</string>
+  <string name="general_settings_title">"Réglages généraux"</string>
+  <string name="general_nzb_download_dir">"Dossier de téléchargement NZB"</string>
+  <string name="general_nzb_download_dir_summary">"Où les fichiers téléchargés sont sauvegardés"</string>
+  <string name="general_nzb_directory">"Dossier NZB"</string>
+  <string name="general_nzb_directory_summary">"Où obtenir les fichiers NZB à afficher dans le menu de sélection"</string>
+  <string name="general_skip_par2">"Ignorer les fichiers par2"</string>
+  <string name="general_skip_par2_summary_on">"Ne téléchargera pas les fichiers par2"</string>
+  <string name="general_skip_par2_summary_off">"Va télécharger les fichiers par2"</string>
+  <string name="general_additional_title">"Paramètres supplémentaires de Nzb Leech"</string>
+  <string name="additional_verify_repair_title">"Vérification/Réparation PAR"</string>
+  <string name="additional_verify_repair_summary_on">"Vérifier et réparer les fichiers activés"</string>
+  <string name="additional_verify_repair_summary_off">"Ne vérifie pas et ne répare pas les fichiers"</string>
+  <string name="additional_extract_automatically_title">"Extraire les fichiers automatiquement"</string>
+  <string name="additional_extract_automatically_summary_on">"Extrait les archives rar automatiquement après le téléchargement"</string>
+  <string name="additional_extract_automatically_summary_off">"Ne pas extraire les archives rar automatiquement après le téléchargement"</string>
+  <string name="additional_delete_archives_title">"Supprimer les fichiers d'archives"</string>
+  <string name="additional_delete_archives_summary_on">"Supprime les fichiers d'archive après extraction"</string>
+  <string name="additional_delete_archives_summary_off">"Ne supprimera pas les fichiers d'archive après l'extraction"</string>
+  <string name="additional_queue_nzbs_title">"Queue Nzbs"</string>
+  <string name="additional_queue_nzbs_summary_on">"Nzb suivant sera automatiquement téléchargé à partir du dossier de la file d'attente"</string>
+  <string name="additional_queue_nzbs_summary_off">"Télécharger automatiquement les fichiers nzbs à partir du dossier de file"</string>
+  <string name="additional_queue_folder_title">"NZB Queue Folder"</string>
+  <string name="additional_queue_nzbs_summary">"Où trouver le prochain fichier NZB à télécharger. Le fichier Nzb sera supprimé lors du téléchargement réussi"</string>
+
+  <!-- nzb monitor settings -->
+  <string name="nzb_monitor_title">"Paramètres du moniteur Nzb"</string>
+  <string name="nzb_monitor_summary">"Paramètres pour moniteur nzb uniquement. Démarrer le moniteur nzb à partir du menu principal."</string>
+  <string name="nzb_monitor_enable_title">"Surveiller le répertoire nzb"</string>
+  <string name="nzb_monitor_directory_scan_category_title">"Analyse du répertoire NZB"</string>
+  <string name="nzb_monitor_dir_scan_interval_title">"Intervalle d'analyse du dossier Nzb (en minutes)"</string>
+  <string name="nzb_monitor_dir_scan_interval_summary">"Fréquence à laquelle le dossier Nzb est analysé pour rechercher de nouveaux fichiers Nzb."</string>
+  <string name="nzb_monitor_category_title_1">"Flux RSS Nzb"</string>
+  <string name="nzb_monitor_category_title_2">"Flux RSS Nzb"</string>
+  <string name="nzb_monitor_category_title_3">"Flux RSS Nzb"</string>
+  <string name="nzb_monitor_category_title_4">"Flux RSS Nzb"</string>
+  <string name="nzb_monitor_rss_enable">"Surveiller les flux RSS pour les nouveaux fichiers NZB"</string>
+  <string name="nzb_monitor_rss_interval">"Minutes d'intervalle d'analyse Nzb RSS"</string>
+  <string name="nzb_monitor_rss_interval_summary">"À quelle fréquence (en minutes) les flux RSS sont-ils scannés pour les nouveaux fichiers nzb à télécharger?"</string>
+  <string name="nzb_monitor_rss_url">"URL du flux RSS"</string>
+  <string name="nzb_monitor_rss_url_summary">"doit utiliser https: // et pas http: // sous Android 8 ou supérieur"</string>
+
+  <!-- sd card settings -->
+  <string name="sd_card_settings_title">"Paramètres de la carte SD externe"</string>
+  <string name="sd_card_top_level_enable">"Déplacer les téléchargements vers le dossier de niveau supérieur"</string>
+  <string name="sd_card_top_level_enable_summary">"Les fichiers seront déplacés vers '/ sd-card-path / nzb-leech ' après le téléchargement pour une meilleure expérience (par exemple, les lecteurs de musique / vidéo voient les nouveaux fichiers). Impossible de passer d'une carte SD interne à une carte SD externe (uniquement externe à une carte externe). Déplacer prend un moment. Peut ne pas fonctionner sur tous les appareils."</string>
+
+  <!-- Fuzzy -->
+  <string name="sd_card_detect_private_folder">"Détecter le chemin de la carte SD externe restreint"</string>
+  <string name="sd_card_detect_private_folder_summary">"Ainsi, vous pouvez copier et coller dans les paramètres"</string>
+
+  <!-- advanced settings -->
+  <string name="advanced_screen_title">"Réglages avancés"</string>
+  <string name="advanced_screen_summary">"AVERTISSEMENT: UTILISATEURS AVANCÉS UNIQUEMENT. A vos risques et périls."</string>
+  <string name="advanced_article_cache">"Article Cache"</string>
+  <string name="advanced_article_cache_summary">"Combien de Mo à allouer pour stocker des fichiers temporaires dans la mémoire principale, réduisant ainsi les opérations sur le disque Recommandez 60 Mo (si vous avez assez de mémoire)"</string>
+  <string name="advanced_cache_dir">"Cache Directory"</string>
+  <string name="advanced_cache_dir_summary">"Dossier dans lequel les articles sont enregistrés lorsque le cache des articles est plein"</string>
+  <string name="advanced_data_skipping">"Aucune donnée ignorée"</string>
+  <string name="advanced_data_skipping_summary">"Recherche de blocs de données mal positionnés. Prend plus de temps à vérifier / réparer, mais PEUT réparer plus de fichiers que sans ce paramètre. Mais si vous activez ce paramètre, le processus de vérification / réparation peut se bloquer avec des fichiers Par2 conçus de manière malveillante."</string>
+  <string name="settings_download_speed">"Vitesse de téléchargement"</string>
+
+  <!-- settings error messages and popups -->
+  <string name="load_nzb_not_found">"Aucun fichier NZB trouvé!"</string>
+  <string name="connection_error_server_reply_code">"Code de réponse du serveur"</string>
+  <string name="connections_server_reply">"Message de réponse du serveur"</string>
+  <string name="connection_error_details">"Détails"</string>
+  <string name="detect_sd_not_detected">"Hmm, aucune carte SD détectée."</string>
+
+  <!-- Fuzzy -->
+  <string name="detect_sd_card_path">"Chemin de la carte SD externe"</string>
+  <string name="detect_sd_limitation">"Notez les limitations suivantes pour ce chemin: Tous les fichiers de ce répertoire sont supprimés lors de la désinstallation de l'application. Et scanner multimédia ne trouve aucun fichier dans ce répertoire et les applications musique / vidéo ne voient pas votre contenu multimédia."</string>
+  <string name="detect_sd_link_message">"Pour la configuration de la carte SD externe, voir"</string>
+  <string name="detect_sd_test_failed">"Échec de l'écriture sur la carte SD"</string>
+  <string name="detect_sd_test_success">"Écrit avec succès à"</string>
+  <string name="article_cache_warning">"AVERTISSEMENT: L'application se bloque si la mémoire totale (application du cache d'articles) est supérieure à"</string>
+  <string name="article_cache_20mb">"Le cache d'articles a besoin d'au moins 20 Mo"</string>
+  <string name="sd_card_copy_path">"Copier dans le presse-papier"</string>
+  <string name="error">"Erreur"</string>
+  <string name="success">"Succès"</string>
+  <string name="connection_test_success">"Connecté avec succès à"</string>
+  <string name="sd_card_path_detected">"Chemin possible de la carte SD externe détecté"</string>
+  <string name="read_write_error">"Impossible de lire ou d'écrire dans le répertoire sélectionné."</string>
+  <string name="sd_card_help_message">"Pour la configuration de la carte SD externe, voir"</string>
+  <string name="invalid_value">"Valeur invalide"</string>
+  <string name="invalid_number">"Numéro invalide"</string>
+  <string name="connecting">"Connexion"</string>
+  <string name="press_back_to_cancel">"Appuyez sur retour pour annuler"</string>
+
+  <!-- parsing nzb errors -->
+  <string name="corrupt_nzb_suggestion">"Essayez de télécharger NZB en utilisant Chrome. Ou envoyez un fichier NZB à przemeknzb@gmail.com pour enquêter"</string>
+  <string name="corrupt_nzb">"Nzb corrompu"</string>
+  <string name="nzb_nothing_to_download">"ne contient rien à télécharger"</string>
+
+  <!-- tutorials -->
+  <string name="tutorial_dialog_heading">"Un fichier video.avi est divisé en plusieurs fichiers sur usenet:"</string>
+  <string name="tutorial_dialog_ok">"OK"</string>
+  <string name="tutorial_01_title">"Commencez le téléchargement en 3 étapes"</string>
+  <string name="tutorial01_step_1">"1. Obtenez un compte de serveur usenet"</string>
+  <string name="tutorial01_step_2">"2. Ajouter un serveur à Nzb Leech"</string>
+  <string name="tutorial01_step_3">"3. Recherchez des fichiers et commencez à télécharger!"</string>
+  <string name="tutorial01_footer">"Continuez à la page suivante pour savoir comment!"</string>
+  <string name="tutorial02_heading">"Serveurs Usenet"</string>
+  <string name="tutorial02_line1">"Nzb Leech télécharge les fichiers d'un serveur Usenet que vous spécifiez"</string>
+  <string name="tutorial02_line2">"Les serveurs Usenet permettent des téléchargements très rapides et coûtent entre 10 et 15 dollars par mois."</string>
+  <string name="tutorial02_line3">"Ils ont des essais gratuits"</string>
+  <string name="tutorial02_list_servers_link">"Liste des serveurs usenet"</string>
+  <string name="tutorial03_heading">"Serveurs Usenet"</string>
+  <string name="tutorial03_line1">"Une fois que vous avez souscrit à un compte usenet, vous aurez"</string>
+  <string name="tutorial03_line2">"• adresse du serveur"</string>
+  <string name="tutorial03_line3">"• Nom d'utilisateur"</string>
+  <string name="tutorial03_line4">"• mot de passe"</string>
+  <string name="tutorial03_line5">"• port number"</string>
+  <string name="tutorial03_line6">"Entrez ces valeurs dans"</string>
+  <string name="tutorial03_settings_link">"Réglages"</string>
+  <string name="tutorial04_heading">"Serveurs Usenet"</string>
+  <string name="tutorial04_line1">"Vous êtes maintenant prêt à télécharger! Rechercher des fichiers à partir de l'onglet Rechercher"</string>
+  <string name="tutorial04_line2">"Ce sont les bases mais continuez à lire pour apprendre des astuces utiles à la page suivante"</string>
+  <string name="tutorial05_heading">"Des dossiers"</string>
+  <string name="tutorial05_line1">"Les fichiers sur usenet sont compressés et divisés en de nombreux fichiers plus petits, appelés archives, portant les extensions .r00, r.01, r.02 ou .part01.rar, .part02.rar, etc."</string>
+  <string name="tutorial05_line2">"Voir"</string>
+  <string name="tutorial05_line3">"Exemple"</string>
+  <string name="tutorial05_line4">"Une fois que vous avez téléchargé les archives, vous devez les décompresser."</string>
+  <string name="tutorial05_line5">"La version payante de Nzb Leech va décompresser les fichiers automatiquement."</string>
+  <string name="tutorial05_line6">"De nos jours, les fichiers sont également renommés (obfusqués) afin que vous ne puissiez pas les utiliser avec un moteur de recherche normal. Plus sur cela plus tard."</string>
+  <string name="tutorial06_heading">"Des dossiers"</string>
+  <string name="tutorial06_line1">"Parfois, vous commencez à télécharger et remarquez que le téléchargement a échoué ou est incomplet."</string>
+  <string name="tutorial06_line2">"En effet, les fichiers stockés sur le serveur ont été supprimés ou perdus."</string>
+  <string name="tutorial06_line3">"Nzb Leech indique un problème pour télécharger un fichier en l'affichant en rouge dans l'onglet Nzb."</string>
+  <string name="tutorial07_heading">"Fichiers incomplets"</string>
+  <string name="tutorial07_line1">"Si une partie du fichier est incomplète, vous ne pourrez pas décompresser ni ouvrir le fichier, sauf si vous pouvez le réparer."</string>
+  <string name="tutorial07_line2">"Heureusement, la plupart des fichiers sont accompagnés de fichiers supplémentaires se terminant par .par2 que vous pouvez utiliser pour réparer les fichiers incomplets."</string>
+  <string name="tutorial07_line3">"Cela fonctionne tant que vous n'avez pas trop de fichiers incomplets. Une récupération à l'aide des fichiers par2 n'est pas possible si trop de fichiers sont incomplets."</string>
+  <string name="tutorial07_line4">"La version payante de Nzb Leech vérifie et répare automatiquement les fichiers"</string>
+  <string name="tutorial08_heading">"Fichiers Nzb"</string>
+  <string name="tutorial08_line1">"Le fichier Nzb est comme un index qui indique à Nzb Leech quels fichiers télécharger depuis un serveur Usenet."</string>
+  <string name="tutorial08_line2">"Vous ouvrez un fichier nzb dans Nzb Leech afin qu’il puisse trouver et télécharger le contenu à partir du serveur Usenet."</string>
+  <string name="tutorial08_line3">"Une fois que vous avez téléchargé tous les fichiers, le fichier nzb n’est plus nécessaire et peut être supprimé."</string>
+  <string name="tutorial09_heading">"Où trouver les fichiers Nzb?"</string>
+  <string name="tutorial09_line1">"Les moteurs de recherche Nzb effectueront une recherche sur l'ensemble de l'usenet et renverront un fichier NZB correspondant à votre recherche. Cependant, les fichiers sont généralement renommés en non-sens, vous ne trouverez donc pas ce que vous cherchez. Je vais discuter de meilleurs sites sur la page suivante."</string>
+  <string name="tutorial09_line2">"Néanmoins, ces sites sont parfois utiles et quelques-uns sont intégrés à Nzb Leech et sont accessibles à partir de l’onglet Recherche."</string>
+  <string name="tutorial09_line3">"Conseil: recherchez les fichiers nzb contenant des fichiers de récupération par2 au cas où vous auriez des fichiers incomplets et que vous deviez les réparer."</string>
+  <string name="tutorial09_line4">"Moteurs de recherche Nzb"</string>
+  <string name="tutorial10_heading">"Où trouver les fichiers Nzb?"</string>
+  <string name="tutorial10_line1">"Le meilleur endroit est celui des sites indexés par la communauté. Ces sites analysent, téléchargent et classent les fichiers afin que la recherche fonctionne beaucoup mieux."</string>
+  <string name="tutorial10_line2">"En raison du travail supplémentaire nécessaire, beaucoup de ces sites nécessitent un paiement, mais certains sites sont gratuits."</string>
+  <string name="tutorial10_line3">"Les sites gratuits ont généralement une limite sur le nombre de recherches que vous pouvez effectuer ou sur le nombre de fichiers NZB que vous pouvez télécharger."</string>
+  <string name="tutorial10_line4">"Quelques sites d'index NZB. Google pour plus"</string>
+  <string name="tutorial11_heading">"Merci"</string>
+  <string name="tutorial11_line1">"C'est ça. "</string>
+  <string name="tutorial11_line2">"Beaucoup à apprendre, mais une fois que vous aurez appris les bases, vous vous demanderez comment vous avez pu vivre sans usenet."</string>
+  <string name="tutorial11_line3">"Vous pouvez toujours accéder à ce tutoriel à partir du menu des options."</string>
+  <string name="tutorial11_line4">"Merci et bon téléchargement!"</string>
+  <string name="tutorial_nav_previous">"précédent"</string>
+  <string name="tutorial_nav_next">"Suivant"</string>
+  <string name="sd_card_select_sd_card">"Important ! Sur le prochain écran sélectionnez le dossier racine de votre carte SD externe pour donner les droits d'écriture à Nzb Leech"</string>
+  <string name="fix_translations">"Corriger les traductions"</string>
+  <string name="fix_translations_summary">"Aider à améliorer les traductions dans votre langue"</string>
+  <string name="moving_files">"Déplacement des fichiers"</string>
+  <string name="media_scanning">"Scan des médias..."</string>
+  <string name="done">"Fini !"</string>
+  <string name="failed_to_move_files">"Échec de déplacement des fichiers"</string>
+  <string name="not_enough_blocks">"Pas assez de blocs disponibles pour réparer"</string>
+  <string name="download_must_external_directory">"Votre dossier de téléchargement doit se trouver sur une carte SD externe pour que cela marche"</string>
+</resources>
