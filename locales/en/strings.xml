@@ -4,6 +4,9 @@
   <string name="preferences">Settings</string>
   <string name="download_service">Download Service</string>
 
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+
   <!-- Options menu right hand side -->
   <string name="options_menu_settings">Settings</string>
   <string name="options_menu_quit">Quit</string>
@@ -60,9 +63,9 @@
 
 
 	<string name="category_everything">Everything</string>
-	<string name="category_audio_all">Everything</string>
-	<string name="category_audio_mp3">Everything</string>
-	<string name="category_audio_flac">Everything</string>
+	<string name="category_audio_all">Audio: All</string>
+	<string name="category_audio_mp3">Audio: MP3</string>
+	<string name="category_audio_flac">Audio: FLAC</string>
 	<string name="category_tv">TV</string>
 	<string name="category_tv_sd">TV: SD</string>
 	<string name="category_tv_hd">TV: HD</string>
@@ -400,9 +403,10 @@
   <string name="tutorial_nav_previous">Previous</string>
   <string name="tutorial_nav_next">Next</string>
   <string name="download_must_external_directory">Your download directory must be on external sd card for this to work</string>
-<string name="nzb_tab_file_already_queued">File is already queued for download</string>
-<string name="preferences_copied_to_clipboard">Copied to clipboard!</string>
-<string name="search_tab_site">Site</string>
+	<string name="nzb_tab_file_already_queued">File is already queued for download</string>
+	<string name="preferences_copied_to_clipboard">Copied to clipboard!</string>
+	<string name="search_tab_site">Site</string>
+	<string name="nav_translate">Translate</string>
 
 
 </resources>
